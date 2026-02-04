@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './page1.css'
+import { TiArrowRightThick } from "react-icons/ti";
 
 
 function Page1() {
@@ -9,7 +10,7 @@ function Page1() {
             <div id='page1'>
 
                 <nav>
-                    <section><img src="/primegotit logo blue big.png" alt="" /><h3>Primegotit</h3></section>
+                    <section><img src="/primegotit logo green big 2.png" alt="" /><h3>Primegotit</h3></section>
 
                     <ul>
                         <li><a href="#" className='hover-link'>Home</a></li>
@@ -25,14 +26,50 @@ function Page1() {
                 <main>
 
                     <div>
+                        <h1 id='intro-text'>Who Am I ?</h1>
+                        <br />
+                        <h2>My name is Promise Siafwiyo AKA Prime.</h2>
+                        <br />
+                        <p>There are a lot of words i can use to describe myself but all i will say is I am an Interdisciplinary specialist. Join me in my journey to becoming a better technophile, here you can view all of my projects. </p>
+                        <br />
+                        <br />
+                        <section>
+                            <a href="#" className='skills'>Programmer</a>
+                            <a href="#" className='skills'>Music producer</a>
+                            <a href="#" className='skills'>Animator</a>
+                            <a href="#" className='skills'>Graphic designer</a>
+                            <a href="#" className='skills'>Private tutor</a>
+                            
+                        </section>
+                        <br />
+                        <section>
+                            <a href="#" className='skills'>Video editor</a>
+                            <a href="#" className='skills'>Aspiring hacker</a>
+                            <a href="#" className='skills'>Fast typer</a>
+                            <a href="#" className='skills'>Anatagonist</a>
+                            <a href="#" className='skills'>Greyscale lover</a>
+                            
+                        </section>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <section>
+                            <a href="#" id='view-work-btn' >View my work <TiArrowRightThick  style={{color: 'white', marginLeft: '10px', width: '35px', height: '35px'}}/></a>
+                        </section>
+
 
                     </div>
                     
 
                     <div>
-                        <img src="" alt="" />
+                        <img id='me' src="promise big image 2.png" alt="" />
+                        {/* <video muted loop autoPlay playsInline></video> */}
+
                     </div>
                 </main>
+
+
 
             </div>
         </>
