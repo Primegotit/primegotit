@@ -10,7 +10,7 @@ function Page1() {
             <div id='page1'>
 
                 <nav>
-                    <section id='logo-section'><img src="/primegotit logo green big 2.png" alt="" /><h3>Primegotit</h3></section>
+                    <section id='logo-section'><img src="/primegotit logo green big 2.png" alt="" /><h3>Prime</h3></section>
 
                     <ul>
                         <li><a href="#" className='hover-link'>Home</a></li>
