@@ -193,6 +193,24 @@ div p{
 /* ===== TABLET VIEW (max 992px) ===== */
 @media (max-width: 992px) {
 
+    #page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+
+    /* background: linear-gradient(140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(3, 48, 19)); */
+
+
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.368), rgba(0, 0, 0, 0.96)), url("/promise big image 2.png");
+    background-size:contain;       /* fills container */
+    background-position: center;  /* perfectly centered */
+    background-repeat: no-repeat; /* no tiling */
+
+
+    }
+
+
         #more-icon{
         visibility:visible;
     }
@@ -210,6 +228,7 @@ div p{
 
   #me {
     height: 400px;
+    display: none;
   }
 
   main > div {
@@ -230,6 +249,26 @@ div p{
 
 /* ===== MOBILE VIEW (max 600px) ===== */
 @media (max-width: 600px) {
+
+
+    #page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+
+    /* background: linear-gradient(140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(3, 48, 19)); */
+
+
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.203), rgba(0, 0, 0, 0.805)), url("/promise big image 2.png");
+    background-size:contain;       /* fills container */
+    background-position: center;  /* perfectly centered */
+    background-repeat: no-repeat; /* no tiling */
+
+
+    }
+
+
 
     
     #more-icon{
@@ -266,6 +305,8 @@ div p{
 
   #me {
     height: 300px;
+    display: none;
+
   }
 
   #view-work-btn {
