@@ -211,12 +211,14 @@ div p{
     }
 
 
-        #more-icon{
+
+    #more-icon{
         visibility:visible;
     }
 
     nav ul {
         visibility: hidden;
+        display: none;
 
     }
 
@@ -277,6 +279,7 @@ div p{
 
     nav ul {
         visibility: hidden;
+        display: none;
 
     }
   nav {
