@@ -194,6 +194,14 @@ div p{
     margin-right: 15px;
     padding: 5px 15px;
     border-radius: 18px;
+  transition: all 0.3s;
+
+}
+
+.skills:hover{
+  transform: scale(1.04);
+    color: rgb(25, 222, 64);
+    border: 2px solid rgb(25, 222, 64);
 
 }
 
@@ -228,6 +236,14 @@ div p{
     font-size: clamp(16px, 1vw, 18px);
   display: inline-flex;
   align-items: center;
+  transition: all 0.3s;
+}
+
+#view-work-btn:hover{
+
+    background: linear-gradient(130deg  , rgb(3, 48, 19) ,rgb(11, 148, 45));
+
+  transform: scale(1.08);
 }
 
 
