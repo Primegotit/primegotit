@@ -411,7 +411,7 @@ nav img{
 
 div h2{
     margin: 10px 0px;
-    font-size: clamp(35px, 5vw, 90px);
+    font-size: clamp(30px, 5vw, 90px);
 
 }
 
@@ -437,7 +437,7 @@ div p{
     padding: 0px 5px;
     grid-template-rows: 0.2fr 1fr;
     justify-content: center;
-    
+    justify-self: center;
 }
 
   #me {
@@ -463,14 +463,14 @@ div p{
     grid-row-end: 2 ;
     display: flex;
     justify-content: center;
-    width: 150%;
+    width: 160%;
 
 }
 
 #my-content{
     grid-row-start: 2 ;
     grid-row-end: 3 ;
-    width: 150%;
+    width: 160%;
     justify-content: center;
 
 }
