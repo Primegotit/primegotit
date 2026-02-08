@@ -2,15 +2,14 @@
     min-height: 100vh;
     width: 100%;
     background-color: #000;
-
-  background: linear-gradient(140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(3, 48, 19));
-
+    background: linear-gradient(140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(3, 48, 19));
+    display: grid;
+    grid-template-rows: max-content;
 }
 
 
 nav{
     height: 90px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,13 +25,11 @@ nav ul{
     visibility: visible;
     transition: all 0.5s;
 
-
 }
 
 nav ul li a{
     text-decoration: none;
     color: rgb(201, 201, 201);
-
     /* font-size: clamp(14px, 2vw, 17px); */
     font-size: clamp(15px, 1.1vw, 18px);
 
@@ -114,19 +111,46 @@ h1{
     visibility:hidden;
 }
 
-main{
-    display: grid;
-    align-items: center;
-    padding: 0px 20px;
-    justify-content: center;
-    max-width: 90%;
-    justify-self: center;
+#main{
+
+
+       display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+    margin: 0px auto;
+    padding: 0px 20px;
+    align-items: center;
+
 }
+
+#main-box{
+ 
+
+    
+}
+
+#my-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-picture{
+    display: flex;
+    justify-content: center;
+
+}
+
+#content-box{
+
+}
+
+
+
 
 div h1{
     font-size: clamp(17px, 2vw, 90px);
-    font-style: italic;
+    /* font-style: italic; */
 
     color: rgb(201, 201, 201);
 }
@@ -161,6 +185,7 @@ div p{
 #me{
     height: 600px;
   filter: brightness(110%);
+  transform: scale(1.09) ;
 
   transition: all 0.5s;
 }
@@ -168,9 +193,34 @@ div p{
 
 #me:hover{
   cursor: pointer;
-  transform: scale(1.07) ;
-  filter: brightness(130%);
+  transform: scale(1.13) ;
+
+  /* filter: brightness(40%); */
+  animation: bright 3.5s infinite ease-in-out;
+  
 }
+
+@keyframes bright {
+    0%{
+        filter: brightness(110%);
+
+
+    }
+
+    50%{
+        filter: brightness(20%);
+
+    }
+
+    100%{
+        filter: brightness(110%);
+
+        
+    }
+    
+}
+
+
 
 
 #skills-container{
@@ -208,7 +258,7 @@ div p{
 .skills:nth-of-type(1){
   color: rgb(220, 220, 220);
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
 
 
 }
@@ -304,7 +354,7 @@ div p{
 
 
 
-  main{
+  #main{
     display: grid;
     padding: 0px 20px;
     grid-template-rows: 0.2fr 1fr;
@@ -448,7 +498,7 @@ div p{
 
 
 
-  main{
+  #main{
     display: grid;
     padding: 0px 5px;
     grid-template-rows: 0.2fr 1fr;
