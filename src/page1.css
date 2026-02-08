@@ -453,7 +453,6 @@ div h2{
     
 nav{
     height: 60px;
-    background-color: yellow;
 
 }
 
@@ -505,7 +504,7 @@ div p{
 }
 
   #me {
-    height: 250px;
+    height: 350px;
     /* display: none; */
   }
 
