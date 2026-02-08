@@ -31,7 +31,7 @@ function Page1() {
                                 
                                 <h1 id='intro-text'>Who Am I ?</h1>
                                 <h2>Promise Siafwiyo</h2>
-                                <p>There are a lot of words i can use to describe myself but all i will say is I am an <b>Interdisciplinary specialist.</b> Join me in my journey to becoming a better technophile, here you can view all of my projects. </p>
+                                <p>I thrive at the intersection of diverse fields. As an <b>Interdisciplinary Specialist</b>, I don't just use technology. I bridge the gap between complex ideas and functional reality. Explore my portfolio to see how I build, break and evolve. </p>
                                 <section id='skills-container'>
                                     <a href="#" className='skills'>What am I ?</a>
                                     <a href="#" className='skills'>Music producer</a>
