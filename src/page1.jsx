@@ -28,6 +28,7 @@ function Page1() {
                         <div id='my-content'>
 
                             <section id='content-box'>
+                                
                                 <h1 id='intro-text'>Who Am I ?</h1>
                                 <h2>Promise Siafwiyo</h2>
                                 <p>There are a lot of words i can use to describe myself but all i will say is I am an <b>Interdisciplinary specialist.</b> Join me in my journey to becoming a better technophile, here you can view all of my projects. </p>

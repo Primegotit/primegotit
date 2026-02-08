@@ -113,20 +113,13 @@ h1{
 
 #main{
 
-
-       display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 95%;
     margin: 0px auto;
     padding: 0px 20px;
     align-items: center;
 
-}
-
-#main-box{
- 
-
-    
 }
 
 #my-content{
@@ -141,17 +134,10 @@ h1{
 
 }
 
-#content-box{
 
-}
-
-
-
-
-div h1{
+#intro-text{
     font-size: clamp(17px, 2vw, 90px);
-    /* font-style: italic; */
-
+    
     color: rgb(201, 201, 201);
 }
 
@@ -185,39 +171,16 @@ div p{
 #me{
     height: 600px;
   filter: brightness(110%);
-  transform: scale(1.09) ;
-
   transition: all 0.5s;
 }
 
 
 #me:hover{
   cursor: pointer;
-  transform: scale(1.13) ;
+  transform: scale(1.03) ;
 
-  /* filter: brightness(40%); */
-  animation: bright 3.5s infinite ease-in-out;
+  filter: brightness(80%);
   
-}
-
-@keyframes bright {
-    0%{
-        filter: brightness(110%);
-
-
-    }
-
-    50%{
-        filter: brightness(20%);
-
-    }
-
-    100%{
-        filter: brightness(110%);
-
-        
-    }
-    
 }
 
 
@@ -358,19 +321,33 @@ div p{
     display: grid;
     padding: 0px 20px;
     grid-template-rows: 0.2fr 1fr;
-    
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
 }
 
-  #me {
-    height: 250px;
-    /* display: none; */
+  #content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding: 0px 20px;
+    /* width: 650px; */
+
+
+  }
+  #skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
   }
 
-  section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+   #content-box p{
+    text-align: center;
+   }
+
 
   .skills {
     margin-bottom: 7px;
@@ -384,14 +361,30 @@ div p{
     grid-row-end: 2 ;
     display: flex;
     justify-content: center;
-    width: 200%;
+    justify-self: center;
+    margin: 0px auto;   
+    width:max-content;
 
 }
+
+  #me {
+    height: 450px;
+    /* display: none; */
+    
+  }
+
 
 #my-content{
     grid-row-start: 2 ;
     grid-row-end: 3 ;
-    width: 200%;
+    /* width: 200%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+
 }
 
 #view-work-btn{
@@ -418,9 +411,11 @@ div p{
 }
 
 
-div h1{
+#intro-text{
     font-size: clamp(23px, 2vw, 90px);
 }
+
+
 
 div h2{
     font-size: clamp(22px, 5vw, 90px);
@@ -458,6 +453,8 @@ div h2{
     
 nav{
     height: 60px;
+    background-color: yellow;
+
 }
 
 
@@ -502,6 +499,7 @@ div p{
     display: grid;
     padding: 0px 5px;
     grid-template-rows: 0.2fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     justify-self: center;
 }
@@ -519,8 +517,10 @@ div p{
 
   .skills {
     margin-bottom: 7px;
-    font-size: clamp(11px, 0.9vw, 17px);
+    font-size: clamp(9px, 0.9vw, 17px);
 
+    margin-right: 6px;
+    padding: 5px 6px;
   }
 
   #my-picture{
@@ -529,14 +529,12 @@ div p{
     grid-row-end: 2 ;
     display: flex;
     justify-content: center;
-    width: 160%;
 
 }
 
 #my-content{
     grid-row-start: 2 ;
     grid-row-end: 3 ;
-    width: 160%;
     justify-content: center;
 
 }
