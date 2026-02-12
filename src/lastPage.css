@@ -1,10 +1,9 @@
 #last-page{
-    min-height: 50vh;
+    min-height: 60vh;
     width: 100%;
-    background: linear-gradient(-140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #0000002a,rgb(3, 48, 19)) url(/public/20250827_015959.jpg);
-    /* background-color: black; */
+    background: linear-gradient(black,rgb(5, 28, 3),rgb(0, 0, 0)) ;
     background-position: center;
     background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
 }
+
+
