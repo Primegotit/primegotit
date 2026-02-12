@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Page1 from './page1.jsx'
 import Page2 from './page2.jsx'
+import LastPage from './lastPage.jsx'
 
 function App() {
 
@@ -9,6 +10,9 @@ function App() {
     <>
       <Page1/>    
       <Page2/>
+      <LastPage/>
+      
+
     </>
   )
 }

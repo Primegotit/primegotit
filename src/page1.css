@@ -139,7 +139,10 @@ h1{
     font-size: clamp(17px, 2vw, 90px);
     
     color: rgb(201, 201, 201);
+    transition: all 0.5s;
 }
+
+
 
 
 

@@ -14,7 +14,7 @@ function Page2() {
                             <h3>Graphic Design</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                 </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
@@ -30,7 +30,7 @@ function Page2() {
                             <h3>Web Development</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                 </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
@@ -49,7 +49,7 @@ function Page2() {
                             <h3>Music Production</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                  </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
@@ -66,7 +66,7 @@ function Page2() {
                             <h3>Animation</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                  </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
@@ -82,7 +82,7 @@ function Page2() {
                             <h3>Video editing</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                  </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
@@ -99,7 +99,7 @@ function Page2() {
                             <h3>Computer Science</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
-                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                                 </p>
                             {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
