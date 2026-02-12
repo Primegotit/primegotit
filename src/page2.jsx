@@ -5,7 +5,7 @@ function Page2() {
     return(
         <>
             <div id='page2'>
-                <h1 id='intro-heading'>My skills</h1>
+                <h1 id='intro-heading'>My Skills  </h1>
                 <div id='page2-container'>
                     <div id='box-container'>
 
@@ -56,6 +56,56 @@ function Page2() {
                                 <h5>FL Studio</h5>
                                 <h5>OBS Studio</h5>
                                 <h5>YouTube</h5>
+
+                            </section>
+                        </div>
+
+
+                        <div className='box'>
+                            <div className='box-image' ></div>
+                            <h3>Animation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
+                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                            {/* <a href="#">Explore</a> */}
+
+                            <section className='technologies'>
+                                <h5>Moho</h5>
+                                <h5>Blender</h5>
+                                <h5>Premiere Pro</h5>
+
+                            </section>
+                        </div>
+
+                        <div className='box'>
+                            <div className='box-image' ></div>
+                            <h3>Video editing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
+                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                            {/* <a href="#">Explore</a> */}
+
+                            <section className='technologies'>
+                                <h5>Moho</h5>
+                                <h5>Blender</h5>
+                                <h5>Premiere Pro</h5>
+
+                            </section>
+                        </div>
+
+                        
+                        <div className='box'>
+                            <div className='box-image' ></div>
+                            <h3>Computer Science</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
+                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                                 laborum animi veniam, iste accusantium totam voluptatem </p>
+                            {/* <a href="#">Explore</a> */}
+
+                            <section className='technologies'>
+                                <h5>Moho</h5>
+                                <h5>Blender</h5>
+                                <h5>Premiere Pro</h5>
 
                             </section>
                         </div>
