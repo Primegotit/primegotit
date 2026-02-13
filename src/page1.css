@@ -140,6 +140,7 @@ h1{
     
     color: rgb(201, 201, 201);
     transition: all 0.5s;
+    font-weight: 300;
 }
 
 
@@ -183,6 +184,7 @@ div p{
   transform: scale(1.03) ;
 
   filter: brightness(80%);
+
   
 }
 

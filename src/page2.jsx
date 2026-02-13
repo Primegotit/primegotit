@@ -38,7 +38,6 @@ function Page2() {
                                 <h5>CSS</h5>
                                 <h5>JavaScript</h5>
                                 <h5>React</h5>
-                                <h5>MySQL</h5>
 
                             </section>
                         </div>
