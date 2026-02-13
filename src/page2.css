@@ -7,7 +7,7 @@
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background: linear-gradient(-160deg ,rgb(24, 24, 24),  #000000 , #000000 ,   #000000 ,  #000000 ,  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(22, 22, 22));
+    background: linear-gradient(-140deg ,rgb(22, 10, 24),  #000000 , #000000 ,   #000000 ,  #000000 ,  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(22, 10, 24));
 
 
 }
@@ -46,25 +46,29 @@
     border-radius: 18px;
     padding: 20px;
 
-    background: linear-gradient(180deg , #000000 ,  #000000, rgb(20, 20, 20));
+    background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 08, 20));
     padding-bottom: 20px;
     cursor: pointer;
-    transition: all 0.5s ;
 
     border-bottom: 3px solid rgb(25, 222, 64);
     /* box-shadow: 0px 19px 20px rgba(19, 170, 49, 0.34); */
     box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
     
-
     /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
+    transition: all 0.5s ;
 
 
 }
 
 .box:hover{
     transform: scale(1.06);
+    transition: all 0.5s ;
     
 }
+
+
+
+
 
 #box-container p{
     line-height: normal;
@@ -97,20 +101,47 @@
     transition: all 0.5s ;
     box-shadow: 5px 5px 20px  rgb(0, 0, 0);
 
+    
+}
+
+
+.box:nth-of-type(1):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Untitled-1234567.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
 
 }
 
 
+
 .box:nth-of-type(2) .box-image{
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/A\ boogir.png);
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
     
+    transition: all 0.5s;
+}
+
+
+.box:nth-of-type(2):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/sky\ rome\ 3.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
 
 }
+
 
 .box:nth-of-type(3) .box-image{
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/my\ house\ 3.png);
@@ -122,6 +153,19 @@
 
 }
 
+
+.box:nth-of-type(3):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Untitled-1.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
+
+}
+
+
 .box:nth-of-type(4) .box-image{
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/IAMPRIME5.png);
     background-position: center;
@@ -129,6 +173,17 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+
+}
+
+.box:nth-of-type(4):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/PRIME6.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
 
 }
 
@@ -142,27 +197,62 @@
     filter: brightness(1.4);
 
 }
+
+.box:nth-of-type(5):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/promise\ big\ image.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
+
+}
+
+
+.box:nth-of-type(6) .box-image{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Untitled-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(1);
+    filter: brightness(1.4);
+
+}
+
+.box:nth-of-type(6):hover  .box-image{
+
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/20250827_015959.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.12);
+
+}
+
 #box-container h3{
     text-align: center;
-    margin: 20px 0px;
+    margin-bottom: 40px ;
+    margin-top: 20px;
     font-weight: 900;
     font-size: clamp(16px, 4vw, 25px);
     color: rgb(207, 207, 207);
     font-weight: 200;
     transition: all 0.5s;
     padding: 2px 10px;
-
     /* border-bottom: 1px solid rgb(25, 222, 107); */
 
     display: flex;
     justify-self: center;
     justify-content: center;
-    border-radius: 10px;
-    width: 70%;
-    /* border-bottom: 1px solid rgb(113, 113, 113); */
+    /* border-radius: 10px; */
+    width: 75%;
+    border-bottom: 1px solid rgb(16, 172, 57);
 
-    box-shadow: 0px -10px 19px -7px  rgba(25, 243, 69, 0.533);
-    box-shadow: 0px -10px 19px -7px  rgba(224, 224, 224, 0.533);
+    box-shadow: 0 10px 17px -10px  rgba(25, 243, 69, 0.533);
+    /* box-shadow: 0px -10px 19px -7px  rgba(224, 224, 224, 0.533); */
+    background: transparent;
 
     
 }
@@ -178,6 +268,7 @@
     justify-self: center;
     width: 90%;
     justify-content: center;
+    margin-top: 40px;
 }
 .technologies h5{
     border: 1px solid rgb(25, 222, 107);
@@ -186,10 +277,14 @@
     padding: 2px 10px;
     border-radius: 10px;
     font-size: 12px;
-    color: rgb(25, 222, 107);
-    color: rgb(112, 122, 114);
 
     transition: all 0.5s ;
+
+    color: rgb(165, 165, 165);
+    color: rgb(145, 194, 142);
+
+    border: 1px solid rgb(15, 111, 34);
+    font-weight: 400;
 
 }
 

@@ -3,6 +3,9 @@
     width: 100%;
     background-color: #000;
     background: linear-gradient(140deg ,rgb(3, 48, 19),  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(3, 48, 19));
+    background: linear-gradient(140deg ,rgb(9, 4, 9),  rgb(11, 5, 12) ,  rgb(9, 4, 9), #000000,#000000 , #000000,rgb(22, 10, 24));
+
+    
     display: grid;
     grid-template-rows: max-content;
 }
