@@ -5,7 +5,7 @@ function Page3(){
     return (
         <>
             <div id='page3'> 
-                <h1>Third page is coming soon... Just after i finish my exams 😂😒</h1>
+                <h1>This page ain't finished yet... Just gotta finish exams first 😂😒💀</h1>
 
             </div>
         </>
