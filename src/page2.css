@@ -93,17 +93,29 @@
     border-radius: 18px 18px  0px 0px;
     display: flex;
     justify-self: center;
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg); */
     background-position: center;
     background-size: cover;
+    
     filter: saturate(1);
     filter: brightness(1.4);
     transition: all 0.5s ;
     box-shadow: 5px 5px 20px  rgb(0, 0, 0);
 
-    
+
 }
 
+.box:nth-of-type(1) .box-image{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(1);
+    filter: brightness(1.4);
+    
+    transition: all 0.5s;
+}
 
 .box:nth-of-type(1):hover  .box-image{
 
@@ -119,7 +131,7 @@
 
 
 .box:nth-of-type(2) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/A\ boogir.png);
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/end\ of\ the\ road\ 7.png);
 
     background-position: center;
     background-size: cover;
@@ -156,7 +168,7 @@
 
 .box:nth-of-type(3):hover  .box-image{
 
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Untitled-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/empty\ romm1.png);
 
     background-position: center;
     background-size: cover;

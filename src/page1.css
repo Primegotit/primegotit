@@ -185,10 +185,7 @@ div p{
 #me:hover{
   cursor: pointer;
   transform: scale(1.03) ;
-
   filter: brightness(80%);
-
-  
 }
 
 

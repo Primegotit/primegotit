@@ -4,11 +4,17 @@
     background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ;
     background-position: center;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #page3 h1{
     color:white;
+    font-size: clamp(20px, 4vw, 35px);
+    font-weight: 200;
 }
 
 

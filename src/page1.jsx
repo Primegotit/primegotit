@@ -56,7 +56,7 @@ function Page1() {
                         
 
                         <div id='my-picture'>
-                            <img id='me' src="promise big image 2.png" alt="" />
+                            <img id='me' src="promise big image 2.png"   alt="" />
                             {/* <video muted loop autoPlay playsInline></video> */}
 
                         </div>
