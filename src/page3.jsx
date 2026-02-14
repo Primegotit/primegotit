@@ -25,14 +25,11 @@ function Page3(){
                 
                     </div>
 
-                    <div style={{visibility: 'none'}}>
-                        <img src="/Untitled-1.jpg" alt="" style={{width:'100%'  , display: 'none'}} />
-
-                    </div>
+      
 
                     <div id='logo-container'>
                         {/* <img src="/primegotit logo green big 2.png" alt=""  /> */}
-                        <img src="/Untitdfsdled-1.jpg" alt=""  />
+                        {/* <img src="/Untitdfsdled-1.jpg" alt=""  /> */}
 
                     </div>
                 </div>

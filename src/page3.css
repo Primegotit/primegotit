@@ -210,7 +210,7 @@
 #text-con{
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-columns: 4fr 1.2fr;
 
 }
 
@@ -218,15 +218,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     gap: 30px;
 }
 
 #logo-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
 
+    background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    border-radius: 50%;
+
+
+width: 300px;
+height: 300px;
 }
 
 
@@ -241,7 +250,7 @@
 }
 
 #small-text-container{
-    width: 100%;
+    width: 35%;
 }
 
 #tech-software{
@@ -272,9 +281,79 @@
     justify-content: center;
     align-items: center;
     gap: 6px;
-    font-size: clamp(13px, 4vw, 13px);
+    font-size: clamp(10px, 1vw, 13px);
 
     border-radius: 20px;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+
+    
+    #page3{
+    min-height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
+
+    background-color: black;
+
+    
+    background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment:fixed;
+    padding: 0px 20px;
+    gap: 30px;
+    
+    animation-name: change-pic;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* animation-play-state: paused; */
+
+    display: grid;
+    grid-template-rows: 9fr 1.2fr;
+    justify-content: center;
+
+    row-gap: 0px;
+}
+
+
+
+
+#text-con{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 4fr 2fr;
+    background-color: red;
+
+}
+
+
+#all-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 30px;
+}
+
+#big-text-container{
+    background: green;
+
+
+}
+#small-text-container{
+    width: 100%;
+    background: yellow;
+
+}
+
+
 }
 
 
