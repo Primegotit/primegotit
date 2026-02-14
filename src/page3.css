@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    background : linear-gradient( 90deg, rgb(12, 2, 15) , black , black ,rgba(0, 0, 0, 0.493) , rgba(0, 0, 0, 0.882),black ,black ,   rgb(3, 27, 8)) , url(/public/PSX_20250924_061136.png) ;
+            background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -26,7 +26,7 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/PSX_20250924_061136.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/IAMPRIME6.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
@@ -39,7 +39,7 @@
         background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Untitled-1234567.png) ;
         background-position: center;
         background-repeat: no-repeat;
-        background-size:auto;
+        background-size:contain;
         background-attachment: scroll;
 
     }
@@ -55,7 +55,7 @@
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/PSX_20250924_061136.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/IAMPRIME6.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -88,3 +88,28 @@
 #small-text-container{
     width: 30%;
 }
+
+#tech-software{
+
+    position: relative;
+    top: 100px;
+}
+#tech-software ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+#tech-software ul li a{
+    padding: 5px 20px;
+    color: rgba(255, 255, 255, 0.81);
+    background : linear-gradient( 90deg,  rgb(12, 105, 31) , rgb(41, 8, 50)) ;
+    box-shadow: -2px 10px 30px -3px  rgba(19, 177, 51, 0.551);
+
+    border-radius: 20px;
+}
+
+
+

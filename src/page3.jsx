@@ -18,6 +18,20 @@ function Page3(){
                     <h6>Come on and check out my designs. I let my art express myself. I wish to motivate you so join me on this journey.</h6>
                 </div>
 
+                <div id='tech-software'>
+                    <ul>
+                        <li><a href="#">Adobe Photoshop</a></li>
+                        <li><a href="#">Blender</a></li>
+                        <li><a href="#">Adobe Lightroom</a></li>
+                        <li><a href="#">Adobe Photoshop</a></li>
+                        <li><a href="#">Blender</a></li>
+                        <li><a href="#">Adobe Lightroom</a></li>
+                        <li><a href="#">Adobe Photoshop</a></li>
+                        <li><a href="#">Blender</a></li>
+                        <li><a href="#">Adobe Lightroom</a></li>
+
+                    </ul>
+                </div>
 
 
 
