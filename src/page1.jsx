@@ -29,7 +29,7 @@ function Page1() {
 
                             <section id='content-box'>
                                 
-                                <h1 id='intro-text'>Who Am I ?</h1>
+                                <h1 id='intro-text'>Who Am I ? 💀</h1>
                                 <h2>Promise Siafwiyo</h2>
                                 <p>I thrive at the intersection of diverse fields. As an <b>Interdisciplinary Specialist</b>, I don't just use technology. I bridge the gap between complex ideas and functional reality. Explore my portfolio to see how I build, break and evolve. </p>
                                 <section id='skills-container'>
@@ -56,6 +56,7 @@ function Page1() {
                         
 
                         <div id='my-picture'>
+
                             <img id='me' src="promise big image 2.png"   alt="" />
                             {/* <video muted loop autoPlay playsInline></video> */}
 

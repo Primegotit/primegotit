@@ -246,6 +246,7 @@ div p{
     background-color:rgb(13, 125, 60) ;
     /* background-color:rgb(82, 82, 82) ; */
     background: linear-gradient(130deg  , rgb(3, 48, 19) ,rgb(11, 148, 59));
+    /* background : linear-gradient( 90deg, rgb(30, 3, 37) , rgba(65, 7, 81, 0.768) , rgb(16, 143, 41) ) ; */
 
     margin-right: 15px;
     padding: 10px 27px;

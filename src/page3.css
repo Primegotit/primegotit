@@ -1,22 +1,90 @@
 #page3{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ;
-    background-position: center;
-    background-size: cover;
+    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
 
+    background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    background : linear-gradient( 90deg, rgb(12, 2, 15) , black , black ,rgba(0, 0, 0, 0.493) , rgba(0, 0, 0, 0.882),black ,black ,   rgb(3, 27, 8)) , url(/public/PSX_20250924_061136.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: scroll;
+    padding: 0px 20px;
+    gap: 30px;
+    
+    animation-name: change-pic;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+
+@keyframes change-pic {
+    0%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/PSX_20250924_061136.png) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:auto;
+        background-attachment: scroll;
+
+    }   
+    
+    40%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Untitled-1234567.png) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:auto;
+        background-attachment: scroll;
+
+    }
+
+    80%{
+
+            background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: scroll;
+
+    }
+
+    100%{
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/PSX_20250924_061136.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: scroll;
+    }
+
+
+}
+
+
+#big-text-container{
+    background: transparent;
 }
 
 
 #page3 h1{
-    color:white;
-    font-size: clamp(20px, 4vw, 35px);
+    color:rgb(213, 213, 213);
+    font-size: clamp(20px, 5vw, 70px);
+    font-weight: 800;
+}
+
+#page3 h6{
+    color: rgb(198, 198, 198);
+    font-size: clamp(17px, 2vw, 18px);
     font-weight: 200;
+
 }
 
 
-
-
+#small-text-container{
+    width: 30%;
+}

@@ -44,7 +44,10 @@ function Page2() {
 
 
                         <div className='box'>
-                            <div className='box-image' ></div>
+                            <div className='box-image' >
+                                <div id='role-container'><h5>Favorite role 💜</h5></div>
+
+                            </div>
                             <h3>Music Production</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
