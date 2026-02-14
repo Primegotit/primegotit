@@ -192,13 +192,16 @@
 
 #page3 h1{
     color:rgb(213, 213, 213);
-    font-size: clamp(20px, 5vw, 70px);
+    font-size: clamp(20px, 4.5vw, 80px);
+
     font-weight: 800;
 }
 
 #page3 h6{
     color: rgb(198, 198, 198);
     font-size: clamp(17px, 2vw, 18px);
+    font-size: clamp(15px, 4vw, 15px);
+
     font-weight: 200;
     display: grid;
 
