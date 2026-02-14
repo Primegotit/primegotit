@@ -128,17 +128,17 @@
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/20250827_015959.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-attachment:fixed;
 
     }
     
     40%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/my\ house\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -146,9 +146,21 @@
 
     }
 
+        /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
+       60%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Prime\ glidigital\ 2.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment:fixed;
+
+    }
+    
+
     80%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/where\ i\ dwell\ 2.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Price.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
