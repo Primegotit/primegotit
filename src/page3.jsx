@@ -32,6 +32,8 @@ function Page3(){
                         {/* <img src="/Untitdfsdled-1.jpg" alt=""  /> */}
 
                     </div>
+
+
                 </div>
                 
                 
@@ -46,7 +48,6 @@ function Page3(){
                         <li><a href="#">PicsArt <TiArrowRightThick/></a></li>
                         <li><a href="#">Adobe Animator <TiArrowRightThick/></a></li>
                         <li><a href="#">Dark Aesthetic <TiArrowRightThick/></a></li>
-
 
                     </ul>
                 </div>
