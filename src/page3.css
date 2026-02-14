@@ -4,11 +4,9 @@
     /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
 
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-            background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+
+    
+    background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -20,6 +18,12 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: normal;
+
+    display: grid;
+    grid-template-rows: 9fr 1.2fr;
+    justify-content: center;
+
+    row-gap: 0px;
 }
 
 
@@ -32,7 +36,18 @@
         background-size:auto;
     background-attachment:fixed;
 
-    }   
+    } 
+    
+    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
+       20%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    }
     
     40%{
 
@@ -65,9 +80,101 @@
 
 }
 
+@media (min-height:1000px ) {
+
+
+    #page3{
+    min-height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
+
+    background-color: black;
+
+    
+    background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment:fixed;
+    padding: 0px 20px;
+    gap: 30px;
+    
+    animation-name: change-pic;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* animation-play-state: paused; */
+
+    display: grid;
+    grid-template-rows: 9fr 1.2fr;
+    justify-content: center;
+
+    row-gap: 0px;
+}
+
+
+
+@keyframes change-pic {
+    0%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    } 
+    
+    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
+       20%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    }
+    
+    40%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    }
+
+    80%{
+
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/where\ i\ dwell\ 2.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+    }
+
+    100%{
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    }
+
+
+}
+
+
+
+
+}
 
 #big-text-container{
     background: transparent;
+
 }
 
 
@@ -81,17 +188,22 @@
     color: rgb(198, 198, 198);
     font-size: clamp(17px, 2vw, 18px);
     font-weight: 200;
+    display: grid;
+
 
 }
 #text-con{
     width: 100%;
     display: grid;
-    grid-template-columns: 4fr 1.2fr;
+    grid-template-columns: 2fr 4fr 2fr;
+
 }
 
 #all-text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
     gap: 30px;
 }
 
@@ -114,14 +226,18 @@
 }
 
 #small-text-container{
-    width: 40%;
+    width: 100%;
 }
 
 #tech-software{
 
-    position: relative;
-    top: 120px;
+    /* position: relative;
+    top: 120px; */
+    display: flex;
+    justify-content: center;
     align-self: center;
+
+
 }
 #tech-software ul{
     text-decoration: none;
@@ -136,8 +252,6 @@
     padding: 5px 20px;
     color: rgba(255, 255, 255, 0.719);
     background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
-    background : linear-gradient( 90deg,  rgba(235, 33, 253, 0.305) , rgba(197, 37, 246, 0.152)) ;
-    background : linear-gradient( 90deg,  rgba(235, 33, 253, 0.305) , rgba(197, 37, 246, 0.152)) ;
 
     display: flex;
     justify-content: center;
