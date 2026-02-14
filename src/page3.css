@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size:auto;
     background-attachment:fixed;
-    padding: 0px 20px;
+    padding: 0px 40px;
     gap: 30px;
     
     animation-name: change-pic;
@@ -30,7 +30,7 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/IAMPRIME6.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
@@ -70,7 +70,7 @@
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/IAMPRIME6.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -152,7 +152,7 @@
         background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Prime\ glidigital\ 2.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-attachment:fixed;
 
     }
