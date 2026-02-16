@@ -352,6 +352,8 @@ div p{
 
    #content-box p{
     text-align: center;
+    margin: 15px 0px;
+
    }
 
 
@@ -482,11 +484,15 @@ div h2{
     font-size: clamp(30px, 5vw, 90px);
 
 }
+#content-box p{
+    text-align: center;
+    margin: 15px 0px;
+
+   }
 
 div p{
   margin-top: 6px;
   font-size: clamp(14px, 0.9vw, 17px);
-
 
 }
 
@@ -550,8 +556,6 @@ div p{
     justify-content: center;
     align-self: center;
     align-items: center;
-    padding: 0px 10px;
-    /* width: 650px; */
 
 
   }
