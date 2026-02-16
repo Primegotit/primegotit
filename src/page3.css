@@ -30,7 +30,7 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) , url(/public/Green\ Hoodie.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
@@ -41,7 +41,7 @@
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -51,7 +51,7 @@
     
     40%{
 
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Untitled-1234567.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17) ) , url(/public/Untitled-1234567.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
@@ -61,7 +61,7 @@
 
     80%{
 
-            background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+            background :   linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17) ), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -70,7 +70,7 @@
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
+        background :  linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17) ) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
@@ -193,7 +193,7 @@
 #page3 h1{
     color:rgb(213, 213, 213);
     font-size: clamp(20px, 4.5vw, 80px);
-
+    color: rgb(199, 110, 218);
     font-weight: 800;
 }
 
@@ -228,6 +228,8 @@
     align-self: center;
 
     background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
+    /* box-shadow: -1px -20px 30px -3px  rgba(100, 20, 120, 0.581); */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;

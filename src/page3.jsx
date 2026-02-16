@@ -19,7 +19,9 @@ function Page3(){
                         </div>
 
                         <div id='small-text-container'>
-                            <h6>Come on and check out my designs. I let my art express myself. I wish to motivate you so join me on this journey.</h6>
+                            <h4 style={{color:"#d7ffce", fontSize:'30px', fontFamily:'math'}}>Creative without limits.</h4>
+                            br
+                            <h6>Come on and check out my designs. I let my art express myself. I wish to motivate you so join me on this journey. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione autem, sapiente vitae iste beatae </h6>
                         </div>
 
                 

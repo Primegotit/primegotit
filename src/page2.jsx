@@ -69,7 +69,6 @@ function Page2() {
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
                                   </p>
-                            {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
                                 <h5>Moho</h5>
@@ -85,7 +84,6 @@ function Page2() {
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
                                   </p>
-                            {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
                                 <h5>Moho</h5>
@@ -102,7 +100,6 @@ function Page2() {
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
                                 ipsum distinctio dolor, ad amet quia vsdafsdero
                                  </p>
-                            {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
                                 <h5>Moho</h5>
