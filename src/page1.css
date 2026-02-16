@@ -541,7 +541,7 @@ div p{
     grid-row-end: 2 ;
     display: flex;
     justify-content: center;
-
+    height: 300px;
 }
 
 #my-content{
