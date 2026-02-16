@@ -480,7 +480,8 @@ nav img{
 }
 
 div h2{
-    margin: 10px 0px;
+    margin-top: 5px ;
+    margin-bottom: 0px;
     font-size: clamp(30px, 5vw, 90px);
 
 }
