@@ -493,9 +493,10 @@ div p{
 #skills-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 0px;
+    gap: 2px 0px;
     justify-content: center;
 
+    background-color: red;
 }
 
 
@@ -521,8 +522,8 @@ div p{
   }
 
   .skills {
-    margin-bottom: 7px;
-    font-size: clamp(11px, 0.9vw, 17px);
+    margin-bottom: 2px;
+    font-size: clamp(9px, 0.9vw, 17px);
 
     margin-right: 6px;
     padding: 5px 8px;
@@ -550,7 +551,7 @@ div p{
     color: black;
     color: rgb(220, 220, 220);
 
-    margin-top: 40px ;
+    margin-top: 20px ;
 
     font-weight: bolder;
     text-decoration: none;
