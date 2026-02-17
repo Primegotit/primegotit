@@ -6,7 +6,7 @@ function Page4() {
         <>
             <div id='page4'>
                 <div id='about-heading'> 
-                    <h3>About me - in depth</h3>
+                    <h3>About me</h3>
 
                 </div>
 
@@ -28,13 +28,8 @@ function Page4() {
                             Labore suscipit ducimus voluptas officiis nulla non debitis,
                              at odit laboriosam doloremque laborum iure aperiam expedita vel
                               fuga deleniti! Repellendus, iusto. Praesentium mollitia 
-                              cupiditate ex laborum ducimus obcaecati tempore culpa provident 
                               itaque nulla sit rem deleniti possimus eveniet aut, voluptatibus officiis
                                veritatis tempora modi non illum eos ad corrupti alias. 
-                               Alias consequuntur cupiditate et quod, aliquam eligendi nulla
-                                quidem tempore similique quibusdam, nobis suscipit, maiores quisquam 
-                                dolorem modi ratione minus. Accusantium distinctio enim facere labore
-                                 error quibusdam, adipisci quasi eum veniam odio alias in, autem ipsam, sapiente architecto. Eos repellat earum, incidunt provident aperiam iusto consectetur velit tempore omnis animi nobis veniam officia a facilis quisquam nulla. Sunt accusantium dolor autem quisquam voluptas modi consectetur porro quos, quo obcaecati quasi eum aliquam laborum inventore maiores. Saepe quae cumque quibusdam earum eum molestias in qui repellendus praesentium impedit? Temporibus aliquam maiores quas optio nesciunt quod? Aspernatur alias, delectus aliquid perspiciatis quia, facilis quis molestias ad voluptate laudantium earum minus? Dolorum, obcaecati facere. Tempora, modi blanditiis quas recusandae debitis, beatae neque inventore natus suscipit libero soluta odit adipisci corrupti 
                             perferendis qui! Ex ipsam explicabo necessitatibus expedita iusto nobis, sed odio esse! Sint, vitae tenetur!
                             
                         </p>    
@@ -66,26 +61,42 @@ function Page4() {
 
 
                         <div className='skill-box'>
-                            <h6     >Music production</h6>
-                            <div className='percentbox'>
-                                <div className='skill-percent'></div>
+                            <h6     >Music Production</h6>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
                             </div>
                         </div>
 
                         <div className='skill-box'>
-                            <h6     >Music production</h6>
-                            <div className='percentbox'>
-                                <div className='skill-percent'></div>
+                            <h6     >Graphic Design</h6>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
                             </div>
                         </div>
 
 
                         <div className='skill-box'>
-                            <h6     >Music production</h6>
-                            <div className='percentbox'>
-                                <div className='skill-percent'></div>
+                            <h6>Programming</h6>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
                             </div>
                         </div>
+
+                        <div className='skill-box'>
+                            <h6>Web development</h6>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
+
+
+                        <div className='skill-box'>
+                            <h6>Web development</h6>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
