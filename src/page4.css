@@ -1,0 +1,83 @@
+#page4{
+    min-height: 100vh;
+    width: 100%;
+
+
+    
+    background :     linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
+    padding: 0px 60px;
+}
+
+#about-heading{
+    padding: 0px 20px;
+}
+
+#about-me-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    column-gap: 20px;
+}
+#about-me-box{
+    padding: 0px 20px;
+    border-radius: 20px;
+
+    border: 1px solid rgb(22, 178, 87);
+
+}
+
+#skills-percent-container{
+    padding: 30px 20px;
+    border-radius: 20px;
+
+    border: 1px solid rgb(25, 222, 107);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    box-shadow:   5px 5px 25px 5px  rgba(243, 25, 232, 0.099); 
+    border: 1px solid rgb(25, 222, 107);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(14, 14, 14);
+}
+
+
+.skill-box h6{
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.percentbox{
+    width: 90%;
+    height : 13px;
+    border-radius: 8px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+     /* box-shadow:   5px 5px 25px 5px  rgba(25, 243, 101, 0.319);  */
+
+    
+}
+
+
+.skill-percent{
+    width: 80%;
+    height : 100%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+
+    background-color: rgb(20, 149, 59); 
+    
+}

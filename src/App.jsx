@@ -10,11 +10,12 @@ function App() {
 
   return (
     <>
-      <Page1/>    
+      <Page1/>  
+      <Page4/>
       <Page2/>
       <Page3/>
 
-      <LastPage/>
+      {/* <LastPage/> */}
 
     </>
   )

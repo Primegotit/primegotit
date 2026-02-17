@@ -7,8 +7,9 @@
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background: linear-gradient(-140deg ,rgb(22, 10, 24),  #000000 , #000000 ,   #000000 ,  #000000 ,  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(22, 10, 24));
+    /* background: linear-gradient(-140deg ,rgb(22, 10, 24),  #000000 , #000000 ,   #000000 ,  #000000 ,  #000000 ,  #000000, #000000 ,#000000 , #000000,rgb(22, 10, 24)); */
 
+    background :     linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
 
 }
 
