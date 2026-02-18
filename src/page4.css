@@ -9,7 +9,12 @@
 }
 
 #about-heading{
-    padding: 0px 20px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(22px, 1vw, 25px);
+
+
 }
 
 #about-me-container{
@@ -21,7 +26,12 @@
     padding: 0px 20px;
     border-radius: 20px;
 
-    border: 1px solid rgb(22, 178, 87);
+    border: 2px solid rgb(130, 130, 130);
+    background: linear-gradient(rgb(15, 15, 15),rgb(3, 3, 3)); 
+    background: linear-gradient(-140deg, rgb(12, 45, 22), rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgb(16, 59, 29)); 
+
+
+
 
 }
 
@@ -29,11 +39,19 @@
     padding: 30px 20px;
     border-radius: 20px;
 
-    border: 1px solid rgb(25, 222, 107);
+    border: 2px solid rgb(18, 176, 84);
+    border: 2px solid rgb(180, 180, 180);
     
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+#skills-percent-container h3{
+    background : linear-gradient( 90deg,  rgb(12, 105, 31) , rgb(41, 8, 50)) ;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
 }
 
 
@@ -44,12 +62,12 @@
 
     /* box-shadow:   5px 5px 25px 5px  rgba(243, 25, 232, 0.099);  */
     /* border: 1px solid rgb(25, 222, 107); */
-    /* border: 1px solid rgb(159, 159, 159); */
 
     border-radius: 20px;
     padding: 20px;
     /* background-color: rgb(14, 14, 14); */
-    background: linear-gradient(black,rgba(0, 128, 58, 0.223));    
+    background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15)); 
+
 }
 
 
@@ -83,6 +101,8 @@
 
 
     background-color: rgb(20, 149, 59); 
+    background : linear-gradient( 90deg,  rgb(20, 149, 65) , rgb(123, 16, 173)) ;
+
     
 }
 
