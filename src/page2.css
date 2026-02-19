@@ -356,8 +356,8 @@ a{
     height: 300px;
      */
 
-    width: 300px;
-     height: 300px;
+    width: 230px;
+     height: 230px;
     border-radius: 18px 18px  0px 0px;
     display: flex;
     justify-self: center;
@@ -369,5 +369,29 @@ a{
     transition: all 0.5s ;
 
 
+    }
+
+
+    .box{
+        max-width: 300px;
+        /* border: 5px solid rgb(2, 22, 3); */
+        border-radius: 18px;
+        padding: 20px;
+
+        background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 08, 20));
+        padding-bottom: 20px;
+        cursor: pointer;
+
+        border-bottom: 3px solid rgb(25, 222, 64);
+        /* box-shadow: 0px 19px 20px rgba(19, 170, 49, 0.34); */
+        box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
+        
+        /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
+        transition: all 0.5s ;
+
+
 }
+
+
+
 }
