@@ -1,4 +1,7 @@
 import './page2.css'
+import { useEffect } from 'react';
+
+
 
 function Page2() {
 
@@ -9,7 +12,7 @@ function Page2() {
                 <div id='page2-container'>
                     <div id='box-container'>
 
-                        <div className='box'>
+                        <div className='box' onClick={() => windows.location.href = './page4.jsx'}>
                             <div className='box-image' ></div>
                             <h3>Graphic Design</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
