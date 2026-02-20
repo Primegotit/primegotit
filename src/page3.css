@@ -6,11 +6,11 @@
     background-color: black;
 
     
-    background :   linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
     padding: 0px 40px;
     gap: 30px;
     
@@ -30,51 +30,51 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) , url(/public/Green\ Hoodie.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     } 
     
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
     40%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9) ) , url(/public/Untitled-1234567.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ) , url(/public/Untitled-1234567.png) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
     80%{
 
-            background :   linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9) ), url(/public/Untitled-1809809.png) ;
+            background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9) ) , url(/public/Green\ Hoodie.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
     }
 
 
@@ -91,11 +91,11 @@
     background-color: black;
 
     
-    background :   linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    background-attachment:fixed;
+    background-attachment:scroll;
     padding: 0px 20px;
     gap: 30px;
     
@@ -117,63 +117,63 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     } 
     
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
     40%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/my\ house\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
         /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        60%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Prime\ glidigital\ 2.jpg) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
 
     80%{
 
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Price.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 1, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Price.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.145),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
     }
 
 
@@ -208,12 +208,12 @@
 
 }
 #text-con{
-    width: 100%;
     display: grid;
     /* grid-template-columns: 4fr 1.2fr; */
-    grid-template-columns: 83% 17%;
-
-}
+    grid-template-columns: 83% 10%;
+    margin: auto;
+    width: 92%;
+}   
 
 #all-text-container{
     display: flex;
@@ -263,6 +263,9 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    margin: auto;
+    width: 92%;
+
 
 
 }
@@ -271,12 +274,12 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 
 
 #tech-software ul li a{
-    padding: 5px 20px;
+    padding: 5px 17px;
     color: rgba(255, 255, 255, 0.719);
     background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
 
@@ -304,11 +307,11 @@
     background-color: black;
 
     
-    background :   linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.145), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    background-attachment:fixed;
+    background-attachment:scroll;
     padding: 0px 20px;
     gap: 30px;
     
@@ -328,63 +331,63 @@
 @keyframes  change-pic-mobile {
     0%{
 
-        background :  linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.392), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     } 
     
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
     40%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.396), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/my\ house\ 3.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
         /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        60%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.396), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Prime\ glidigital\ 2.jpg) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
 
     80%{
 
-        background :linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Price.png) ;
+        background :linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Price.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
     100%{
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.393), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/sky\ rome\ 3.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
@@ -523,11 +526,11 @@
     background-color: black;
 
     
-    background :   linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.145), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Untitled-1809809.png) ;
+    background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    background-attachment:fixed;
+    background-attachment:scroll;
     padding: 0px 20px;
     gap: 30px;
     
@@ -547,63 +550,63 @@
 @keyframes  change-pic-mobile {
     0%{
 
-        background :  linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.392), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/sky\ rome\ 3.png) ;
+        background :  linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.392), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     } 
     
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Green\ Hoodie.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
     40%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.396), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/my\ house\ 3.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
         /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        60%{
 
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.396), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)) , url(/public/Prime\ glidigital\ 2.jpg) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
     
 
     80%{
 
-        background :linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/Price.png) ;
+        background :linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Price.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
     100%{
-        background : linear-gradient( 180deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.489) , rgba(0, 0, 0, 0.393), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(2, 17, 5)), url(/public/sky\ rome\ 3.png) ;
+        background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.393), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/sky\ rome\ 3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
 
     }
 
