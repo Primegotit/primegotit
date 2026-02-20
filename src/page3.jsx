@@ -11,7 +11,10 @@ function Page3(){
                 <div id='text-con'>
                     <div id='all-text-container'>
                         <div id='big-text-container'>
-                            <h1>Are you Ready?</h1>
+                            <h1>Are you ready?</h1>
+                            <h1>Graphic Design</h1>
+
+
                             {/* <h6>💀</h6> */}
 
                         </div>
@@ -29,7 +32,7 @@ function Page3(){
 
                 </div>
                 
-                
+{/*                 
                 <div id='tech-software'>
                     <ul>
                         <li><a href="#">Adobe Photoshop  <TiArrowRightThick/> </a></li>
@@ -43,7 +46,7 @@ function Page3(){
                         <li><a href="#">Dark Aesthetic <TiArrowRightThick/></a></li>
 
                     </ul>
-                </div>
+                </div> */}
 
 
 

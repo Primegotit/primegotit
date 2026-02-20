@@ -7,7 +7,6 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
 
-    background :     linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
 
 }
