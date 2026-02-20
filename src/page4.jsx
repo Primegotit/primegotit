@@ -1,4 +1,7 @@
 import './page4.css'
+import { TiArrowRightThick } from "react-icons/ti";
+import { SiLevelsdotfyi } from 'react-icons/si';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 function Page4() {
 
@@ -6,7 +9,10 @@ function Page4() {
         <>
             <div id='page4'>
                 <div id='about-heading'> 
-                    <h3>About me </h3>
+                     <h3>About me 
+
+                    </h3>
+                    {/* <BsFillPersonLinesFill style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}}></BsFillPersonLinesFill> */}
 
                 </div>
 
@@ -57,7 +63,10 @@ function Page4() {
                         </p>
                     </div>
                     <div id='skills-percent-container'>
-                        <h3>Skills</h3>
+                        <h3>Experience levels   
+                            {/* <TiArrowRightThick style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}} ></TiArrowRightThick>  */}
+                            <SiLevelsdotfyi style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}}></SiLevelsdotfyi>
+                        </h3>
 
 
                         <div className='skill-box'>
