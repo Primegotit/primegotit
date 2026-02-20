@@ -49,6 +49,16 @@
 
 }
 
+
+#about-me-box p{
+    /* background:  linear-gradient(rgb(8, 8, 8), rgb(8, 8, 8));  */
+    padding: 20px;
+    border-radius: 20px;
+
+    box-shadow: 2px 24px 12px 8px  rgba(32, 32, 32, 0.068);
+
+}
+
 #skills-percent-container{
     padding: 30px 20px;
     border-radius: 20px;
@@ -241,6 +251,30 @@
 }
 
 
+
+.skill-box h5{
+    color: rgb(155, 155, 155);
+    font-weight: 200;
+    /* font-size: clamp(11px, 0.9vw, 66px); */
+
+    font-size: clamp(14px, 1vw, 15px);
+
+
+
+}
+
+.skill-box h6{
+    color: rgb(186, 186, 186);
+    font-weight: 400;
+    /* font-size: clamp(14px, 1vw, 90px); */
+    font-size: clamp(14px, 1vw, 15px);
+
+
+    
+
+}
+
+
 }
 
 
@@ -262,7 +296,7 @@
 #about-me-container{
     display: grid;
     grid-template-rows: 2fr 1fr;
-    row-gap:20px;
+    row-gap:5px;
     column-gap:0px ;
     grid-template-columns: 1fr;
     justify-content: center;
