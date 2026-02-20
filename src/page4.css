@@ -1,7 +1,7 @@
 #page4{
     min-height: 100vh;
     width: 100%;
-    
+
     background : linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
     padding: 0px 60px;
 }
@@ -33,16 +33,15 @@
 }
 #about-me-box{
     padding: 0px 20px;
+
+
+    /* background: rgb(15, 15, 15); */
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+    /* border: 6px solid rgb(12, 12, 12); */
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
     border-radius: 20px;
-
-    /* background: linear-gradient(rgb(15, 15, 15),rgb(3, 3, 3));  */
-    /* background: linear-gradient(-140deg, rgb(5, 20, 10), rgb(15, 15, 15), rgb(15, 15, 15) , rgb(15, 15, 15),  rgb(15, 15, 15),  rgb(15, 15, 15), rgb(5, 20, 10));  */
-
-    /* background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 18, 18)); */
-
-    background: rgb(15, 15, 15);
-    background: rgb(2, 2, 2);
-    border: 6px solid rgb(12, 12, 12);
 
     height: 100%;
 
@@ -51,7 +50,7 @@
 
 
 #about-me-box p{
-    /* background:  linear-gradient(rgb(8, 8, 8), rgb(8, 8, 8));  */
+    /* background: linear-gradient(rgb(13, 13, 13),rgb(13, 13, 13)); */
     padding: 20px;
     border-radius: 20px;
 
@@ -60,22 +59,31 @@
 }
 
 #skills-percent-container{
-    padding: 30px 20px;
+
+    border: 1px solid transparent ;
     border-radius: 20px;
 
-    border: 6px solid rgb(12, 12, 12);
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
+    border-radius: 20px;
     
+
+    padding: 30px 20px;
+
+    /* border: 6px solid rgb(12, 12, 12); */
+
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 08, 20));
-    background: rgb(2, 2, 2);
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+
+    /* box-shadow:   2px -15px 25px 5px  rgba(22, 91, 10, 0.179);  */
 
     min-height: 100%;
     overflow-y:auto;
-    
 
-    
+
+
 }
 
 #skills-percent-container h3{
@@ -103,14 +111,14 @@
     border-radius: 20px;
     padding: 20px;
     /* background-color: rgb(14, 14, 14); */
-    background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15)); 
+    background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
 
 }
 #skills-name{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}   
+}
 
 .skill-box h5{
     color: rgb(155, 155, 155);
@@ -130,7 +138,7 @@
     font-size: clamp(10px, 1vw, 15px);
 
 
-    
+
 
 }
 
@@ -144,7 +152,7 @@
     align-items: end;
      /* box-shadow:   5px 5px 25px 5px  rgba(25, 243, 101, 0.319);  */
 
-    
+
 }
 
 
@@ -155,11 +163,11 @@
     border-top-left-radius: 8px;
 
 
-    background-color: rgb(20, 149, 59); 
+    background-color: rgb(20, 149, 59);
     background : linear-gradient( 90deg,  rgb(20, 149, 65) , rgb(123, 16, 173)) ;
     background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(26, 173, 16)) ;
 
-    
+
 }
 
 .skill-box:nth-of-type(1) #skill-percent{
@@ -199,7 +207,7 @@
 
 
 
-    
+
 #about-me-container{
     display: grid;
     grid-template-rows: 2.3fr 2fr;
@@ -215,7 +223,11 @@
 
 #about-me-box{
     padding: 0px 20px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
     border-radius: 20px;
+
 
     /* background: linear-gradient(rgb(15, 15, 15),rgb(3, 3, 3));  */
     /* background: linear-gradient(-140deg, rgb(5, 20, 10), rgb(15, 15, 15), rgb(15, 15, 15) , rgb(15, 15, 15),  rgb(15, 15, 15),  rgb(15, 15, 15), rgb(5, 20, 10));  */
@@ -223,8 +235,7 @@
     /* background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 18, 18)); */
 
     background: rgb(15, 15, 15);
-    background: rgb(2, 2, 2);
-    border: 6px solid rgb(12, 12, 12);
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
 
     height: min-content;
 
@@ -235,19 +246,24 @@
 
 #skills-percent-container{
     padding: 30px 20px;
+    border: 1px solid transparent ;
     border-radius: 20px;
 
-    border: 6px solid rgb(12, 12, 12);
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
+    border-radius: 20px;
     
+
+
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 08, 20));
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
     background: rgb(2, 2, 2);
 
     min-height: auto;
     overflow-y:auto;
-    
+
 }
 
 
@@ -270,17 +286,17 @@
     font-size: clamp(14px, 1vw, 15px);
 
 
-    
-
-}
 
 
 }
 
 
+}
 
 
-@media (max-width: 600px) 
+
+
+@media (max-width: 600px)
 {
 
     #page4{
@@ -300,7 +316,7 @@
     column-gap:0px ;
     grid-template-columns: 1fr;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     min-height: 100VH;
     justify-self: center;
 
@@ -317,9 +333,14 @@
 
     height: min-content; */
     width: 90%;
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
 
     justify-self: center;
 
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
+    border-radius: 20px;
 
 }
 
@@ -341,7 +362,7 @@
     font-size: clamp(14px, 1vw, 15px);
 
 
-    
+
 
 }
 
@@ -350,19 +371,23 @@
 
 #skills-percent-container{
     padding: 10px 10px;
+    border: 1px solid transparent ;
     border-radius: 20px;
 
-    border: 6px solid rgb(12, 12, 12);
+    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image-slice: 1;
+    border-radius: 20px;
     
+
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 08, 20));
+    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
     background: rgb(2, 2, 2);
     width: 90%;
     justify-self: center;
     min-height: auto;
-    
+
 }
 
 
