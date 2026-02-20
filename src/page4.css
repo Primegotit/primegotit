@@ -34,7 +34,7 @@
     min-height: 90vh;
 }
 #about-me-box{
-    padding: 0px 20px;
+    padding: 20px 20px;
 
 
     /* background: rgb(15, 15, 15); */
@@ -53,11 +53,51 @@
 
 #about-me-box p{
     /* background: linear-gradient(rgb(13, 13, 13),rgb(13, 13, 13)); */
-    padding: 20px;
+    padding: 0px 20px;
     border-radius: 20px;
 
     box-shadow: 2px 24px 12px 8px  rgba(32, 32, 32, 0.068);
 
+}
+
+#about-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#text-arrow{
+    color: rgb(116, 116, 116);
+    color: rgb(17, 192, 17);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    filter: brightness(110%);
+    filter: contrast(1.6);
+
+
+}
+#logo-line{
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57));
+    filter: contrast(1.6);
+
+    height: 2px;
+    width:100%;
+}
+
+#skills-percent-container  #about-logo-container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0px;
+}
+
+#skills-percent-container  #about-logo-container #logo-line{
+    background:linear-gradient(-90deg, rgb(17, 192, 17), rgb(57, 57, 57));
+    filter: contrast(1.6);
+    
+    height: 2px;
+    width: 100%;
 }
 
 #skills-percent-container{
@@ -70,7 +110,7 @@
     border-radius: 20px;
     
 
-    padding: 30px 20px;
+    padding: 20px 20px;
 
     /* border: 6px solid rgb(12, 12, 12); */
 
@@ -224,7 +264,7 @@
 }
 
 #about-me-box{
-    padding: 0px 20px;
+    padding: 20px 20px;
     border: 1px solid transparent;
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
     border-image-slice: 1;
@@ -247,7 +287,7 @@
 
 
 #skills-percent-container{
-    padding: 30px 20px;
+    padding: 30px 40px;
     border: 1px solid transparent ;
     border-radius: 20px;
 
@@ -305,7 +345,7 @@
     min-height:100vh;
     width: 100%;
 
-    background :     linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
+    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
     padding: 0px 10px;
 }
 
@@ -334,6 +374,8 @@
     border: 6px solid rgb(12, 12, 12);
 
     height: min-content; */
+    padding: 20px 20px;
+
     width: 90%;
     background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
 
@@ -372,7 +414,7 @@
 
 
 #skills-percent-container{
-    padding: 10px 10px;
+    padding: 10px 40px;
     border: 1px solid transparent ;
     border-radius: 20px;
 
@@ -383,7 +425,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
     background: rgb(2, 2, 2);
     width: 90%;

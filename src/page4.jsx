@@ -2,6 +2,7 @@ import './page4.css'
 import { TiArrowRightThick } from "react-icons/ti";
 import { SiLevelsdotfyi } from 'react-icons/si';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { CgArrowsExchangeAltV } from 'react-icons/cg';
 
 function Page4() {
 
@@ -18,6 +19,10 @@ function Page4() {
 
                 <div id='about-me-container'>
                     <div id='about-me-box'>
+                        <div id='about-logo-container'>
+                            <img src="/primegotit logo green big 2.png" id='text-arrow' alt="" />
+                            <div id='logo-line'></div>
+                        </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                              Fugit totam amet cumque accusamus unde nostrum rem
                               tempore alias, ipsam blanditiis. Lorem ipsum dolor sit amet 
@@ -28,7 +33,7 @@ function Page4() {
                                 magni accusamus.
 
                         </p>
-
+                            {/* <CgArrowsExchangeAltV  id='text-arrow'></CgArrowsExchangeAltV> */}
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                             Labore suscipit ducimus voluptas officiis nulla non debitis,
@@ -39,6 +44,7 @@ function Page4() {
                             perferendis qui! Ex ipsam explicabo necessitatibus expedita iusto nobis, sed odio esse! Sint, vitae tenetur!
                             
                         </p>    
+                            {/* <CgArrowsExchangeAltV  id='text-arrow'></CgArrowsExchangeAltV> */}
 
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                              Fugit totam amet cumque accusamus unde nostrum rem
@@ -63,6 +69,10 @@ function Page4() {
                         </p>
                     </div>
                     <div id='skills-percent-container'>
+                        <div id='about-logo-container'>
+                            <img src="/primegotit logo green big 2.png" id='text-arrow' alt="" />
+                            <div id='logo-line'></div>
+                        </div>
                         <h3>Experience levels   
                             {/* <TiArrowRightThick style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}} ></TiArrowRightThick>  */}
                             <SiLevelsdotfyi style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}}></SiLevelsdotfyi>
