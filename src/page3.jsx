@@ -11,16 +11,14 @@ function Page3(){
                 <div id='text-con'>
                     <div id='all-text-container'>
                         <div id='big-text-container'>
-                            <h1>I Design.</h1>
-                            <h1>I Create.</h1>
-                            <h1>I Remake.</h1>
+                            <h1>Are you Ready?</h1>
                             {/* <h6>💀</h6> */}
 
                         </div>
 
                         <div id='small-text-container'>
-                            <h4 style={{color:"#d7ffce", fontSize:'30px', fontFamily:'math'}}>Creative without limits.</h4>
-                            br
+                            <h4 style={{color:"#868686", fontSize:'30px', fontFamily:'math'}}>Creative without limits.</h4>
+                            <br />
                             <h6>Come on and check out my designs. I let my art express myself. I wish to motivate you so join me on this journey. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione autem, sapiente vitae iste beatae </h6>
                         </div>
 
@@ -28,13 +26,6 @@ function Page3(){
                     </div>
 
       
-
-                    <div id='logo-container'>
-                        {/* <img src="/primegotit logo green big 2.png" alt=""  /> */}
-                        {/* <img src="/Untitdfsdled-1.jpg" alt=""  /> */}
-
-                    </div>
-
 
                 </div>
                 

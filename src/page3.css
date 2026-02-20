@@ -5,14 +5,12 @@
 
     background-color: black;
 
-    
-    background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: center;
+    background :   linear-gradient( 90deg, rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Untitled-1809809.png) ;
+    background-position:right;
     background-repeat: no-repeat;
     background-size:auto;
     background-attachment:scroll;
     padding: 0px 40px;
-    gap: 30px;
     
     animation-name: change-pic;
     animation-duration: 10s;
@@ -20,7 +18,7 @@
     animation-direction: normal;
 
     display: grid;
-    grid-template-rows: 9fr 1.2fr;
+    grid-template-rows: 8fr 1.2fr;
     justify-content: center;
 
     row-gap: 0px;
@@ -30,8 +28,9 @@
 @keyframes change-pic {
     0%{
 
-        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
-        background-position: center;
+        background :   linear-gradient( 90deg, rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Green\ Hoodie.png) ;
+
+        background-position: right;
         background-repeat: no-repeat;
         background-size:auto;
     background-attachment:scroll;
@@ -41,18 +40,20 @@
     /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
        20%{
 
-        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+        background :   linear-gradient( 90deg , rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/sky\ rome\ 3.png) ;
+
+    background-position: right;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:auto;
     background-attachment:scroll;
 
     }
     
     40%{
 
-        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ) , url(/public/Untitled-1234567.png) ;
-        background-position: center;
+        background :   linear-gradient( 90deg , rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Untitled-1234567.png) ;
+
+        background-position: right;
         background-repeat: no-repeat;
         background-size:auto;
     background-attachment:scroll;
@@ -60,9 +61,9 @@
     }
 
     80%{
+        background :   linear-gradient( 90deg , rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Untitled-1809809.png) ;
 
-            background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ), url(/public/Untitled-1809809.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:auto;
     background-attachment:scroll;
@@ -70,8 +71,9 @@
     }
 
     100%{
-        background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0) ) , url(/public/Green\ Hoodie.png) ;
-    background-position: center;
+        background :   linear-gradient( 90deg , rgb(4, 23, 9), rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Green\ Hoodie.png) ;
+
+    background-position: right;
     background-repeat: no-repeat;
     background-size:auto;
     background-attachment:scroll;
@@ -92,7 +94,7 @@
 
     
     background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:auto;
     background-attachment:scroll;
@@ -107,7 +109,7 @@
 
     display: grid;
     grid-template-rows: 9fr 1.2fr;
-    justify-content: center;
+    justify-content: right;
 
     row-gap: 0px;
 }
@@ -118,7 +120,7 @@
     0%{
 
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -129,7 +131,7 @@
        20%{
 
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -139,7 +141,7 @@
     40%{
 
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -150,7 +152,7 @@
        60%{
 
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -161,7 +163,7 @@
     80%{
 
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 1, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Price.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -170,7 +172,7 @@
 
     100%{
         background :  linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.629) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -195,6 +197,8 @@
     font-size: clamp(20px, 4.5vw, 80px);
     color: rgb(172, 202, 176);
     font-weight: 800;
+    color: rgb(19, 177, 50);
+
 }
 
 #page3 h6{
@@ -210,47 +214,19 @@
 #text-con{
     display: grid;
     /* grid-template-columns: 4fr 1.2fr; */
-    grid-template-columns: 83% 10%;
+    grid-template-columns: 1fr;
     margin: auto;
-    width: 92%;
+    width: 100%;
 }   
 
 #all-text-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     gap: 30px;
 }
 
-#logo-container{
-    display: flex;
-    justify-self: center;
-    align-self: center;
 
-    background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
-    /* box-shadow: -1px -20px 30px -3px  rgba(100, 20, 120, 0.581); */
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    border-radius: 50%;
-
-
-    width: 300px;
-    height: 300px;
-}
-
-
-/* #logo-container img{
-    width: 100%;
-    filter: saturate(1.2);
-
-     box-shadow:   5px 5px 25px 5px  rgba(25, 243, 69, 0.319); 
-    background: transparent ;
-    border-radius: 50%;
-
-} */
 
 #small-text-container{
     width: 35%;
@@ -258,13 +234,11 @@
 
 #tech-software{
 
-    /* position: relative;
-    top: 120px; */
     display: flex;
     justify-content: center;
     align-self: center;
     margin: auto;
-    width: 92%;
+    width: 100%;
 
 
 
@@ -274,15 +248,15 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 
 #tech-software ul li a{
     padding: 5px 17px;
-    color: rgba(255, 255, 255, 0.719);
-    background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
-
+    color: rgba(229, 229, 229, 0.719);
+    background : linear-gradient( 90deg,  rgb(0, 0, 0) , rgb(0, 0, 0)) ;
+    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +282,7 @@
 
     
     background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment:scroll;
@@ -323,7 +297,7 @@
 
     display: grid;
     grid-template-rows: 3.4fr 0.6fr;
-    justify-content: center;
+    justify-content: right;
 
 }
 
@@ -332,7 +306,7 @@
     0%{
 
         background :  linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -343,7 +317,7 @@
        20%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -353,7 +327,7 @@
     40%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -364,7 +338,7 @@
        60%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -375,7 +349,7 @@
     80%{
 
         background :linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Price.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -384,7 +358,7 @@
 
     100%{
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -406,7 +380,7 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: start;
-    align-items: center;
+    align-items: right;
     gap: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -416,11 +390,11 @@
 
 #logo-container{
     /* display: flex;
-    justify-self: center;
-    align-self: center; */
+    justify-self: right;
+    align-self: right; */
 
     background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -435,7 +409,7 @@
 #all-text-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     
     gap: 40px;
 }
@@ -477,8 +451,8 @@
 
 
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: right;
+    align-self: right;
 
 
 }
@@ -497,8 +471,8 @@
     background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     gap: 3px;
     font-size: clamp(8px, 1vw, 11px);
 
@@ -527,7 +501,7 @@
 
     
     background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment:scroll;
@@ -542,7 +516,7 @@
 
     display: grid;
     grid-template-rows: 3.4fr 0.6fr;
-    justify-content: center;
+    justify-content: right;
 
 }
 
@@ -551,7 +525,7 @@
     0%{
 
         background :  linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.392), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -562,7 +536,7 @@
        20%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Green\ Hoodie.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -572,7 +546,7 @@
     40%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/my\ house\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -583,7 +557,7 @@
        60%{
 
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.837), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)) , url(/public/Prime\ glidigital\ 2.jpg) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -594,7 +568,7 @@
     80%{
 
         background :linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.397), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Price.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -603,7 +577,7 @@
 
     100%{
         background : linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.393), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/sky\ rome\ 3.png) ;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -625,7 +599,7 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: start;
-    align-items: center;
+    align-items: right;
     gap: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -635,11 +609,12 @@
 
 #logo-container{
     /* display: flex;
-    justify-self: center;
-    align-self: center; */
+    justify-self: right;
+    align-self: right; */
 
     background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
-    background-position: center;
+
+    background-position: right;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
@@ -654,7 +629,7 @@
 #all-text-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     
     gap: 40px;
 }
@@ -696,8 +671,8 @@
 
 
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: right;
+    align-self: right;
 
 
 }
@@ -716,8 +691,8 @@
     background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     gap: 3px;
     font-size: clamp(8px, 1vw, 11px);
 
