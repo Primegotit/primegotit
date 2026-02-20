@@ -58,7 +58,9 @@
     /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
     transition: all 0.5s ;
 
-
+    border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+    border-image-slice: 1;
 }
 
 .box:hover{
@@ -91,7 +93,6 @@
 
     /* width: 350px;
      height: 350px; */
-    border-radius: 18px 18px  0px 0px;
     display: flex;
     justify-self: center;
     /* background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg); */
@@ -368,9 +369,8 @@ a{
     height: 300px;
      */
 
-    width: 140px;
-    height: 140px;
-    border-radius: 18px 18px  0px 0px;
+    width: 190px;
+    height: 180px;
     display: flex;
     justify-self: center;
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
@@ -521,7 +521,6 @@ a{
 
     width: 140px;
     height: 140px;
-    border-radius: 18px 18px  0px 0px;
     display: flex;
     justify-self: center;
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
