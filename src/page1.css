@@ -235,35 +235,98 @@ div p{
 
 #view-work-btn{
 
-    color: rgb(220, 220, 220);
+    /* color: rgb(220, 220, 220);
     color: black;
     color: rgb(220, 220, 220);
-    margin-top: 65px ;
 
 
     font-weight: bolder;
-    text-decoration: none;
     background-color:rgb(13, 125, 60) ;
-    /* background-color:rgb(82, 82, 82) ; */
     background: linear-gradient(130deg  , rgb(4, 40, 11) ,rgb(19, 177, 50));
-    /* background : linear-gradient( 90deg, rgb(30, 3, 37) , rgba(65, 7, 81, 0.768) , rgb(16, 143, 41) ) ; */
+
+
+
+    font-size: clamp(16px, 1vw, 18px);
+  */
+
 
     margin-right: 15px;
     padding: 10px 27px;
     border-radius: 18px;
+    transition: all 0.3s; 
 
-    font-size: clamp(16px, 1vw, 18px);
-  display: inline-flex;
-  align-items: center;
-  transition: all 0.3s;
+
 }
 
-#view-work-btn:hover{
 
-    background: linear-gradient(130deg  , rgb(4, 40, 11) ,rgb(19, 177, 50));
+#about-logos-container{
+    margin-top: 65px ;
 
-  transform: scale(1.08);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+
+
 }
+
+#text-arrows{
+    color: rgb(116, 116, 116);
+    color: rgb(17, 192, 17);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    filter: brightness(110%);
+    filter: contrast(1.6);
+
+
+}
+
+#logos-line{
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+    background:linear-gradient(90deg, rgb(199, 199, 199), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(196, 196, 196));
+
+    filter: contrast(1.6);
+
+    height: 2px;
+    width:100%;
+
+    animation-name: shift-lines;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    transition: all 0.8s ease-in-out;
+    animation-play-state: paused;
+}
+
+@keyframes shift-line {
+    
+    0%{
+        background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    }
+
+    25%{
+        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    }
+
+    50%{
+        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(137, 17, 192));
+
+    }
+
+    75%{
+        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    }
+
+    100%{
+        background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    }
+}
+
 
 
 
@@ -392,12 +455,11 @@ div p{
     align-self: center;
     align-items: center;
 
-
 }
 
 #view-work-btn{
 
-    color: rgb(220, 220, 220);
+    /* color: rgb(220, 220, 220);
     color: black;
     color: rgb(220, 220, 220);
 
@@ -406,7 +468,7 @@ div p{
     font-weight: bolder;
     text-decoration: none;
     background-color:rgb(13, 125, 60) ;
-    /* background-color:rgb(82, 82, 82) ; */
+    background-color:rgb(82, 82, 82) ; 
     background: linear-gradient(130deg  , rgb(3, 48, 19) ,rgb(11, 148, 59));
 
     margin-right: 15px;
@@ -415,7 +477,41 @@ div p{
 
     font-size: clamp(14px, 1vw, 18px);
   display: inline-flex;
-  align-items: center;
+  align-items: center; */
+  
+}
+
+
+#about-logos-container{
+    margin-top: 65px ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    width: 80vw;
+
+}
+
+#text-arrows{
+    color: rgb(116, 116, 116);
+    color: rgb(17, 192, 17);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    filter: brightness(110%);
+    filter: contrast(1.6);
+
+
+}
+
+#logos-line{
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    filter: contrast(1.6);
+
+    height: 2px;
+    width:100%;
 }
 
 
@@ -562,7 +658,7 @@ div p{
   }
 
 #view-work-btn{
-
+/* 
     color: rgb(220, 220, 220);
     color: black;
     color: rgb(220, 220, 220);
@@ -572,7 +668,7 @@ div p{
     font-weight: bolder;
     text-decoration: none;
     background-color:rgb(13, 125, 60) ;
-    /* background-color:rgb(82, 82, 82) ; */
+    background-color:rgb(82, 82, 82) ; 
     background: linear-gradient(130deg  , rgb(3, 48, 19) ,rgb(11, 148, 59));
 
     margin-right: 15px;
@@ -581,8 +677,45 @@ div p{
 
     font-size: clamp(14px, 1vw, 18px);
   display: inline-flex;
-  align-items: center;
+  align-items: center; */
+
+  width: 80vw;
+  padding: 0px;
 }
+
+
+
+#about-logos-container{
+    margin-top: 65px ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+#text-arrows{
+    color: rgb(116, 116, 116);
+    color: rgb(17, 192, 17);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    filter: brightness(110%);
+    filter: contrast(1.6);
+
+
+}
+
+#logos-line{
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+
+    filter: contrast(1.6);
+
+    height: 2px;
+    width:100%;
+}
+
 
 
 }

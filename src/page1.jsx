@@ -50,7 +50,17 @@ function Page1() {
                                 </section>
 
                                 <section >
-                                    <a href="#" id='view-work-btn' >View my work <TiArrowRightThick style={{color: 'white', marginLeft: '10px', width: '35px', height: '35px'}}/></a>
+                                    {/* <a href="#" id='view-work-btn' >View my work <TiArrowRightThick style={{color: 'white', marginLeft: '10px', width: '35px', height: '35px'}}/></a> */}
+                                    <a href="#" id='view-work-btn' >  
+                                        <div id='about-logos-container'>
+                                            <img src="/primegotit grey scale logo.png" id='text-arrows' alt="" />
+                                            <div id='logos-line'></div>
+
+                                            <img src="/primegotit grey scale logo.png" id='text-arrows' alt="" />
+
+                                        </div>
+                                    </a>
+
                                 </section>
 
                             </section>

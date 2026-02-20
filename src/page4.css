@@ -198,7 +198,7 @@
 
 
 #skill-percent{
-    width: 80%;
+    width: 60%;
     height : 100%;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
@@ -212,13 +212,13 @@
 }
 
 .skill-box:nth-of-type(1) #skill-percent{
-    width: 90%;
+    width: 20%;
     height : 100%;
 }
 
 
 .skill-box:nth-of-type(2) #skill-percent{
-    width: 30%;
+    width: 90%;
     height : 100%;
 }
 
@@ -228,7 +228,7 @@
 }
 
 .skill-box:nth-of-type(4) #skill-percent{
-    width: 50%;
+    width: 82%;
     height : 100%;
 }
 
@@ -239,7 +239,7 @@
 }
 
 .skill-box:nth-of-type(6) #skill-percent{
-    width: 78%;
+    width: 38%;
     height : 100%;
 }
 
