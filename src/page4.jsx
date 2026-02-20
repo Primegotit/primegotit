@@ -61,29 +61,20 @@ function Page4() {
 
 
                         <div className='skill-box'>
-                            <h6     >Music Production</h6>
+                            <div id='skills-name'>
+                                <h6>Music Production</h6>
+                                <h5>Since 2021</h5>
+                            </div>
                             <div id='percentbox'>
                                 <div id='skill-percent'></div>
                             </div>
                         </div>
 
                         <div className='skill-box'>
-                            <h6     >Graphic Design</h6>
-                            <div id='percentbox'>
-                                <div id='skill-percent'></div>
+                            <div id='skills-name'>
+                                <h6>Graphic Design</h6>
+                                <h5>Since 2024</h5>
                             </div>
-                        </div>
-
-
-                        <div className='skill-box'>
-                            <h6>Programming</h6>
-                            <div id='percentbox'>
-                                <div id='skill-percent'></div>
-                            </div>
-                        </div>
-
-                        <div className='skill-box'>
-                            <h6>Web development</h6>
                             <div id='percentbox'>
                                 <div id='skill-percent'></div>
                             </div>
@@ -91,11 +82,52 @@ function Page4() {
 
 
                         <div className='skill-box'>
-                            <h6>Web development</h6>
+                            <div id='skills-name'>
+                                <h6>Programming</h6>
+                                <h5>Since 2023</h5>
+                            </div>
                             <div id='percentbox'>
                                 <div id='skill-percent'></div>
                             </div>
                         </div>
+
+                        <div className='skill-box'>
+                            <div id='skills-name'>
+                                <h6>Web development</h6>
+                                <h5>Since 2026</h5>
+                            </div>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
+
+
+                        <div className='skill-box'>
+                            <div id='skills-name'>
+                                <h6>Logo Design</h6>
+                                <h5>Since 2024</h5>
+                            </div>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
+
+                        
+                        <div className='skill-box'>
+                            <div id='skills-name'>
+                                <h6>Computer Science tutor</h6>
+                                <h5>Since 2023</h5>
+                            </div>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
+
+
+                        
+
+
+
 
                     </div>
                 </div>
