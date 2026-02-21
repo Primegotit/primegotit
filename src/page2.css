@@ -800,3 +800,47 @@ a{
 
 }
 }
+
+
+@keyframes box-anime {
+
+    0%{
+        opacity: 0;
+        transform: translateY(500px);
+
+    }
+
+    20%{
+        opacity: 0;
+        transform: translateY(0);
+        
+    }
+
+    40%{
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80%{
+        opacity: 0.8;
+        transform: translateY(0);
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    
+}
+
+.box{
+    animation-name: box-anime;
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-range: entry exit;
+}
