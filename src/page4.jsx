@@ -62,6 +62,7 @@ function Page4() {
                         </div>
                         
                     </div>
+                    
                     <div id='skills-percent-container'>
                         <div id='about2-logo-container'>
                             <div id='logo2-line'></div>
