@@ -436,3 +436,135 @@
 
 
 }
+
+
+
+/* MAKING SCROLL EFFECTS */
+
+
+/* @keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-800px);
+        scale: 0.1;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+        scale: 1;
+
+    }
+}
+ */
+
+
+@keyframes appear2{
+    0%{
+        opacity: 0;
+        scale: 0;
+        transform: translateX(500px);
+    }    
+    
+    40%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    80%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateX(500px);
+        scale: 0.1;
+
+
+    }
+}
+
+
+@keyframes appear3{
+    0%{
+        opacity: 0;
+        scale: 0;
+        transform: translateX(-500px);
+    } 
+    
+    20%{
+        opacity: 0.8;
+        transform: translateX(0px);
+        scale: 0.8;
+    }
+    
+    40%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    80%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateX(-500px);
+        scale: 0.1;
+
+
+    }
+}
+
+
+
+
+#about-me-box{
+
+    animation-name: appear3;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    animation-range: entry exit;
+
+
+
+}
+
+#skills-percent-container{
+    animation-name: appear2;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    /* animation-range: entry cover 40%; */
+    animation-range: entry exit;
+
+}
+
+#about-me-box #logo-line{
+        animation-name: appear2;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    /* animation-range: entry cover 40%; */
+    animation-delay: 2s;
+    animation-range: entry exit;
+}
+
+
