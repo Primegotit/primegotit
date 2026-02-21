@@ -516,7 +516,7 @@ a{
     padding: 5px;
     display: flex;
     justify-self: center;
-    gap: 20px;
+    gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -821,7 +821,7 @@ a{
     }
 
     20%{
-        opacity: 0.6;
+        opacity: 0.4;
         transform: translateY(0);
         
             border: 1px solid transparent;
@@ -847,7 +847,7 @@ a{
     border-image-slice: 1;
     }
     80%{
-        opacity: 0.6;
+        opacity: 0.4;
         transform: translateY(0);
 
             border: 1px solid transparent;
@@ -875,47 +875,3 @@ a{
 }
 
 
-@keyframes box-image-anime {
-
-    0%{
-        opacity: 0;
-        scale: 0;
-    }
-
-    20%{
-        opacity: 0.8;
-        scale: 0.4;
-        
-    }
-
-    40%{
-        opacity: 1;
-        scale: 1;
-        
-    }
-
-    60%{
-        opacity: 1;
-        scale: 1;
-    }
-    80%{
-        opacity: 0.8;
-        scale: 1;
-    }
-
-    100%{
-        opacity: 0;
-        scale: 0;
-    }
-    
-}
-
-
-.box-image{
-
-    animation-name: box-image-anime;
-    animation-timing-function: linear;
-    animation-timeline: view();
-    animation-range: entry exit;
-
-}
