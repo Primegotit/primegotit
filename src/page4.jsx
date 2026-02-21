@@ -13,7 +13,6 @@ function Page4() {
                      <h3>About me 
 
                     </h3>
-                    {/* <BsFillPersonLinesFill style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}}></BsFillPersonLinesFill> */}
 
                 </div>
 
@@ -62,7 +61,7 @@ function Page4() {
                         </div>
                         
                     </div>
-                    
+
                     <div id='skills-percent-container'>
                         <div id='about2-logo-container'>
                             <div id='logo2-line'></div>
