@@ -9,6 +9,13 @@
 
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
 
+
+      background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
@@ -48,7 +55,7 @@
     border-radius: 18px;
     padding: 20px;
 
-    background: linear-gradient(180deg , #000000 ,  #000000, rgb(9, 20, 11));
+    background: linear-gradient(180deg , #00000000 ,  #00000000, rgb(9, 20, 11));
     padding-bottom: 20px;
     cursor: pointer;
 
@@ -808,32 +815,53 @@ a{
         opacity: 0;
         transform: translateY(500px);
 
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
+    border-image-slice: 1;
     }
 
     20%{
-        opacity: 0.8;
+        opacity: 0.6;
         transform: translateY(0);
         
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.501) , transparent , transparent);
+    border-image-slice: 1;
     }
 
     40%{
         opacity: 1;
         transform: translateY(0);
         
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+    border-image-slice: 1;
     }
 
     60%{
         opacity: 1;
         transform: translateY(0);
+
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+    border-image-slice: 1;
     }
     80%{
-        opacity: 0.8;
+        opacity: 0.6;
         transform: translateY(0);
+
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.284) , transparent , transparent);
+    border-image-slice: 1;
     }
 
     100%{
         opacity: 0;
         transform: translateY(-500px);
+
+            border: 1px solid transparent;
+    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
+    border-image-slice: 1;
     }
     
 }

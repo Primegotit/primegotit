@@ -1,10 +1,14 @@
 #page1{
     min-height: 100vh;
     width: 100%;
-    background :     linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
 
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
-    
+    background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-rows: max-content;
 
@@ -278,54 +282,23 @@ div p{
     border-radius: 50%;
     filter: brightness(110%);
     filter: contrast(1.6);
-
+ display: none;
 
 }
 
 #logos-line{
-    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
-    background:linear-gradient(90deg, rgb(199, 199, 199), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(196, 196, 196));
-
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(5, 36, 14), rgb(5, 36, 14)  , rgb(17, 192, 17));
+    /* background:linear-gradient(90deg, rgb(199, 199, 199), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(196, 196, 196)); */
+    background-size: 400% 400%;
     filter: contrast(1.6);
 
-    height: 2px;
+    height: 1px;
     width:100%;
+    display: none;
 
-    animation-name: shift-lines;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction:normal;
-    transition: all 0.8s ease-in-out;
-    animation-play-state: paused;
 }
 
-@keyframes shift-line {
-    
-    0%{
-        background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
 
-    }
-
-    25%{
-        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
-
-    }
-
-    50%{
-        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(137, 17, 192));
-
-    }
-
-    75%{
-        background:linear-gradient(90deg, rgb(137, 17, 192), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
-
-    }
-
-    100%{
-        background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
-
-    }
-}
 
 
 
@@ -696,6 +669,10 @@ div p{
 
 
 
+
+
+
+
 }
 
 @keyframes  image-anime {
@@ -759,6 +736,13 @@ div p{
 
 
 
+#about-logos-container{
+    animation-name: all-text-anime;
+    animation-range: exit 0;
+    /* animation-duration: 2s; */
+    animation-timeline: view();
+    animation-timing-function:linear;
+}
 
 
 @keyframes  skills-anime {
@@ -809,6 +793,47 @@ div p{
     animation-duration: 1s;
     /* animation-timeline: view(); */
     animation-timing-function:linear;
+    transition: all 0.5s;
+}
+
+@keyframes move-around {
+    0%{
+        background-position: 0% 50%;
+    }
+
+
+    25%{
+        background-position: 50% 50%;
+
+    }
+
+    50%{
+        background-position: 100% 50%;
+
+
+    }
+
+    75%{
+        background-position: 50% 50%;
+
+    }
+
+    100%{
+        background-position: 0% 50%;
+
+
+
+    }
+}
+
+
+#logos-line{
+
+    animation-name:move-arounda ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
 
 }
 

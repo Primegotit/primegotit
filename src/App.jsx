@@ -13,7 +13,7 @@ function App() {
       <Page1/>  
       <Page4/>
       <Page2/>
-      <Page3/>
+      {/* <Page3/> */}
 
       {/* <LastPage/> */}
 
