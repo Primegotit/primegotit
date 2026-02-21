@@ -698,7 +698,117 @@ div p{
 
 }
 
+@keyframes  image-anime {
+    from{
+        scale: 1;
+        opacity: 1;
+    }
+
+    to{
+        scale: 0.7;
+        opacity: 0.4;
+
+    }
+    
+}
+
+
+#me{
+    animation-name: image-anime;
+    animation-range: exit 10%;
+    /* animation-duration: 2s; */
+    animation-timeline: view();
+    animation-timing-function:ease-out;
+
+}
+
+
+@keyframes  all-text-anime {
+    from{
+        scale: 1;
+        opacity: 1;
+    }
+
+    to{
+        scale: 0.7;
+        opacity: 0.4;
+
+    }
+    
+}
+
+
+#content-box h1, h2 {
+    animation-name: all-text-anime;
+    animation-range: exit 0;
+    /* animation-duration: 2s; */
+    animation-timeline: view();
+    animation-timing-function:ease-out;
+
+}
+
+#skills-container{
+     animation-name: image-anime;
+    animation-range: exit 0;
+    /* animation-duration: 2s; */
+    animation-timeline: view();
+    animation-timing-function:ease-out;
+
+
+}
 
 
 
+
+
+@keyframes  skills-anime {
+    from{
+        /* filter: blur(9px); */
+        transform: translateX(-200px);
+    }
+
+    to{
+        /* filter: blur(0px); */
+        transform: translateX(0);
+
+    }
+    
+}
+
+.skills{
+
+        animation-name: skills-anime;
+    /* animation-range: entry exit; */
+    animation-duration: 0.5s;
+    /* animation-timeline: view(); */
+    animation-timing-function:linear;
+
+}
+
+
+
+
+@keyframes  paragraph-anime {
+    from{
+        /* filter: blur(9px); */
+        scale: 0;
+    }
+
+    to{
+        /* filter: blur(0px); */
+        scale: 1;
+
+    }
+    
+}
+
+#content-box p{
+
+    animation-name: paragraph-anime;
+    /* animation-range: entry exit; */
+    animation-duration: 1s;
+    /* animation-timeline: view(); */
+    animation-timing-function:linear;
+
+}
 
