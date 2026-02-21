@@ -123,8 +123,8 @@ function Page4() {
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Logo Design</h6>
-                                <h5>Since 2024</h5>
+                                <h6>Animation</h6>
+                                <h5>Since 2025</h5>
                             </div>
                             <div id='percentbox'>
                                 <div id='skill-percent'></div>
@@ -134,7 +134,7 @@ function Page4() {
                         
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Computer Science tutor</h6>
+                                <h6>Computer Science Tutor</h6>
                                 <h5>Since 2023</h5>
                             </div>
                             <div id='percentbox'>
@@ -143,10 +143,15 @@ function Page4() {
                         </div>
 
 
-                        
-
-
-
+                        <div className='skill-box'>
+                            <div id='skills-name'>
+                                <h6>3D Modelling</h6>
+                                <h5>Since 2026</h5>
+                            </div>
+                            <div id='percentbox'>
+                                <div id='skill-percent'></div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

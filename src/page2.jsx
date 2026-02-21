@@ -8,15 +8,14 @@ function Page2() {
     return(
         <>
             <div id='page2'>
-                <h1 id='intro-heading'>My Skills  </h1>
+                <h1 id='intro-heading'>Technical Skills  </h1>
                 <div id='page2-container'>
                     <div id='box-container'>
 
                         <div className='box' >
                             <div className='box-image' ></div>
                             <h3>Graphic Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <p>A creative approach to using visuals, typography and color to communicate ideas and engage viewers.
                                  </p>
                             {/* <a href="#">Explore</a> */}
 
@@ -31,8 +30,7 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <p>Building interactive and user-friendly websites that blend functionality with design.
                                  </p>
                             {/* <a href="#">Explore</a> */}
 
@@ -52,8 +50,7 @@ function Page2() {
 
                             </div>
                             <h3>Music Production</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <p>Crafting and shaping sounds into polished, expressive tracks that resonate.
                                   </p>
                             {/* <a href="#">Explore</a> */}
 
@@ -69,8 +66,7 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>Animation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <p>Bringing ideas to life through motion, storytelling and dynamic visuals.
                                   </p>
 
                             <section className='technologies'>
@@ -83,9 +79,8 @@ function Page2() {
 
                         <div className='box'>
                             <div className='box-image' ></div>
-                            <h3>Video editing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <h3>Programming</h3>
+                            <p>Creating software, applications and systems by writing code that transforms ideas into functional digital solutions.
                                   </p>
 
                             <section className='technologies'>
@@ -99,13 +94,12 @@ function Page2() {
                         
                         <div className='box'>
                             <div className='box-image' ></div>
-                            <h3>Computer Science</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adiasdfpisicinasdfg elit. Aut voluptatibus, 
-                                ipsum distinctio dolor, ad amet quia vsdafsdero
+                            <h3>3D Modelling</h3>
+                            <p>Designing detailed digital assets that combine creativity with technical precision for interactive media.
                                  </p>
 
                             <section className='technologies'>
-                                <h5>Moho</h5>
+                                <h5>Adobe AE</h5>
                                 <h5>Blender</h5>
                                 <h5>Premiere Pro</h5>
 
