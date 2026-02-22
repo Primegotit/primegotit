@@ -44,8 +44,7 @@
     padding: 20px 20px;
 
 
-    /* background: rgb(15, 15, 15); */
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
     /* border: 6px solid rgb(12, 12, 12); */
     border: 1px solid transparent;
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
@@ -54,7 +53,7 @@
 
     height: 100%;
 
-
+    background: transparent;
 }
 
 
@@ -189,19 +188,21 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
 
     /* box-shadow:   2px -15px 25px 5px  rgba(22, 91, 10, 0.179);  */
 
     min-height: 100%;
     overflow-y:auto;
 
+    background: transparent;
 
 
 }
 
 #skills-percent-container h3{
-    background :  rgb(0, 0, 0) ;
+    background: transparent;
+
     border-radius: 13px;
     padding: 7px 20px;
     color: rgb(204, 204, 204);
@@ -389,8 +390,9 @@
 
     /* background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 18, 18)); */
 
-    background: rgb(15, 15, 15);
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+    /* background: rgb(15, 15, 15); */
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
+    background: transparent;
 
     height: min-content;
 
@@ -413,11 +415,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
-    background: rgb(2, 2, 2);
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
+    /* background: rgb(2, 2, 2); */
 
     min-height: auto;
     overflow-y:auto;
+    background: transparent;
 
 }
 
@@ -497,7 +500,7 @@
     padding: 20px 20px;
 
     width: 90%;
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
 
     justify-self: center;
 
@@ -505,6 +508,8 @@
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
+    background: transparent;
+    
 
 }
 
@@ -546,11 +551,14 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent );
-    background: rgb(2, 2, 2);
+    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
+    /* background: rgb(2, 2, 2); */
     width: 90%;
     justify-self: center;
     min-height: auto;
+
+    background: transparent;
+
 
 }
 

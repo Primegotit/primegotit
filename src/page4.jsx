@@ -26,7 +26,7 @@ function Page4() {
 
                         <div id='me-text-container'>
                             <div id='me-text'>
-                                <p><b>Hello</b>, my name is <b>Promise Siafwiyo</b> also known as <b>Prime</b> and I go by the music 
+                                <p><b>Hie</b>, my name is <b>Promise Siafwiyo</b> also known as <b>Prime</b> and I go by the music 
                             producer tag "<i><b>PrimeGotit</b></i>". I am a multidisciplinary digital creator, something of a jack all trades and perhaps a master of one or two.
 
                         </p>
@@ -34,8 +34,8 @@ function Page4() {
                             I am currently pursuing a <b>Bachelor's Degree in Computer Science</b> at the <b>National University of Science and Technology in Zimbabwe.</b>
                             I have always had a passion for computers and technology and that interest has continued to grow over the years.
                             I'm also a junior developer and animator at <b><a href="www.rodneytech.co.zw">Rodneytech,inc</a></b>, a technology company where i contribute 
-                            to both development and creative projects like animation and etc.
-                            Since 2024, I have also been a private <b>computer acience tutor</b>, mentoring students in programming fundamentals, networking, algorithms and 
+                            to both development and creative projects like web development, animation and etc.
+                            Since 2024, I have also been a private <b>computer science tutor</b>, mentoring students in programming fundamentals, networking, algorithms and 
                             data structures, operating system fundamentals and other related modules. Through tutoring
                             this experience has strengthened my communication skills, deepened my mastery of core principles and greatly improved my confidence.
 
