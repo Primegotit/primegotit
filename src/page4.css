@@ -113,7 +113,7 @@
 
 .skills-logos{
     /* color: rgb(116, 116, 116); */
-    color:green;
+    color:rgb(17, 192, 17);
     width: 25px;
     height: 25px;
     display: flex;
@@ -289,8 +289,7 @@
 
 
     background-color: rgb(20, 149, 59);
-    background : linear-gradient( 90deg,  rgb(20, 149, 65) , rgb(123, 16, 173)) ;
-    background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(42, 192, 31)) ;
+    background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(17, 192, 17)) ;
 
 
 }

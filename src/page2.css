@@ -50,7 +50,7 @@
 }
 
 .box{
-    max-width: 320px;
+    max-width: 350px;
     /* border: 5px solid rgb(2, 22, 3); */
     border-radius: 18px;
     padding: 20px;
@@ -200,7 +200,7 @@
 
 .skills-logos2{
     /* color: rgb(116, 116, 116); */
-    color:green;
+    color:rgb(17, 192, 17);
     width: 35px;
     height: 35px;
     display: flex;
@@ -307,7 +307,7 @@
     justify-content: center;
     /* border-radius: 10px; */
     width: 85%;
-    border-bottom: 1px solid rgb(16, 172, 57);
+    border-bottom: 1px solid rgb(17, 192, 17);
 
     box-shadow: 0 10px 17px -10px  rgba(25, 243, 69, 0.533);
     /* box-shadow: 0px -10px 19px -7px  rgba(224, 224, 224, 0.533); */
@@ -831,7 +831,7 @@ a{
         opacity: 0;
         transform: translateY(500px);
 
-            border: 1px solid transparent;
+            border: 4px solid transparent;
     border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
     border-image-slice: 1;
     }
@@ -840,7 +840,7 @@ a{
         opacity: 0.4;
         transform: translateY(0);
         
-            border: 1px solid transparent;
+            border: 4px solid transparent;
     border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.501) , transparent , transparent);
     border-image-slice: 1;
     }
@@ -849,8 +849,8 @@ a{
         opacity: 1;
         transform: translateY(0);
         
-            border: 1px solid transparent;
-    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+            border: 4px solid transparent;
+    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
     border-image-slice: 1;
     }
 
@@ -858,15 +858,15 @@ a{
         opacity: 1;
         transform: translateY(0);
 
-            border: 1px solid transparent;
-    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+            border: 4px solid transparent;
+    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
     border-image-slice: 1;
     }
     80%{
         opacity: 0.4;
         transform: translateY(0);
 
-            border: 1px solid transparent;
+            border: 4px solid transparent;
     border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.284) , transparent , transparent);
     border-image-slice: 1;
     }
@@ -875,7 +875,7 @@ a{
         opacity: 0;
         transform: translateY(-500px);
 
-            border: 1px solid transparent;
+            border: 4px solid transparent;
     border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
     border-image-slice: 1;
     }
