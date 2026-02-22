@@ -205,8 +205,6 @@
     /* box-shadow:   2px -15px 25px 5px  rgba(22, 91, 10, 0.179);  */
 
     min-height: 100%;
-    overflow-y:auto;
-
     background: transparent;
 
 
@@ -431,7 +429,7 @@
     /* background: rgb(2, 2, 2); */
 
     min-height: auto;
-    overflow-y:auto;
+    margin-bottom: 40px;
     background: transparent;
 
 }
@@ -568,6 +566,7 @@
     width: 90%;
     justify-self: center;
     min-height: auto;
+    margin-bottom: 40px;
 
     background: transparent;
 
