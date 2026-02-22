@@ -35,7 +35,7 @@
 #about-me-container{
     display: grid;
     grid-template-columns: 4fr 2fr;
-    column-gap: 20px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
@@ -59,9 +59,10 @@
 
 
 #about-me-box p{
-    /* background: linear-gradient(rgb(13, 13, 13),rgb(13, 13, 13)); */
-    padding: 0px 20px;
+    padding: 20px 20px;
     border-radius: 20px;
+    background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
+
 
 
 }
@@ -85,11 +86,14 @@
 
 }
 #logo-line{
-    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57));
+    background:linear-gradient(90deg, rgb(17, 192, 17), rgba(0, 0, 0, 0));
     filter: contrast(1.6);
 
-    height: 2px;
+    height: 8px;
     width:100%;
+    border-radius: 20px;
+
+
 }
 
 #skills-percent-container  #about-logo-container{
@@ -131,12 +135,16 @@
 
 }
 #logo2-line{
-    background:linear-gradient(-90deg, rgb(17, 192, 17), rgb(57, 57, 57));
+    background:linear-gradient(-90deg, rgb(17, 192, 17), rgba(0, 0, 0, 0));
 
     filter: contrast(1.6);
 
     height: 2px;
     width:100%;
+    height: 8px;
+
+
+
 }
 
 #skills-percent-container  #about2-logo-container{
@@ -252,7 +260,7 @@
     width: 100%;
     height : 5px;
     border-radius: 8px;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(175, 173, 173);
     display: flex;
     justify-content: start;
     align-items: end;
@@ -271,7 +279,7 @@
 
     background-color: rgb(20, 149, 59);
     background : linear-gradient( 90deg,  rgb(20, 149, 65) , rgb(123, 16, 173)) ;
-    background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(26, 173, 16)) ;
+    background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(42, 192, 31)) ;
 
 
 }
@@ -316,6 +324,7 @@
 #me-text-container{
     display: grid;
     grid-template-columns: 97% 3%;
+    gap: 20px;
 
 }
 
@@ -335,19 +344,17 @@
 #me-text-line{
 
     height: 100%;
-    width: 2px;
-    
-    border: 1px solid transparent;
-    border-image: linear-gradient(to top ,rgb(68, 222, 25) , transparent);
-    border-image-slice: 1;
-    border-radius: 20px;
+    width: 8px;
 
+    border-radius: 20px;
     background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(17, 192, 17));
     animation-name: me-line;
     animation-timeline: view();
     animation-timing-function: linear;
     /* animation-range: entry cover 40%; */
     animation-range: entry exit;
+    /* background:linear-gradient(90deg, rgb(199, 199, 199), rgb(57, 57, 57)); */
+
 }
 
 

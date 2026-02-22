@@ -27,10 +27,9 @@ function Page4() {
                         <div id='me-text-container'>
                             <div id='me-text'>
                                 <p><b>Hello</b>, my name is <b>Promise Siafwiyo</b> also known as <b>Prime</b> and I go by the music 
-                        producer tag "<i><b>PrimeGotit</b></i>". I am a multidisciplinary digital creator, something of a jack all trades and perhaps a master of one or two.
+                            producer tag "<i><b>PrimeGotit</b></i>". I am a multidisciplinary digital creator, something of a jack all trades and perhaps a master of one or two.
 
                         </p>
-                            {/* <CgArrowsExchangeAltV  id='text-arrow'></CgArrowsExchangeAltV> */}
                         <p>
                             I am currently pursuing a <b>Bachelor's Degree in Computer Science</b> at the <b>National University of Science and Technology in Zimbabwe.</b>
                             I have always had a passion for computers and technology and that interest has continued to grow over the years.
@@ -41,7 +40,6 @@ function Page4() {
                             this experience has strengthened my communication skills, deepened my mastery of core principles and greatly improved my confidence.
 
                         </p>    
-                            {/* <CgArrowsExchangeAltV  id='text-arrow'></CgArrowsExchangeAltV> */}
 
                         <p>My journey into the digital field began with music production, where I first explored creativity
                             through sound design and composition. Over time, that creative curiosity expanded into programming during high school while I was 
@@ -55,7 +53,7 @@ function Page4() {
                         for taking the time to explore my work and I hope you enjoy the experience.
                          </p>
 
-                            </div>
+                        </div>
                             <div id='me-text-line'>
                             </div>
                         </div>

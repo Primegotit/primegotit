@@ -558,6 +558,7 @@ a{
         
         /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
         transition: all 0.5s ;
+        background: linear-gradient(180deg , #00000000 ,  #0000003d, rgb(17, 17, 17));
 
 
 }
@@ -570,7 +571,8 @@ a{
     margin: auto;
     margin-bottom: 5px;
     /* display: none; */
-    font-size: clamp(13px, 1vw, 15px);
+    font-size: clamp(14px, 1vw, 15px);
+    font-weight: 400;
 
 
     
@@ -628,7 +630,7 @@ a{
     color: rgb(145, 194, 142);
 
     border: 1px solid rgb(15, 111, 34);
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
