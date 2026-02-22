@@ -1,7 +1,13 @@
 import './page2.css'
 import { useEffect } from 'react';
 
-
+import { PiMusicNoteFill } from 'react-icons/pi';
+import { SiTaichigraphics } from 'react-icons/si';
+import { FaCode } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
+import { TbKeyframesFilled } from 'react-icons/tb';
+import { IoPeopleSharp } from 'react-icons/io5';
+import { TbRotate3D } from 'react-icons/tb';
 
 function Page2() {
 
@@ -15,6 +21,8 @@ function Page2() {
                         <div className='box' >
                             <div className='box-image' ></div>
                             <h3>Graphic Design</h3>
+                             <SiTaichigraphics className='skills-logos2'></SiTaichigraphics>
+
                             <p>A creative approach to using visuals, typography and color to communicate ideas and engage viewers.
                                  </p>
                             {/* <a href="#">Explore</a> */}
@@ -30,6 +38,8 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>Web Development</h3>
+                            <FaGlobe className='skills-logos2'></FaGlobe>
+
                             <p>Building interactive and user-friendly websites that blend functionality with design.
                                  </p>
                             {/* <a href="#">Explore</a> */}
@@ -49,10 +59,12 @@ function Page2() {
                                 <div id='role-container'><h5>Favorite role 💜</h5></div>
 
                             </div>
-                            <h3>Music Production</h3>
+
+                            <h3>Music Production </h3>
+                            <PiMusicNoteFill className='skills-logos2' ></PiMusicNoteFill>
+                            
                             <p>Crafting and shaping sounds into polished, expressive tracks that resonate.
                                   </p>
-                            {/* <a href="#">Explore</a> */}
 
                             <section className='technologies'>
                                 <h5>FL Studio</h5>
@@ -66,6 +78,8 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>Animation</h3>
+                            <TbKeyframesFilled className='skills-logos2'></TbKeyframesFilled>
+
                             <p>Bringing ideas to life through motion, storytelling and dynamic visuals.
                                   </p>
 
@@ -80,6 +94,8 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>Programming</h3>
+                            <FaCode className='skills-logos2'></FaCode>
+
                             <p>Creating software, applications and systems by writing code that transforms ideas into functional digital solutions.
                                   </p>
 
@@ -95,6 +111,8 @@ function Page2() {
                         <div className='box'>
                             <div className='box-image' ></div>
                             <h3>3D Modelling</h3>
+                            <TbRotate3D className='skills-logos2'></TbRotate3D>                                    
+
                             <p>Designing detailed digital assets that combine creativity with technical precision for interactive media.
                                  </p>
 

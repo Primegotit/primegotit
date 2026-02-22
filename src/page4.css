@@ -106,9 +106,21 @@
 #skills-percent-container  #about-logo-container #logo-line{
     background:linear-gradient(-90deg, rgb(17, 192, 17), rgb(57, 57, 57));
     filter: contrast(1.6);
-    
+
     height: 2px;
     width: 100%;
+}
+
+.skills-logos{
+    /* color: rgb(116, 116, 116); */
+    color:green;
+    width: 25px;
+    height: 25px;
+    display: flex;
+
+    margin-bottom: 2px;
+    /* background: rgb(0, 0, 0) ; */
+    border-radius: 50%;
 }
 
 
@@ -179,7 +191,7 @@
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
-    
+
 
     padding: 20px 20px;
 
@@ -227,7 +239,7 @@
     padding: 20px;
     /* background-color: rgb(14, 14, 14); */
     background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
-
+    
 }
 #skills-name{
     display: flex;
@@ -251,10 +263,10 @@
     font-weight: 400;
     /* font-size: clamp(14px, 1vw, 90px); */
     font-size: clamp(10px, 1vw, 15px);
-
-
-
-
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items:  center;
 }
 
 #percentbox{
@@ -338,7 +350,7 @@
         height: 100%;
 
     }
-    
+
 }
 
 
@@ -409,7 +421,7 @@
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
-    
+
 
 
     display: flex;
@@ -509,7 +521,7 @@
     border-image-slice: 1;
     border-radius: 20px;
     background: transparent;
-    
+
 
 }
 
@@ -546,7 +558,7 @@
     border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
-    
+
 
     display: flex;
     flex-direction: column;
@@ -594,8 +606,8 @@
         opacity: 0;
         scale: 0;
         transform: translateX(200px);
-    }    
-    
+    }
+
     40%{
         opacity: 1;
         transform: translateX(0px);
@@ -629,14 +641,14 @@
         opacity: 0;
         scale: 0;
         transform: translateX(-500px);
-    } 
-    
+    }
+
     20%{
         opacity: 0.8;
         transform: translateX(0px);
         scale: 0.8;
     }
-    
+
     40%{
         opacity: 1;
         transform: translateX(0px);

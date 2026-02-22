@@ -3,7 +3,13 @@ import { TiArrowRightThick } from "react-icons/ti";
 import { SiLevelsdotfyi } from 'react-icons/si';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { CgArrowsExchangeAltV } from 'react-icons/cg';
-
+import { PiMusicNoteFill } from 'react-icons/pi';
+import { SiTaichigraphics } from 'react-icons/si';
+import { FaCode } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
+import { TbKeyframesFilled } from 'react-icons/tb';
+import { IoPeopleSharp } from 'react-icons/io5';
+import { TbRotate3D } from 'react-icons/tb';
 function Page4() {
 
     return (
@@ -73,18 +79,25 @@ function Page4() {
 
 
                         <div className='skill-box'>
+
                             <div id='skills-name'>
-                                <h6>Music Production</h6>
+                                <h6> <PiMusicNoteFill className='skills-logos' ></PiMusicNoteFill> Music Production </h6>
+
                                 <h5>Since 2021</h5>
                             </div>
+
                             <div id='percentbox'>
                                 <div id='skill-percent'></div>
                             </div>
+                            
                         </div>
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Graphic Design</h6>
+                                <h6>
+                             <SiTaichigraphics className='skills-logos'></SiTaichigraphics>
+
+                                    Graphic Design</h6>
                                 <h5>Since 2024</h5>
                             </div>
                             <div id='percentbox'>
@@ -95,7 +108,9 @@ function Page4() {
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Programming</h6>
+                                <h6>
+                                    <FaCode className='skills-logos'></FaCode>
+                                    Programming</h6>
                                 <h5>Since 2023</h5>
                             </div>
                             <div id='percentbox'>
@@ -105,7 +120,10 @@ function Page4() {
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Web development</h6>
+                                <h6>
+                                    <FaGlobe className='skills-logos'></FaGlobe>
+                                    
+                                    Web development</h6>
                                 <h5>Since 2026</h5>
                             </div>
                             <div id='percentbox'>
@@ -116,7 +134,9 @@ function Page4() {
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Animation</h6>
+                                <h6>
+                                    <TbKeyframesFilled className='skills-logos'></TbKeyframesFilled>
+                                    Animation</h6>
                                 <h5>Since 2025</h5>
                             </div>
                             <div id='percentbox'>
@@ -127,7 +147,9 @@ function Page4() {
                         
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>Computer Science Tutor</h6>
+                                <h6>
+                                    <IoPeopleSharp className='skills-logos'></IoPeopleSharp>
+                                    Computer Science Tutor</h6>
                                 <h5>Since 2023</h5>
                             </div>
                             <div id='percentbox'>
@@ -138,7 +160,9 @@ function Page4() {
 
                         <div className='skill-box'>
                             <div id='skills-name'>
-                                <h6>3D Modelling</h6>
+                                <h6>
+                                    <TbRotate3D className='skills-logos'></TbRotate3D>                                    
+                                    3D Modelling</h6>
                                 <h5>Since 2026</h5>
                             </div>
                             <div id='percentbox'>
