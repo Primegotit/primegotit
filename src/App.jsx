@@ -4,7 +4,7 @@ import Page1 from './page1.jsx'
 import Page2 from './page2.jsx'
 import Page3 from './page3.jsx'
 import Page4 from './page4.jsx'
-import LastPage from './lastPage.jsx'
+import Page5 from './page5.jsx'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <Page2/>
       {/* <Page3/> */}
 
-      {/* <LastPage/> */}
+      <Page5/>
 
     </>
   )
