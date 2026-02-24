@@ -1,52 +1,77 @@
 import './page3.css'
-import { TiArrowRightThick } from "react-icons/ti";
+import { IoEnter } from 'react-icons/io5';
 
+function MyBox(){
+    return(
+        <>
+
+            <div id='web-box'>
+
+                <div id='web-image-container'>
+                    <div id='web-image-src-text'>
+
+                    </div>
+
+                    <div id='web-image-tech-stack'>
+                        <ul>
+                            <li>Visual Studio</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Vite</li>
+                            <li>React</li>
+
+                        </ul>
+                    </div>
+
+            
+                </div>
+
+                <div id='web-image-text'>
+                    <div id='heading-con1'>
+                        <h1>Kostic</h1>
+                        <div id='heading-line'></div>
+                        <h5>2024</h5>
+                    </div>
+                    <br />
+
+                    <h4>Built for business, designed for ease.</h4>
+                    <p>
+                        Kostic is a smart, simple POS system built to keep your business moving. 
+                        From sales to stock, it gives you tools you need without the clutter. Fast checkouts, easy tracking and everything you need in one clean POS system.
+                    </p>
+                    <div id='visit-container'>
+
+                        <div id='logo-with-line-con'>
+                            <img src="/primegotit logo green big 2.png" id='my-logo-small' />
+
+                        </div>
+
+                        <div id='visit-button-container'> 
+                            <a href="#" id='visit-button'>Visit <IoEnter id='visit-button-image'></IoEnter> </a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </>
+    )
+}
 
 function Page3(){
 
     return (
         <>
-            <div id='page3'> 
-                {/* <h1>Graphic design... 💀</h1> */}
-                <div id='text-con'>
-                    <div id='all-text-container'>
-                        <div id='big-text-container'>
-                            <h1>Are you ready?</h1>
-                            <h1>Graphic Design</h1>
+            <div id='page3'>
+                <h3>Web Development</h3>
 
-
-                            {/* <h6>💀</h6> */}
-
-                        </div>
-
-                        <div id='small-text-container'>
-                            <h4 style={{color:"#868686", fontSize:'30px', fontFamily:'math'}}>Creative without limits.</h4>
-                            <br />
-                            <h6>Come on and check out my designs. I let my art express myself. I wish to motivate you so join me on this journey. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione autem, sapiente vitae iste beatae </h6>
-                        </div>
-
-                
-                    </div>
-
-      
-
+                <div>
+                    
                 </div>
-                
-{/*                 
-                <div id='tech-software'>
-                    <ul>
-                        <li><a href="#">Adobe Photoshop  <TiArrowRightThick/> </a></li>
-                        <li><a href="#">Blender <TiArrowRightThick/></a></li>
-                        <li><a href="#">Adobe Lightroom <TiArrowRightThick/></a></li>
-                        <li><a href="#">Adobe Illustrator <TiArrowRightThick/></a></li>
-                        <li><a href="#">Pinterest <TiArrowRightThick/></a></li>
-                        <li><a href="#">Moho <TiArrowRightThick/></a></li>
-                        <li><a href="#">PicsArt <TiArrowRightThick/></a></li>
-                        <li><a href="#">Adobe Animator <TiArrowRightThick/></a></li>
-                        <li><a href="#">Dark Aesthetic <TiArrowRightThick/></a></li>
-
-                    </ul>
-                </div> */}
+                <MyBox></MyBox>   
 
 
 

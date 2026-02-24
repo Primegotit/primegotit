@@ -1,564 +1,168 @@
 #page3{
     min-height: 100vh;
     width: 100%;
-    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
-
-    background-color: black;
-
-    background :   linear-gradient( 90deg, rgb(4, 23, 9) ,black ,black, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799)), url(/public/Untitled-1809809.png) ;
-    background-position:right;
+    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
+    background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:auto;
-    background-attachment:scroll;
-    padding: 0px 40px;
-    
-    animation-name: change-pic;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-
-    row-gap: 0px;
 }
 
 
-@keyframes change-pic {
-    0%{
+/* BOX CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-        background :   linear-gradient(  rgba(0, 0, 0, 0.84), black), url(/public/Price.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    } 
-    
-    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
-       20%{
-
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/sky\ rome\ 3.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-    
-    40%{
-
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1234567.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    80%{
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1809809.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    100%{
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/Green\ Hoodie.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    }
-
-
-}
-
-@media (min-height:1000px ) {
-
-
-    #page3{
-    min-height: 100vh;
-    width: 100%;
-    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
-
-    background-color: black;
-
-    
-    background :   linear-gradient( 90deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.192) , rgba(0, 0, 0, 0.799),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-attachment:scroll;
-    padding: 0px 20px;
-    gap: 30px;
-    
-    animation-name: change-pic;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    /* animation-play-state: paused; */
-
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-
-    row-gap: 0px;
-}
-
-
-
-@keyframes change-pic {
-    0%{
-
-        background :   linear-gradient(  rgba(0, 0, 0, 0.84), black), url(/public/Price.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    } 
-    
-    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
-       20%{
-
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/sky\ rome\ 3.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-    
-    40%{
-
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1234567.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    80%{
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1809809.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    100%{
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/Green\ Hoodie.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    }
-
-
-}
-
-
-
-
-}
-
-#big-text-container{
+#web-box{
     background: transparent;
-
-}
-
-
-#page3 h1{
-    color:rgb(213, 213, 213);
-    font-size: clamp(20px, 4.5vw, 80px);
-    color: rgb(190, 190, 190);
-    font-weight: 800;
-
-}
-
-#page3 h6{
-    color: rgb(198, 198, 198);
-    font-size: clamp(17px, 2vw, 18px);
-    font-size: clamp(15px, 4vw, 15px);
-
-    font-weight: 200;
-    display: grid;
-
-
-}
-#text-con{
-    display: grid;
-    /* grid-template-columns: 4fr 1.2fr; */
-    grid-template-columns: 1fr;
+    max-width: 800px;
     margin: auto;
-    width: 100%;
-}   
 
-#all-text-container{
+        /* border: 6px solid rgb(12, 12, 12); */
+    border: 4px solid transparent;
+    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
+    border-image-slice: 1;
+    box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
+
+}
+
+#web-image-container{
+    background : linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(/public/kosticpic.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 369px;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    gap: 30px;
+    justify-content: space-between;
+    padding: 10px 30px;
 }
 
+#web-image-tech-stack{
 
+    
 
-#small-text-container{
-    width: 35%;
 }
 
-#tech-software{
-
+#web-image-tech-stack ul{
     display: flex;
-    justify-content: center;
-    align-self: center;
-    margin: auto;
-    width: 100%;
-
-
-
-}
-#tech-software ul{
-    text-decoration: none;
+    flex-direction: row;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+#web-image-tech-stack ul li{
+    color: rgb(140, 195, 136);
+    background: transparent;
+    border: 1px solid rgb(7, 191, 7);
+    border-radius: 18px;
+    padding: 2px 15px;
+    font-size: 11px;
 }
 
 
-#tech-software ul li a{
-    padding: 5px 17px;
-    color: rgba(229, 229, 229, 0.719);
-    background : linear-gradient( 90deg,  rgb(0, 0, 0) , rgb(0, 0, 0)) ;
-    border: 1px solid green;
+
+#web-image-src-text{
+
+
+}
+
+
+#web-image-text{
+    padding: 0px 60px;
+    padding-bottom: 20px;
+
+}
+
+
+#web-image-text #heading-con1{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 6px;
-    font-size: clamp(10px, 1vw, 13px);
+    color: rgb(201, 201, 201);
 
-    border-radius: 20px;
+}
+
+#web-image-text #heading-con1 h1{
+    color: rgb(201, 201, 201);
+
+
+}
+
+#heading-line{
+       background:linear-gradient(-90deg,  rgba(0, 0, 0, 0) ,  rgb(17, 192, 17), rgba(0, 0, 0, 0));
+
+    filter: contrast(1.6);
+
+    width:100%;
+    height: 2px;
+}
+
+#web-image-text  h4{
+    color: rgb(201, 201, 201);
+
+}
+
+#web-image-text h5{
+    color: rgb(201, 201, 201);
+    
+    font-size: 18px;
+
+}
+
+#web-image-text p {
+    /* background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15)); */
+}
+
+
+#logo-with-line-con{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#my-logo-small{
+
+
+    width: 35px;
+    height: 35px;
+    /* border-radius: 50%;x` */
+    filter: brightness(110%);
+    filter: contrast(1.6);
 }
 
 
 
 
-@media (max-width: 1024px) {
+#visit-container{
+    display: flex;
+    align-items: center;
+}
 
 
-    
-    #page3{
-    min-height: 100vh;
-    width: 100%;
-    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
+#visit-button-container{
+}
 
-    background-color: black;
+#visit-button-image{
+    color: white;
+    width: 30px;
+    height: 30px;
 
-    
-    background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-attachment:scroll;
-    padding: 0px 20px;
-    gap: 30px;
-    
-    animation-name: change-pic-mobile;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    /* animation-play-state: paused; */
-
-    display: grid;
-    grid-template-columns: 1fr;
+}
+#visit-button{
+    display: flex;
+    align-items: center;
     justify-content: center;
-
-}
-
-
-@keyframes  change-pic-mobile {
-    0%{
-
-        background :   linear-gradient(  rgba(0, 0, 0, 0.84), black), url(/public/Price.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    } 
-    
-    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
-       20%{
-
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/sky\ rome\ 3.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-    
-    40%{
-
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1234567.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    80%{
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1809809.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    100%{
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/Green\ Hoodie.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    }
-
-
-}
-
-
-
-
-
-
-
-#text-con{
-
-
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: start;
-    align-items: right;
-    gap: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 40px;
-}
-
-#logo-container{
-    /* display: flex;
-    justify-self: right;
-    align-self: right; */
-
-    background :linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.193), black), url(/public/Untitdfsdled-1.jpg) ;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    /* border-radius: 50%; */
- 
-
-    width: 380px;
-    height: 380px;
-}
-
-
-#all-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    
-    gap: 40px;
-}
-
-#big-text-container{
-    margin: auto;
-
-}
-#small-text-container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px ;
-    width: 70%;
-
-}
-
-
-
-#page3 h1{
-    color:rgb(213, 213, 213);
-    font-size: clamp(90px, 4.5vw, 90px);
-
-    font-weight: 800;
-}
-
-#page3 h6{
-    color: rgb(198, 198, 198);
-    font-size: clamp(17px, 2vw, 18px);
-    font-size: clamp(20px, 4vw, 15px);
-
-    font-weight: 200;
-    display: grid;
-
-
-}
-
-
-#tech-software{
-
-
-    display: flex;
-    justify-content: right;
-    align-self: right;
-
-
-}
-#tech-software ul{
+    color: white;
     text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-
-#tech-software ul li a{
-    padding: 5px 10px;
-    color: rgba(255, 255, 255, 0.719);
-    background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
-
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    gap: 3px;
-    font-size: clamp(8px, 1vw, 11px);
-
-    border-radius: 20px;
-}
-
-
-
-
-
-}
-
-
-
-
-@media (max-width: 600px) {
-
-
-    
-    #page3{
-    min-height: 100vh;
-    width: 100%;
-    /* background: linear-gradient(black,rgb(5, 25, 3),rgb(0, 0, 0)) ; */
-
-    background-color: black;
-
-    
-    background :   linear-gradient( 180deg, rgb(0, 0, 0) , black , rgb(0, 0, 0) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.758) , rgba(0, 0, 0, 0.799), rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(0, 0, 0)), url(/public/Untitled-1809809.png) ;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-attachment:scroll;
-    padding: 0px 20px;
-    gap: 30px;
-    
-    animation-name: change-pic-mobile;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    /* animation-play-state: paused; */
-
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: column;
-
-}
-
-
-@keyframes  change-pic-mobile {
-     0%{
-
-        background :   linear-gradient(  rgba(0, 0, 0, 0.84), black), url(/public/Price.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    } 
-    
-    /* THIS IS FOR WHEN THE SCREENS GET VERY BIG SO IT'S FOR THE MEDIA QUERY EVERY HEIGHT GREATER THAN 1000px */
-       20%{
-
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/sky\ rome\ 3.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-    
-    40%{
-
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1234567.png) ;
-
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    80%{
-        background :   linear-gradient(rgba(0, 0, 0, 0.84), black), url(/public/Untitled-1809809.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-
-    }
-
-    100%{
-        background :   linear-gradient( rgba(0, 0, 0, 0.84), black), url(/public/Green\ Hoodie.png) ;
-
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    }
-
-
-
+    background: transparent;
+    border-radius: 12px;
+    padding: 7px 35px;
+    gap: 10px;
+    background: rgb(17, 192, 17);
+    font-weight: bold;
 }
 
 
@@ -567,95 +171,16 @@
 
 
 
-#text-con{
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-#all-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    gap: 40px;
-}
-
-#big-text-container{
-    margin: auto;
-
-}
-#small-text-container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px ;
-    width: 100%;
-
-}
 
 
 
-#page3 h1{
-    color:rgb(213, 213, 213);
-    font-size: clamp(50px, 4.5vw, 80px);
-
-    font-weight: 800;
-}
-
-#page3 h6{
-    color: rgb(198, 198, 198);
-    font-size: clamp(17px, 2vw, 18px);
-    font-size: clamp(12px, 4vw, 15px);
-
-    font-weight: 200;
-    display: grid;
-
-
-}
-
-
-#tech-software{
-
-
-    display: flex;
-    justify-content: center;
-    align-self: center;
-
-
-}
-#tech-software ul{
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-
-#tech-software ul li a{
-    padding: 5px 10px;
-    color: rgba(255, 255, 255, 0.719);
-    background : linear-gradient( 90deg,  rgb(47, 6, 51) , rgb(21, 4, 26)) ;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    font-size: clamp(8px, 1vw, 11px);
-
-    border-radius: 20px;
-}
-
-
-}
 
 
 
+
+
+
+
+
+
+/* BOX CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
