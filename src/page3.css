@@ -22,26 +22,34 @@
     border-image-slice: 1;
     box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 #web-image-container{
-    background-position: center;
-    background-size: contain;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 369px;
-    color: white;
+
+
     display: flex;
+    width: 100%;                        
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 30px;
+    justify-self: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+
 }
 
 #web-image-tech-stack{
 
-    
 
+}
+
+#web-image-src-text{
 }
 
 #web-image-tech-stack ul{
