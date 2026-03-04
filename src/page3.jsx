@@ -94,6 +94,8 @@ function VisitPortfolio(){
 
                     <img src="/POS system.png" alt="" />
 
+                    <img src="/primegotit logo green big 2.png" alt="" />
+
 
                 </div>
                 <p>View full web development portfolio</p>
