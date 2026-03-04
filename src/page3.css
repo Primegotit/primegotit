@@ -368,7 +368,7 @@
 
 #page3-line{
   width: 8px;
-  height: 200vh; /* start collapsed */
+  height: 200vh; 
   border-radius: 20px;
 
   background: linear-gradient(
