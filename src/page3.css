@@ -9,14 +9,15 @@
 }
 
 
-/* BOX CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* BOX CSS  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 #web-box{
     background: transparent;
     max-width: 800px;
+    max-width: 730px;
     margin: auto;
 
-        /* border: 6px solid rgb(12, 12, 12); */
+/*  border: 6px solid rgb(12, 12, 12); */
     border: 4px solid transparent;
     border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
     border-image-slice: 1;
@@ -44,13 +45,6 @@
 
 }
 
-#web-image-tech-stack{
-
-
-}
-
-#web-image-src-text{
-}
 
 #web-image-tech-stack ul{
     display: flex;
@@ -188,3 +182,11 @@
 
 
 /* BOX CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+#page3-intro{
+    display: flex;
+    justify-content: center;
+}

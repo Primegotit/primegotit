@@ -3,9 +3,9 @@ import { IoEnter } from 'react-icons/io5';
 
 function MyBox(Creation){
 
-
     return(
         <>
+        
 
             <div id='web-box'>
                 <div id='web-image-container' style={{
@@ -16,17 +16,19 @@ function MyBox(Creation){
                         backgroundAttachment: "scroll",
                         backgroundRepeat: "no-repeat",
                         width: "100%",
-                        height: "380px",
+                        height: "350px",
                         color: "white",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "spaceBetween",
-                        padding: "10px 30px",
+                        justifySelf :"center",
+                        padding: "40px 30px",
+                        margin:"0px auto",
 
-                    }}>
-                    <div id='web-image-src-text'>
+                            }}>
+                        <div id='web-image-src-text'>
 
-                    </div>
+                        </div>
 
                     <div id='web-image-tech-stack'>
                         <ul>
@@ -83,16 +85,16 @@ function Page3(){
     return (
         <>
             <div id='page3'>
-                <h3>Web Development</h3>
+                <div id='page3-intro'>
+                    <h3>Web Development</h3>
+
+                </div>
 
                 <div id='all-page3-container'>
 
-                    <div id='move-left-container'>
-
-                    </div>
-
+                
                     <div id='all-web-box-container'>
-                        {/* <MyBox 
+                        <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(kosticpic.png)"
                                 name="Kostic" 
                                 date="2024" 
@@ -110,7 +112,7 @@ function Page3(){
                                 >
                                     
                                     
-                        </MyBox>    */}
+                        </MyBox>   
 
                         <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(trackwaypic.png)"
@@ -127,18 +129,12 @@ function Page3(){
                                 tech5 = {<li>React</li>}
                                 image_src = "/trackway.png"                        
                                 site_url = "#"
-                                >
+                            >
                                     
                                     
                         </MyBox>
                     </div>
    
-
-
-                    <div id='move-right-container'>
-
-                    </div>
-
                     
                 </div>
 
