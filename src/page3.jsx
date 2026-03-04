@@ -25,7 +25,8 @@ function MyBox(Creation){
                         justifySelf :"center",
                         padding: "20px 30px",
                         margin:"0px auto",
-
+                        
+                        
                             }}>
                         <div id='web-image-src-text'>
 
@@ -95,10 +96,14 @@ function VisitPortfolio(){
                     <img src="/POS system.png" alt="" />
 
                     <img src="/primegotit logo green big 2.png" alt="" />
+                    <img src="/pumpkin.png" alt="" />
+
+                    <img src="/ghost-custom.png" alt="" />
+
 
 
                 </div>
-                <p>View full web development portfolio</p>
+                <p><b>View full web development portfolio</b></p>
                 <a href="#">Ok</a>
             </div>
         </>

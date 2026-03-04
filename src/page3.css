@@ -101,7 +101,6 @@
 
 #web-box{
     background: transparent;
-    max-width: 800px;
     max-width: 730px;
     margin: auto;
 
@@ -408,7 +407,7 @@
     border-image: linear-gradient(to bottom ,rgb(17, 192, 17) , transparent , transparent);
     border-image-slice: 1;
 
-    border: 1px solid rgb(17, 192, 17);
+    /* border: 1px solid rgb(17, 192, 17); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -416,7 +415,7 @@
     align-items: center;
     
     /* border-radius: 18px; */
-    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    /* background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)); */
 }
 
 
@@ -431,6 +430,8 @@
 #all-web-logos img{
     height: 40px;
     width: 40px;
+    box-shadow: -2px 19px 19px -10px  rgba(25, 243, 69, 0.956);
+    background: transparent;
 }
 
 #view-portfolio-container a{
@@ -457,3 +458,85 @@
 
 
 /* VISIT PORTFOLIO ---------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+#web-box{
+
+    max-width: 330px;
+    
+}
+
+
+#web-image-tech-stack ul{
+    justify-content: center;
+
+    gap: 9px;
+}
+
+#web-image-text{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+
+}
+
+/* #web-image-container{
+    width: 100%;
+    height: 150px;
+} */
+
+
+#all-page3-container{
+
+    gap: 10px;
+
+}
+
+}
+
+
+
+
+@media (max-width: 992px) {
+
+#web-box{
+
+    max-width: 630px;
+    
+}
+
+
+#web-image-tech-stack ul{
+    justify-content: center;
+
+    gap: 9px;
+}
+
+#web-image-text{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+
+}
+
+/* #web-image-container{
+    width: 100%;
+    height: 150px;
+} */
+
+
+#all-page3-container{
+
+    gap: 10px;
+
+}
+
+
+}
