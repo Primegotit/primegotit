@@ -366,33 +366,31 @@
 
 }
 
-
 #page3-line{
-    width: 8px;
+  width: 8px;
+  height: 200vh; /* start collapsed */
+  border-radius: 20px;
 
-    border-radius: 20px;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(17, 192, 17), rgb(17, 192, 17) , rgb(17, 192, 17));
-    animation-name: page-line;
-    animation-timeline: view();
-    animation-timing-function: linear;
-    /* animation-range: entry exit; */
-    animation-range: entry 20%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgb(17, 192, 17),
+    rgb(17, 192, 17),
+    rgb(17, 192, 17)
+  );
+
+  animation: page-line linear;
+  animation-timeline: view();      /* link animation to scroll */
+  animation-range: entry  exit ;
 }
 
-
 @keyframes page-line {
-    from{
-        height: 0%;
-    }
-
-
-
-    to{
-        height: 100%;
-
-    
-    }
-
+  from {
+    height: 0vh;
+  }
+  to {
+    height:200vh;
+  }
 }
 
 
