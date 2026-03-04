@@ -3,7 +3,7 @@
     width: 100%;
 
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
-    background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
     background-size: cover;

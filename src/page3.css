@@ -6,10 +6,98 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding: 10px 0px;
 }
 
 
 /* BOX CSS  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* @keyframes appear3{
+    0%{
+        opacity: 0;
+        scale: 0;
+        transform: translateX(-500px);
+    }
+
+    20%{
+        opacity: 0.8;
+        transform: translateX(0px);
+        scale: 0.8;
+    }
+
+    40%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    80%{
+        opacity: 1;
+        transform: translateX(0px);
+        scale: 1;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateX(-500px);
+        scale: 0.1;
+
+
+    }
+}
+ */
+
+
+@keyframes box-anime {
+
+    0%{
+        opacity: 0;
+        transform: translateY(500px);
+
+
+    }
+
+    20%{
+        opacity: 0.4;
+        transform: translateY(0);
+        
+
+    }
+
+    40%{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateY(0);
+
+
+    }
+    80%{
+        opacity: 0.4;
+        transform: translateY(0);
+
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    
+}
+
+
 
 #web-box{
     background: transparent;
@@ -27,6 +115,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
+
+    animation-name: appear2;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    animation-range: entry exit;
 }
 
 
@@ -183,10 +277,170 @@
 
 /* BOX CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
+#all-page3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
 
 
+#all-web-box-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    
+}
+
+
+
+@keyframes appear-arrow {
+
+    0%{
+        transform: translateY(500px);
+
+
+    }
+
+    20%{
+        transform: translateY(0);
+        
+
+    }
+
+    40%{
+        transform: translateY(0);
+
+    }
+
+    60%{
+        transform: translateY(0);
+
+
+    }
+    80%{
+        transform: translateY(0);
+
+    }
+
+    100%{
+        transform: translateY(-500px);
+    }
+    
+}
+
+
+
+#box-down-arrow{
+    display: flex;
+    justify-content: center;
+
+    
+    animation-name: appear-arrow;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    animation-range: entry exit;
+}
+
+#d-arrow{
+    height: 30px;
+    width: 30px;
+    color: rgb(17, 192, 17);
+
+}
 
 #page3-intro{
     display: flex;
     justify-content: center;
+    font-size: clamp(22px, 1vw, 25px);
+
 }
+
+
+#page3-line{
+    width: 8px;
+
+    border-radius: 20px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(17, 192, 17), rgb(17, 192, 17) , rgb(17, 192, 17));
+    animation-name: page-line;
+    animation-timeline: view();
+    animation-timing-function: linear;
+    /* animation-range: entry exit; */
+    animation-range: entry 20%;
+}
+
+
+@keyframes page-line {
+    from{
+        height: 0%;
+    }
+
+
+
+    to{
+        height: 100%;
+
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+/* VISIT PORTFOLIO ---------------------------------------------------------------------- */
+
+#view-portfolio-container{
+
+    border: 4px solid transparent;
+    border-image: linear-gradient(to bottom ,rgb(17, 192, 17) , transparent , transparent);
+    border-image-slice: 1;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    align-items: center;
+    border-radius: 18px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+
+#all-web-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+#all-web-logos img{
+    height: 40px;
+    width: 40px;
+}
+
+#view-portfolio-container a{
+    background: rgb(17, 192, 17);
+    border-radius: 18px;
+
+    color: white;
+    font: 900;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+}
+
+
+
+
+/* VISIT PORTFOLIO ---------------------------------------------------------------------- */

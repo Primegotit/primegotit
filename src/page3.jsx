@@ -1,5 +1,6 @@
 import './page3.css'
 import { IoEnter } from 'react-icons/io5';
+import { FaArrowDown } from 'react-icons/fa';
 
 function MyBox(Creation){
 
@@ -22,7 +23,7 @@ function MyBox(Creation){
                         flexDirection: "column",
                         justifyContent: "spaceBetween",
                         justifySelf :"center",
-                        padding: "40px 30px",
+                        padding: "20px 30px",
                         margin:"0px auto",
 
                             }}>
@@ -80,24 +81,53 @@ function MyBox(Creation){
     )
 }
 
+function VisitPortfolio(){
+    return(
+        <>
+            <div id='view-portfolio-container'>
+                <div id='all-web-logos'>
+
+                    <img src="/primegotit logo green big 2.png" alt="" />
+
+                    <img src="/trackway.png" alt="" />
+                    <img src="/primegotit logo green big 2.png" alt="" />
+
+                    <img src="/POS system.png" alt="" />
+
+
+                </div>
+                <p>View full web development portfolio</p>
+                <a href="#">Ok</a>
+            </div>
+        </>
+    )
+}
+
 function Page3(){
 
     return (
         <>
             <div id='page3'>
+   
                 <div id='page3-intro'>
                     <h3>Web Development</h3>
 
                 </div>
 
-                <div id='all-page3-container'>
+                <div id='page3-instructions'>
 
-                
+                </div>
+
+
+
+                <div id='all-page3-container'>
+                    <div id='page3-line'></div>
+       
                     <div id='all-web-box-container'>
                         <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(kosticpic.png)"
                                 name="Kostic" 
-                                date="2024" 
+                                date="2026" 
                                 slogan="Built for business, designed for ease." 
                                 description="Kostic is a smart, simple POS system built to keep your business moving. 
                                 From sales to stock, it gives you tools you need without the clutter. Fast checkouts, 
@@ -113,11 +143,13 @@ function Page3(){
                                     
                                     
                         </MyBox>   
-
+                        <div id='box-down-arrow'>
+                            <FaArrowDown id='d-arrow'/>
+                        </div>
                         <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(trackwaypic.png)"
                                 name="Trackway" 
-                                date="2024" 
+                                date="2026" 
                                 slogan="Where algorithms meet the road." 
                                 description="Plan, optimize and track your deliveries in seconds. 
                                 With real time apps and intelligent route calculation, Trackway gets you from Point A to Point B the fastest way possible."
@@ -129,10 +161,13 @@ function Page3(){
                                 tech5 = {<li>React</li>}
                                 image_src = "/trackway.png"                        
                                 site_url = "#"
-                            >
-                                    
+                            >         
                                     
                         </MyBox>
+
+                        <br />
+                        <VisitPortfolio/>
+                        <br />
                     </div>
    
                     
