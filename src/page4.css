@@ -676,10 +676,52 @@
 
 
 
+@keyframes box-anime {
+
+    0%{
+        transform: translateY(500px);
+
+
+    }
+
+    20%{
+        transform: translateY(0);
+        
+
+    }
+
+    40%{
+        transform: translateY(0);
+        
+
+    }
+
+    60%{
+        transform: translateY(0);
+
+
+    }
+    80%{
+        transform: translateY(0);
+
+
+    }
+
+    100%{
+        transform: translateY(-500px);
+
+    }
+    
+}
+
+
+
+
+
 
 #about-me-box{
 
-    animation-name: appear3;
+    animation-name: box-anime;
     animation-timeline: view();
     animation-timing-function: linear;
     animation-range: entry exit;
@@ -689,7 +731,7 @@
 }
 
 #skills-percent-container{
-    animation-name: appear2;
+    animation-name: box-anime;
     animation-timeline: view();
     animation-timing-function: linear;
     animation-range: entry exit;
