@@ -116,10 +116,11 @@
     align-items: center;
 
 
-    animation-name: appear2;
-    animation-timeline: view();
+    /* animation-name: appear2; */
+
+    /* animation-timeline: view();
     animation-timing-function: linear;
-    animation-range: entry exit;
+    animation-range: entry exit; */
 }
 
 
