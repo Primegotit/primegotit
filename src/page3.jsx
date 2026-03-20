@@ -96,7 +96,7 @@ function VisitPortfolio(){
 
                     <img src="/POS system.png" alt="" />
 
-                    <img src="/primegotit logo green big 2.png" alt="" />
+                    <img src="/Transparent official hoodie.png" alt="" />
                     <img src="/logo7.png" alt="" />
 
                     <img src="/offiCIAL website1_logo.png" alt="" />
