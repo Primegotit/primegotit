@@ -30,19 +30,19 @@ function Page1() {
                             <section id='content-box'>
                                 
                                 <h1 id='intro-text'>Who Am I ? 💀</h1>
-                                <h2>Promise Siafwiyo</h2>
+                                <h2 class="gradient-text">Promise Siafwiyo</h2>
                                 <p>I thrive at the intersection of diverse fields. As an <b>Interdisciplinary Specialist</b>, I don't just use technology. I bridge the gap between complex ideas and functional reality. Explore my portfolio to see how I build, break and evolve. </p>
                                 <section id='skills-container'>
                                     <a href="#" className='skills'>Christian</a>
-                                    <a href="#" className='skills'>Music lover</a>
-                                    <a href="#" className='skills'>Dilettante</a>
-                                    <a href="#" className='skills'>Greyscale lover</a>
+                                    <a href="#" className='skills'>Visionary</a>
+                                    <a href="#" className='skills'>Learner</a>
+                                    <a href="#" className='skills'>Minimalist</a>
                                     <a href="#" className='skills'>Geek</a>
-                                    <a href="#" className='skills'>Innovator</a>
+                                    <a href="#" className='skills'>Creator</a>
                                     <a href="#" className='skills'>Aspiring hacker</a>
                                     <a href="#" className='skills'>Programmer</a>
                                     {/* <a href="#" className='skills'>Anatagonist</a> */}
-                                    <a href="#" className='skills'>Greyscale pictures</a>
+                                    <a href="#" className='skills'>Coder</a>
                                     <a href="#" className='skills'>Designer</a>
 
                                     

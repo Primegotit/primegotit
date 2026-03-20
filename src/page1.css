@@ -14,6 +14,28 @@
 
 }
 
+.gradient-text {
+
+  /* Gradient colors */
+  background: linear-gradient(90deg,rgb(14, 137, 38), rgb(1, 197, 82), rgb(1, 133, 1), rgb(19, 145, 44));
+  
+  /* Make gradient visible only on text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animation setup */
+  background-size: 300%;
+  animation: moveGradient 4s linear infinite;
+}
+
+/* Move gradient left → right */
+@keyframes moveGradient {
+  0%   { background-position: 0%; }
+  100% { background-position: 100%; }
+}
+
+
+
 
 nav{
     height: 90px;
