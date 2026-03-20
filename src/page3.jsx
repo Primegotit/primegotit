@@ -70,7 +70,7 @@ function MyBox(Creation){
                         </div>
 
                         <div id='visit-button-container'> 
-                            <a href={Creation.site_url} id='visit-button'>Visit <IoEnter id='visit-button-image'></IoEnter> </a>
+                            <a  href={Creation.site_url} target='_blank' id='visit-button'>Visit <IoEnter id='visit-button-image'></IoEnter> </a>
                         </div>
 
                     </div>
