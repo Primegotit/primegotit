@@ -144,7 +144,7 @@ function Page3(){
                                 tech3 = {<li>PHP</li>}
                                 tech4 = {<li>Javascript</li>}
                                 tech5 = {<li>PHP</li>}
-                                image_src = "/primegotit logo green big 2.png"                        
+                                image_src = "/logo7.png"                        
                                 site_url = "https://kostic.vercel.app/"
                                 >
                                     
