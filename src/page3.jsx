@@ -54,7 +54,8 @@ function MyBox(Creation){
                     <div id='heading-con1'>
                         <h1>{Creation.name}</h1>
                         <div id='heading-line'></div>
-                        <h5>{Creation.date}</h5>
+                            <img src={Creation.image_src} id='my-logo-small' />
+
                     </div>
                     <br />
 
@@ -65,7 +66,7 @@ function MyBox(Creation){
                     <div id='visit-container'>
 
                         <div id='logo-with-line-con'>
-                            <img src={Creation.image_src} id='my-logo-small' />
+                        <h5>{Creation.date}</h5>
 
                         </div>
 
@@ -96,9 +97,9 @@ function VisitPortfolio(){
                     <img src="/POS system.png" alt="" />
 
                     <img src="/primegotit logo green big 2.png" alt="" />
-                    <img src="/pumpkin.png" alt="" />
+                    <img src="/logo7.png" alt="" />
 
-                    <img src="/ghost-custom.png" alt="" />
+                    <img src="/offiCIAL website1_logo.png" alt="" />
 
 
 
