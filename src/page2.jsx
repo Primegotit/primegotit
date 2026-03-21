@@ -9,6 +9,43 @@ import { TbKeyframesFilled } from 'react-icons/tb';
 import { IoPeopleSharp } from 'react-icons/io5';
 import { TbRotate3D } from 'react-icons/tb';
 
+
+function SmallBox(props){
+
+    return(
+        <>
+            <div className='box' >
+                <div className='box-image' >
+                    {/* <div id='role-container'><h5>Favorite role 💜</h5></div> */}
+                    {props.favorite_container_div}
+                </div>
+                    {/* <h3>Graphic design</h3> */}
+                    <h3>{props.skill_name}</h3>
+                    {/* <SiTaichigraphics className='skills-logos2'/> */}
+                    <props.skill_logo_code className="skills-logos2"/>
+                    <p>{props.skill_description}</p>
+
+                    {/* <a href="#">Explore</a> */}
+
+                    <section className='technologies'>
+                        {props.technology1}
+                        {props.technology2}
+                        {props.technology3}
+                        {props.technology4}
+                        {props.technology5}
+
+                        {/* <h5>Photoshop</h5>
+                        <h5>Illustrator</h5>
+                        <h5>Blender</h5> */}
+
+                    </section>
+            </div>
+
+        </>
+    )
+
+}
+
 function Page2() {
 
     return(
@@ -18,22 +55,15 @@ function Page2() {
                 <div id='page2-container'>
                     <div id='box-container'>
 
-                        <div className='box' >
-                            <div className='box-image' ></div>
-                            <h3>Graphic Design</h3>
-                             <SiTaichigraphics className='skills-logos2'></SiTaichigraphics>
+                        <SmallBox
+                            skill_name = "Graphic Design"  
+                            skill_logo_code = {SiTaichigraphics}
+                            skill_description = "A creative approach to using visuals, typography and color to communicate ideas and engage viewers."
+                            technology1 = {<h5>Photoshop</h5>}
+                            technology2 = {<h5>Illustrator</h5>}
+                            technology3 = {<h5>Blender</h5>}
 
-                            <p>A creative approach to using visuals, typography and color to communicate ideas and engage viewers.
-                                 </p>
-                            {/* <a href="#">Explore</a> */}
-
-                            <section className='technologies'>
-                                <h5>Photoshop</h5>
-                                <h5>Illustrator</h5>
-                                <h5>Blender</h5>
-
-                            </section>
-                        </div>
+                        />
 
                         <div className='box'>
                             <div className='box-image' ></div>
@@ -53,26 +83,16 @@ function Page2() {
                             </section>
                         </div>
 
+                        <SmallBox
+                            favorite_container_div={<div id='role-container'><h5>Favorite role 💜</h5></div>}
+                            skill_name = "Music Production"  
+                            skill_logo_code = {PiMusicNoteFill}
+                            skill_description = "Crafting and shaping sounds into polished, expressive tracks that resonate."
+                            technology1 = {<h5>FL Studio</h5>}
+                            technology2 = {<h5>OBS Studio</h5>}
+                            technology3 = {<h5>YouTube</h5>}
 
-                        <div className='box'>
-                            <div className='box-image' >
-                                <div id='role-container'><h5>Favorite role 💜</h5></div>
-
-                            </div>
-
-                            <h3>Music Production </h3>
-                            <PiMusicNoteFill className='skills-logos2' ></PiMusicNoteFill>
-                            
-                            <p>Crafting and shaping sounds into polished, expressive tracks that resonate.
-                                  </p>
-
-                            <section className='technologies'>
-                                <h5>FL Studio</h5>
-                                <h5>OBS Studio</h5>
-                                <h5>YouTube</h5>
-
-                            </section>
-                        </div>
+                        />
 
 
                         <div className='box'>
