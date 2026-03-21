@@ -13,27 +13,30 @@
     grid-template-rows: max-content;
 
 }
-
 .gradient-text {
+  background: linear-gradient(
+    90deg,
+    #b0b0b0,
+    #14532d,
+    rgb(22, 184, 46),
+    rgb(14, 138, 66),
+    rgb(22, 184, 46),
 
-  /* Gradient colors */
-  background: linear-gradient(90deg,rgb(14, 137, 38), rgb(1, 197, 82), rgb(1, 133, 1), rgb(19, 145, 44));
-  
-  /* Make gradient visible only on text */
+    #14532d
+  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  /* Animation setup */
-  background-size: 300%;
-  animation: moveGradient 4s linear infinite;
+  background-size: 200% auto;
+  animation: moveGradient 6s ease-in-out infinite;
 }
 
-/* Move gradient left → right */
 @keyframes moveGradient {
-  0%   { background-position: 0%; }
-  100% { background-position: 100%; }
+  0%   { background-position: 0% center; }
+  50%  { background-position: 100% center; }
+  100% { background-position: 0% center; }
 }
-
 
 
 
