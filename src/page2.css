@@ -11,6 +11,8 @@
 
 
       background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+      /* background : linear-gradient( 90deg, rgb(29, 29, 29) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg); */
+      background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
     background-size: cover;
@@ -61,13 +63,15 @@
 
     /* border-bottom: 3px solid rgb(25, 222, 64); */
     /* box-shadow: 0px 19px 20px rgba(19, 170, 49, 0.34); */
-    box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
+    box-shadow: -2px 29px 19px -19px  rgba(245, 245, 245, 0.207);
     
     /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
     transition: all 0.5s ;
 
     border: 1px solid transparent;
     border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
+    border-image: linear-gradient(to top ,rgb(213, 213, 213) , transparent , transparent);
+
     border-image-slice: 1;
     background: transparent;
 }
@@ -180,7 +184,7 @@
 
 #role-container{
     display: flex  ;
-    background : linear-gradient( 90deg,  rgb(12, 105, 31) , rgb(41, 8, 50)) ;
+    background : linear-gradient( 90deg,  rgb(54, 54, 54) , rgb(15, 3, 18)) ;
     width : 43% ;
     height : 8% ;
     color: rgb(171, 171, 171);
@@ -190,7 +194,7 @@
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: -2px 10px 30px -3px  rgba(19, 177, 51, 0.551);
+    /* box-shadow: -2px 10px 30px -3px  rgba(170, 170, 170, 0.551); */
     transition: all 0.03s ;
 }
 #role-container h5{
@@ -201,6 +205,8 @@
 .skills-logos2{
     /* color: rgb(116, 116, 116); */
     color:rgb(17, 192, 17);
+    color:rgb(206, 206, 206);
+
     width: 35px;
     height: 35px;
     display: flex;
@@ -307,9 +313,9 @@
     justify-content: center;
     /* border-radius: 10px; */
     width: 85%;
-    border-bottom: 1px solid rgb(17, 192, 17);
+    border-bottom: 1px solid rgb(183, 183, 183);
 
-    box-shadow: 0 10px 17px -10px  rgba(25, 243, 69, 0.533);
+    /* box-shadow: 0 10px 17px -10px  rgba(239, 239, 239, 0.533); */
     /* box-shadow: 0px -10px 19px -7px  rgba(224, 224, 224, 0.533); */
     background: transparent;
 
@@ -331,7 +337,7 @@
 }
 .technologies h5{
     border: 1px solid rgb(25, 222, 107);
-    border: 1px solid rgb(113, 113, 113);
+    border: 1px solid rgb(187, 187, 187);
 
     padding: 2px 10px;
     border-radius: 10px;
@@ -340,9 +346,9 @@
     transition: all 0.5s ;
 
     color: rgb(165, 165, 165);
-    color: rgb(145, 194, 142);
+    color: rgb(194, 194, 194);
 
-    border: 1px solid rgb(15, 111, 34);
+    border: 1px solid rgb(106, 106, 106);
     font-weight: 400;
 
 }

@@ -7,6 +7,8 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 10px 0px;
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
+
 }
 
 
@@ -146,10 +148,10 @@
     margin: auto;
 
 /*  border: 6px solid rgb(12, 12, 12); */
-    border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top ,rgb(186, 186, 186) , transparent , transparent);
     border-image-slice: 1;
-    box-shadow: -2px 29px 19px -19px  rgba(25, 243, 69, 0.207);
+    box-shadow: -2px 29px 19px -19px  rgba(251, 251, 251, 0.207);
 
     display: flex;
     justify-content: center;
@@ -192,8 +194,12 @@
 
 #web-image-tech-stack ul li{
     color: rgb(140, 195, 136);
+    color: rgb(237, 237, 237);
+
     background: transparent;
     border: 1px solid rgb(7, 191, 7);
+    border: 1px solid rgb(106, 106, 106);
+
     border-radius: 18px;
     padding: 2px 15px;
     font-size: 11px;
@@ -224,6 +230,7 @@
 
 #heading-line{
        background:linear-gradient(-90deg,  rgba(0, 0, 0, 0) ,  rgb(17, 192, 17), rgba(0, 0, 0, 0));
+       background:linear-gradient(-90deg,  rgba(0, 0, 0, 0) ,  rgb(202, 202, 202), rgba(0, 0, 0, 0));
 
     filter: contrast(1.6);
 
@@ -287,6 +294,8 @@
     padding: 3px 30px;
     gap: 10px;
     background: rgb(17, 192, 17);
+    background: rgb(76, 76, 76);
+
     font-weight: bold;
     transition: all 0.4s ;
 
@@ -388,7 +397,7 @@
 #d-arrow{
     height: 30px;
     width: 30px;
-    color: rgb(17, 192, 17);
+    color: rgb(202, 202, 202);
 
 }
 
@@ -407,9 +416,9 @@
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0),
-    rgb(17, 192, 17),
-    rgb(17, 192, 17),
-    rgb(17, 192, 17)
+    rgb(191, 191, 191),
+    rgb(200, 200, 200),
+    rgb(223, 223, 223)
   );
 
   animation: page-line linear;
@@ -437,8 +446,8 @@
 
 #view-portfolio-container{
 
-    border: 4px solid transparent;
-    border-image: linear-gradient(to bottom ,rgb(17, 192, 17) , transparent , transparent);
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom ,rgb(212, 212, 212) , transparent , transparent);
     border-image-slice: 1;
 
     /* border: 1px solid rgb(17, 192, 17); */
@@ -464,13 +473,13 @@
 #all-web-logos img{
     height: 50px;
     width: 50px;
-    box-shadow: -2px 19px 19px -10px  rgba(25, 243, 69, 0.956);
+    box-shadow: -2px 19px 19px -10px  rgba(117, 117, 117, 0.733);
     background: transparent;
     border-radius: 50%;
 }
 
 #view-portfolio-container a{
-    background: rgb(17, 192, 17);
+    background: rgb(76, 76, 76);
     border-radius: 18px;
 
     color: white;

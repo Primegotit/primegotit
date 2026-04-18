@@ -10,7 +10,7 @@ function Page1() {
             <div id='page1'>
 
                 <nav>
-                    <section id='logo-section'><img src="/primegotit logo green big 2.png" alt="" /><h3>Prime</h3></section>
+                    <section id='logo-section'><img src="/primegotit grey scale logo.png" alt="" /><h3>Prime</h3></section>
 
                     <ul>
                         <li><a href="#" className='hover-link'>Home</a></li>
@@ -41,7 +41,7 @@ function Page1() {
                                     <a href="#" className='skills'>Creator</a>
                                     <a href="#" className='skills'>Aspiring hacker</a>
                                     <a href="#" className='skills'>Programmer</a>
-                                    {/* <a href="#" className='skills'>Anatagonist</a> */}
+                                    <a href="#" className='skills'>Monochrome lover</a>
                                     <a href="#" className='skills'>Coder</a>
                                     <a href="#" className='skills'>Designer</a>
 

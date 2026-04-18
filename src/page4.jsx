@@ -25,7 +25,7 @@ function Page4() {
                 <div id='about-me-container'>
                     <div id='about-me-box'>
                         <div id='about-logo-container'>
-                            <img src="/primegotit logo green big 2.png" id='text-arrow' />
+                            <img src="/primegotit grey scale logo.png" id='text-arrow' />
                             <div id='logo-line'></div>
                         </div>
 
@@ -39,7 +39,7 @@ function Page4() {
                         <p>
                             I am currently pursuing a <b>Bachelor's Degree in Computer Science</b> at the <b>National University of Science and Technology in Zimbabwe.</b>
                             I have always had a passion for computers and technology and that interest has continued to grow over the years.
-                            I'm also a junior developer and animator at <b><a href="www.rodneytech.co.zw">Rodneytech,inc</a></b>, a technology company where i contribute 
+                            I'm also a junior developer and animator at <b><a href="www.rodneytech.co.zw">Pixel Pyre Technologies</a></b> formerly known as Rodneytech,inc, a technology company where i contribute 
                             to both development and creative projects like web development, animation and etc.
                             Since 2024, I have also been a private <b>computer science tutor</b>, mentoring students in programming fundamentals, networking, algorithms and 
                             data structures, operating system fundamentals and other related modules. Through tutoring
@@ -70,7 +70,7 @@ function Page4() {
                         <div id='about2-logo-container'>
                             <div id='logo2-line'></div>
 
-                            <img src="/primegotit logo green big 2.png" id='text2-arrow' alt="" />
+                            <img src="/primegotit grey scale logo.png" id='text2-arrow' alt="" />
                         </div>
                         <h3>Experience levels   
                             {/* <TiArrowRightThick style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}} ></TiArrowRightThick>  */}

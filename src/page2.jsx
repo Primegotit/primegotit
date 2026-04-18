@@ -79,7 +79,6 @@ function Page2() {
                         />
 
                         <SmallBox
-                            favorite_container_div={<div id='role-container'><h5>Favorite role 💜</h5></div>}
                             skill_name = "Music Production"  
                             skill_logo_code = {PiMusicNoteFill}
                             skill_description = "Crafting and shaping sounds into polished, expressive tracks that resonate."
@@ -112,6 +111,8 @@ function Page2() {
                         />
 
                         <SmallBox
+                            favorite_container_div={<div id='role-container'><h5>Favorite role 🖤</h5></div>}
+
                             skill_name = "3D Modelling"  
                             skill_logo_code = {TbRotate3D}
                             skill_description = "Designing detailed digital assets that combine creativity with technical precision for interactive media."

@@ -4,6 +4,7 @@
 
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
     background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
     background-size: cover;
@@ -23,6 +24,17 @@
     rgb(22, 184, 46),
 
     #14532d
+  );
+
+    background: linear-gradient(
+    90deg,
+    #b0b0b0,
+    #181818,
+    rgb(196, 196, 196),
+    rgb(131, 131, 131),
+    rgb(188, 188, 188),
+
+    #464646
   );
 
   -webkit-background-clip: text;
@@ -227,9 +239,10 @@ div p{
 }
 
 .skills{
-    color: rgb(220, 220, 220);
     color: black;
     color: rgb(25, 222, 107);
+    color: rgb(220, 220, 220);
+
     font-size: clamp(11px, 0.9vw, 17px);
 
     text-decoration: none;
@@ -237,6 +250,8 @@ div p{
     /* background-color:rgb(82, 82, 82) ; */
     border: 2px solid rgb(25, 222, 107);
     border: 2px solid rgb(19, 177, 50);
+    border: 2px solid rgb(176, 176, 176);
+
 
     margin-right: 15px;
     padding: 5px 15px;

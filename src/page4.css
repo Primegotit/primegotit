@@ -8,6 +8,7 @@
     padding: 0px 60px;
 
       background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
     background-size: cover;
@@ -47,7 +48,7 @@
     /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
     /* border: 6px solid rgb(12, 12, 12); */
     border: 1px solid transparent;
-    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image: linear-gradient(to bottom ,rgb(228, 228, 228) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
 
@@ -76,6 +77,8 @@
 #text-arrow{
     color: rgb(116, 116, 116);
     color: rgb(17, 192, 17);
+    color: rgb(197, 197, 197);
+
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -85,7 +88,7 @@
 
 }
 #logo-line{
-    background:linear-gradient(90deg, rgb(17, 192, 17), rgba(0, 0, 0, 0));
+    background:linear-gradient(90deg, rgb(199, 199, 199), rgba(0, 0, 0, 0));
     filter: contrast(1.6);
 
     height: 8px;
@@ -104,7 +107,7 @@
 
 
 #skills-percent-container  #about-logo-container #logo-line{
-    background:linear-gradient(-90deg, rgb(17, 192, 17), rgb(57, 57, 57));
+    background:linear-gradient(-90deg, rgb(204, 204, 204), rgb(57, 57, 57));
     filter: contrast(1.6);
 
     height: 2px;
@@ -114,6 +117,8 @@
 .skills-logos{
     /* color: rgb(116, 116, 116); */
     color:rgb(17, 192, 17);
+    color:rgb(203, 203, 203);
+
     width: 25px;
     height: 25px;
     display: flex;
@@ -137,6 +142,8 @@
 #text2-arrow{
     color: rgb(116, 116, 116);
     color: rgb(17, 192, 17);
+    color: rgb(198, 198, 198);
+
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -147,6 +154,7 @@
 }
 #logo2-line{
     background:linear-gradient(-90deg, rgb(17, 192, 17), rgba(0, 0, 0, 0));
+    background:linear-gradient(-90deg, rgb(195, 195, 195), rgba(0, 0, 0, 0));
 
     filter: contrast(1.6);
 
@@ -188,7 +196,7 @@
     border: 1px solid transparent ;
     border-radius: 20px;
 
-    border-image: linear-gradient(to bottom ,rgb(25, 222, 64) , transparent);
+    border-image: linear-gradient(to bottom ,rgb(219, 219, 219) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
 
@@ -272,6 +280,8 @@
     height : 5px;
     border-radius: 8px;
     background-color: rgb(175, 173, 173);
+    background-color: rgb(0, 0, 0);
+
     display: flex;
     justify-content: start;
     align-items: end;
@@ -290,6 +300,7 @@
 
     background-color: rgb(20, 149, 59);
     background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(17, 192, 17)) ;
+    background : linear-gradient( 90deg,  rgb(101, 101, 101) , rgb(179, 179, 179)) ;
 
 
 }
@@ -327,7 +338,7 @@
 }
 
 .skill-box:nth-of-type(8) #skill-percent{
-    width: 18%;
+    width: 30%;
     height : 100%;
 }
 
@@ -357,7 +368,7 @@
     width: 8px;
 
     border-radius: 20px;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(17, 192, 17));
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(184, 184, 184));
     animation-name: me-line;
     animation-timeline: view();
     animation-timing-function: linear;
