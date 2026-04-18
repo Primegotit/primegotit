@@ -170,6 +170,26 @@ function Page4() {
                             </div>
                         </div>
 
+                        <div className='skill-box'>
+                            <div id='skills-name' style={{display:'flex', justifyContent:'center', marginBottom:'10px', marginTop:'0', paddingTop:'0' }}>
+                                <h3 style={{display:'flex', flexDirection:'row'}}>
+
+                                    Languages
+                                    <TbRotate3D className='skills-logos'></TbRotate3D>                                    
+                                    </h3>
+
+                            </div>
+
+                            <div style={{display:"flex" , flexDirection: "row" , justifyContent:"space-between", flexWrap:'wrap', gap:'10px'}} id='language-div'>
+                                <p>English</p>
+                                <p>Shona</p>
+                                <p>Ndebele</p>
+                                <p>Russian</p>
+                                <p>Tonga</p>
+                            </div>
+                          
+                        </div>
+
                     </div>
                 </div>
             </div>
