@@ -553,7 +553,8 @@
     border-radius: 5px;
     padding: 3px 30px;
     gap: 10px;
-    background: rgb(17, 192, 17);
+    background: rgb(77, 77, 77);
+
     font-weight: bold;
     transition: all 0.4s ;
 

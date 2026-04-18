@@ -485,8 +485,8 @@ div p{
 }
 
 #text-arrows{
-    color: rgb(116, 116, 116);
-    color: rgb(17, 192, 17);
+    /* color: rgb(116, 116, 116); */
+    /* color: rgb(17, 192, 17); */
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -497,7 +497,7 @@ div p{
 }
 
 #logos-line{
-    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+    /* background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17)); */
 
     filter: contrast(1.6);
 
@@ -688,7 +688,7 @@ div p{
 
 #text-arrows{
     color: rgb(116, 116, 116);
-    color: rgb(17, 192, 17);
+    /* color: rgb(17, 192, 17); */
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -699,7 +699,7 @@ div p{
 }
 
 #logos-line{
-    background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17));
+    /* background:linear-gradient(90deg, rgb(17, 192, 17), rgb(57, 57, 57) , rgb(0, 0, 0)  , rgb(57, 57, 57)  , rgb(17, 192, 17)); */
 
     filter: contrast(1.6);
 
