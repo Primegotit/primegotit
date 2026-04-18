@@ -185,7 +185,7 @@ function Page4() {
                                 <p>Shona</p>
                                 <p>Ndebele</p>
                                 <p>Russian</p>
-                                <p>Tonga</p>
+                                {/* <p>Tonga</p> */}
                             </div>
                           
                         </div>
