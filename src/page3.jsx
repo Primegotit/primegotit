@@ -135,7 +135,7 @@ function Page3(){
                         <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(kosticpic.png)"
                                 name="Kostic" 
-                                date="2026" 
+                                date="2025" 
                                 slogan="Built for business, designed for ease." 
                                 description="Kostic is a smart, simple POS system built to keep your business moving. 
                                 From sales to stock, it gives you tools you need without the clutter. Fast checkouts, 

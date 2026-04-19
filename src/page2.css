@@ -112,6 +112,7 @@
     
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
     transition: all 0.5s ;
     box-shadow: 5px 5px 20px  rgb(0, 0, 0);
 
@@ -125,7 +126,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     filter: saturate(1);
-    filter: brightness(1.4);
+    filter: brightness(2); 
+    /* filter:grayscale(100%); */
+
     
     transition: all 0.5s;
 }
@@ -147,6 +150,8 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
+
 
     transition: all 0.5s;
 }
@@ -167,6 +172,8 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
+
 
 }
 
@@ -227,6 +234,8 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
+
 
 }
 
@@ -245,6 +254,8 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
+
 
 }
 
@@ -263,6 +274,8 @@
     background-repeat: no-repeat;
     filter: saturate(1);
     filter: brightness(1.4);
+    /* filter:grayscale(100%); */
+
 
 }
 
