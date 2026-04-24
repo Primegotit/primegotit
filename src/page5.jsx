@@ -8,14 +8,17 @@ function ModelBox(Render){
                 <div id='model-pic'>
                     <img src={Render.image_src} id='model-img' alt="" />
                 </div>
-
+                <br />
                 <div id='model-details'>
-                    <h2 >{Render.name}</h2>
-                    <h3>{Render.creation_date}</h3>
+                    <span>
+                        <h1 >{Render.name}</h1>
+                        <h3>{Render.creation_date}</h3>
 
-                    <button>View fullscreen</button>
-                    <button>View creation video</button>
-
+                    </span>
+                    <br />
+                    <section>
+                        <button>View creation video</button>
+                    </section>
 
                 </div>
 
@@ -40,31 +43,45 @@ function Page5(){
                         <ModelBox
                             image_src = "Untitledwww.png"
                             name = "Silence of solitude"
-                            creation_date = "12 April 2026"
+                            creation_date = "14 April 2026"
 
                         ></ModelBox>
 
 
                         <ModelBox
                             image_src = "skull1.png"
-                            name = "Silence of solitude"
-                            creation_date = "12 April 2026"
+                            name = "Thoughts unveiled"
+                            creation_date = "23 April 2026"
 
                         ></ModelBox>
                         
 
                         <ModelBox
                             image_src = "Untitle23d.png"
-                            name = "Silence of solitude"
-                            creation_date = "12 April 2026"
+                            name = "Design space leak"
+                            creation_date = "5 April 2026"
 
                         ></ModelBox>
                         
 
                         <ModelBox
                             image_src = "house2.png"
-                            name = "Silence of solitude"
-                            creation_date = "12 April 2026"
+                            name = "Practice makes perfect"
+                            creation_date = "19 March 2026"
+
+                        ></ModelBox>
+
+                        <ModelBox
+                            image_src = "keyboard.png"
+                            name = "Press"
+                            creation_date = "27 March 2026"
+
+                        ></ModelBox>
+
+                        <ModelBox
+                            image_src = "skull1.png"
+                            name = "Thoughts unveiled"
+                            creation_date = "23 April 2026"
 
                         ></ModelBox>
                         
