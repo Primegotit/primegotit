@@ -140,7 +140,7 @@ function Page3(){
                                 description="Kostic is a smart, simple POS system built to keep your business moving. 
                                 From sales to stock, it gives you tools you need without the clutter. Fast checkouts, 
                                 easy tracking and everything you need in one clean POS system."
-                                tech1 = {<li>Visual Studio</li>}
+                                tech1 = {<li>VS Code</li>}
                                 tech2 = {<li>HTML</li>}
                                 tech3 = {<li>PHP</li>}
                                 tech4 = {<li>Javascript</li>}
@@ -162,7 +162,7 @@ function Page3(){
                                 description="Plan, optimize and track your deliveries in seconds. 
                                 With real time apps and intelligent route calculation, Trackway gets you from Point A to Point B the fastest way possible."
 
-                                tech1 = {<li>Visual Studio</li>}
+                                tech1 = {<li>VS Code</li>}
                                 tech2 = {<li>HTML</li>}
                                 tech3 = {<li>Javascript</li>}
                                 tech4 = {<li>Vite</li>}

@@ -2,18 +2,15 @@
     min-height: 100vh;
     width: 100%;
 
-    background : linear-gradient( 90deg, rgb(19, 4, 23) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(13, 2, 17)) ;
-    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
 
     padding: 0px 60px;
 
-      background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
-    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
-
+    background: black;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
+
 }
 
 #about-heading{

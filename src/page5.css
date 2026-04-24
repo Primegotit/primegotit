@@ -1,16 +1,12 @@
 #page5{
     min-height: 100vh;
     width: 100%;
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-
-    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
 
 
-    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
+
+
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-eva-bronzini-6914875.jpg);
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgba(0, 0, 0, 0.741) , rgba(0, 0, 0, 0.884) ,rgba(0, 0, 0, 0.873) , rgba(0, 0, 0, 0.889),rgba(0, 0, 0, 0.873) ,rgba(0, 0, 0, 0.867) ,   rgb(13, 13, 13)) , url(/public/pexels-eva-bronzini-6914875.jpg);
 
     background-position: center;
     background-size: cover;
@@ -50,13 +46,16 @@
 }
 
 #model-img{
-  width: 350px;
+  width: 330px;
   cursor: pointer;
   transition: all 0.5s;
+  border-bottom-left-radius:10px ;
+  border-bottom-right-radius:10px ;
+
 }
 
 #model-img:hover{
-  scale: 1.08;
+  scale: 1.03;
 
 }
 
@@ -89,7 +88,7 @@
   font-weight: 400;
   background: rgb(77, 77, 77);
 
-  padding: 6px 30px;
+  padding: 6px 20px;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
@@ -105,6 +104,12 @@
 
 
 #model-details section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+#model-details section a{
   display: flex;
   flex-direction: row;
   justify-content: center;
