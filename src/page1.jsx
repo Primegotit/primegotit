@@ -41,7 +41,7 @@ function Page1() {
                                     <a href="#" className='skills'>Creator</a>
                                     <a href="#" className='skills'>Aspiring hacker</a>
                                     <a href="#" className='skills'>Programmer</a>
-                                    <a href="#" className='skills'>Monochrome lover</a>
+                                    <a href="#" className='skills'>Monochrome lifestyle</a>
                                     <a href="#" className='skills'>Coder</a>
                                     <a href="#" className='skills'>Designer</a>
 
