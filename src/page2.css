@@ -69,11 +69,8 @@
     transition: all 0.5s ;
 
     border: 1px solid transparent;
-    border-image: linear-gradient(to top ,rgb(25, 222, 64) , transparent , transparent);
     border-image: linear-gradient(to top ,rgb(213, 213, 213) , transparent , transparent);
-
     border-image-slice: 1;
-    background: transparent;
     background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
 
 }
@@ -389,11 +386,10 @@ a{
     height: 300px;
      */
 
-    width: 190px;
+    width: 180px;
     height: 180px;
     display: flex;
     justify-self: center;
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
     background-position: center;
     background-size: cover;
     filter: saturate(1);
@@ -420,7 +416,8 @@ a{
         /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
         transition: all 0.5s ;
 
-    background: transparent;
+        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
+
 
 }
 
@@ -542,7 +539,6 @@ a{
     height: 240px;
     display: flex;
     justify-self: center;
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
     background-position: center;
     background-size: cover;
     filter: saturate(1);
@@ -568,8 +564,7 @@ a{
         
         /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
         transition: all 0.5s ;
-     background: transparent;
-
+        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
 
 }
 
@@ -710,7 +705,6 @@ a{
         border-radius: 19px;
         padding: 10px;
 
-        background: linear-gradient(180deg , #00000000 ,  #0000003d, rgb(9, 20, 11));
         padding-bottom: 20px;
         cursor: pointer;
 
@@ -720,6 +714,7 @@ a{
         
         /* box-shadow: inset 0px 10px 20px rgba(19, 170, 49, 0.34);  ill use this some place i like it*/
         transition: all 0.5s ;
+        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
 
 
 }
