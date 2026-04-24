@@ -16,16 +16,12 @@ function SmallBox(props){
         <>
             <div className='box' >
                 <div className='box-image' >
-                    {/* <div id='role-container'><h5>Favorite role 💜</h5></div> */}
                     {props.favorite_container_div}
                 </div>
-                    {/* <h3>Graphic design</h3> */}
                     <h3>{props.skill_name}</h3>
-                    {/* <SiTaichigraphics className='skills-logos2'/> */}
                     <props.skill_logo_code className="skills-logos2"/>
                     <p>{props.skill_description}</p>
 
-                    {/* <a href="#">Explore</a> */}
 
                     <section className='technologies'>
                         {props.technology1}
@@ -34,9 +30,7 @@ function SmallBox(props){
                         {props.technology4}
                         {props.technology5}
 
-                        {/* <h5>Photoshop</h5>
-                        <h5>Illustrator</h5>
-                        <h5>Blender</h5> */}
+               
 
                     </section>
             </div>
@@ -111,7 +105,7 @@ function Page2() {
                         />
 
                         <SmallBox
-                            favorite_container_div={<div id='role-container'><h5>Favorite role 🖤</h5></div>}
+                            favorite_container_div={<div id='role-container'><h5>Favorite role 🤍</h5></div>}
 
                             skill_name = "3D Modelling"  
                             skill_logo_code = {TbRotate3D}
