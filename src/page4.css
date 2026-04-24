@@ -45,8 +45,6 @@
     padding: 20px 0px 20px 20px;
 
 
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
-    /* border: 6px solid rgb(12, 12, 12); */
     border: 1px solid transparent;
     border-image: linear-gradient(to bottom ,rgb(228, 228, 228) , transparent);
     border-image-slice: 1;
@@ -54,7 +52,8 @@
 
     height: 100%;
 
-    background: transparent;
+     background-color: rgb(29, 29, 29);
+    
 }
 
 
@@ -75,8 +74,6 @@
 }
 
 #text-arrow{
-    color: rgb(116, 116, 116);
-    color: rgb(17, 192, 17);
     color: rgb(197, 197, 197);
 
     width: 35px;
@@ -98,11 +95,14 @@
 
 }
 
+
 #skills-percent-container  #about-logo-container{
     display: flex;
     flex-direction: row-reverse;
     gap: 0px;
 }
+
+
 
 
 
@@ -115,8 +115,6 @@
 }
 
 .skills-logos{
-    /* color: rgb(116, 116, 116); */
-    color:rgb(17, 192, 17);
     color:rgb(203, 203, 203);
 
     width: 25px;
@@ -124,13 +122,11 @@
     display: flex;
 
     margin-bottom: 2px;
-    /* background: rgb(0, 0, 0) ; */
     border-radius: 50%;
 }
 
 
 
-/* sdjkahfasdjklhflasdhfjkasdhf */
 
 #about2-logo-container{
     display: flex;
@@ -140,8 +136,6 @@
 }
 
 #text2-arrow{
-    color: rgb(116, 116, 116);
-    color: rgb(17, 192, 17);
     color: rgb(198, 198, 198);
 
     width: 35px;
@@ -153,7 +147,6 @@
 
 }
 #logo2-line{
-    background:linear-gradient(-90deg, rgb(17, 192, 17), rgba(0, 0, 0, 0));
     background:linear-gradient(-90deg, rgb(195, 195, 195), rgba(0, 0, 0, 0));
 
     filter: contrast(1.6);
@@ -191,6 +184,8 @@
 
 
 
+
+
 #skills-percent-container{
 
     border: 1px solid transparent ;
@@ -203,18 +198,15 @@
 
     padding: 20px 20px;
 
-    /* border: 6px solid rgb(12, 12, 12); */
 
     display: flex;
     flex-direction: column;
     gap: 16px;
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
 
-    /* box-shadow:   2px -15px 25px 5px  rgba(22, 91, 10, 0.179);  */
 
     min-height: 100%;
-    background: transparent;
 
+    background: rgb(29, 29, 29);
 
 }
 
@@ -238,12 +230,9 @@
     flex-direction: column;
     gap: 2px;
 
-    /* box-shadow:   5px 5px 25px 5px  rgba(243, 25, 232, 0.099);  */
-    /* border: 1px solid rgb(25, 222, 107); */
 
     border-radius: 20px;
     padding: 20px;
-    /* background-color: rgb(14, 14, 14); */
     background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
     
 }
@@ -256,7 +245,6 @@
 .skill-box h5{
     color: rgb(155, 155, 155);
     font-weight: 200;
-    /* font-size: clamp(11px, 0.9vw, 66px); */
 
     font-size: clamp(11px, 1vw, 17px);
 
@@ -267,7 +255,6 @@
 .skill-box h6{
     color: rgb(186, 186, 186);
     font-weight: 400;
-    /* font-size: clamp(14px, 1vw, 90px); */
     font-size: clamp(10px, 1vw, 15px);
     display: flex;
     gap: 10px;
@@ -279,13 +266,11 @@
     width: 100%;
     height : 5px;
     border-radius: 8px;
-    background-color: rgb(175, 173, 173);
     background-color: rgb(0, 0, 0);
 
     display: flex;
     justify-content: start;
     align-items: end;
-     /* box-shadow:   5px 5px 25px 5px  rgba(25, 243, 101, 0.319);  */
 
 
 }
@@ -298,8 +283,6 @@
     border-top-left-radius: 8px;
 
 
-    background-color: rgb(20, 149, 59);
-    background : linear-gradient( 90deg,  rgb(13, 102, 44) , rgb(17, 192, 17)) ;
     background : linear-gradient( 90deg,  rgb(101, 101, 101) , rgb(182, 182, 182)) ;
 
 
@@ -376,9 +359,7 @@
     animation-name: me-line;
     animation-timeline: view();
     animation-timing-function: linear;
-    /* animation-range: entry cover 40%; */
     animation-range: entry exit;
-    /* background:linear-gradient(90deg, rgb(199, 199, 199), rgb(57, 57, 57)); */
 
 }
 
@@ -408,17 +389,10 @@
     border-image-slice: 1;
     border-radius: 20px;
 
-
-    /* background: linear-gradient(rgb(15, 15, 15),rgb(3, 3, 3));  */
-    /* background: linear-gradient(-140deg, rgb(5, 20, 10), rgb(15, 15, 15), rgb(15, 15, 15) , rgb(15, 15, 15),  rgb(15, 15, 15),  rgb(15, 15, 15), rgb(5, 20, 10));  */
-
-    /* background: linear-gradient(180deg , #000000 ,  #000000, rgb(18, 18, 18)); */
-
-    /* background: rgb(15, 15, 15); */
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
     background: transparent;
 
     height: min-content;
+    background: rgb(29, 29, 29);
 
 }
 
@@ -439,12 +413,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
-    /* background: rgb(2, 2, 2); */
 
     min-height: auto;
     margin-bottom: 40px;
-    background: transparent;
+    background: rgb(29, 29, 29);
 
 }
 
@@ -453,7 +425,6 @@
 .skill-box h5{
     color: rgb(155, 155, 155);
     font-weight: 200;
-    /* font-size: clamp(11px, 0.9vw, 66px); */
 
     font-size: clamp(14px, 1vw, 15px);
 
@@ -464,7 +435,6 @@
 .skill-box h6{
     color: rgb(186, 186, 186);
     font-weight: 400;
-    /* font-size: clamp(14px, 1vw, 90px); */
     font-size: clamp(14px, 1vw, 15px);
 
 
@@ -485,10 +455,8 @@
     min-height:100vh;
     width: 100%;
 
-    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
     padding: 0px 10px;
 
-          background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
     background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
@@ -514,18 +482,10 @@
 }
 
 #about-me-box{
-    /* padding: 0px 20px;
-    border-radius: 20px;
-
-    background: rgb(15, 15, 15);
-    background: rgb(2, 2, 2);
-    border: 6px solid rgb(12, 12, 12);
-
-    height: min-content; */
+  
     padding: 20px 20px;
 
     width: 90%;
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
 
     justify-self: center;
 
@@ -533,7 +493,7 @@
     border-image: linear-gradient(to bottom ,rgb(232, 232, 232) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
-    background: transparent;
+    background: rgb(29, 29, 29);
 
 
 }
@@ -541,7 +501,6 @@
 .skill-box h5{
     color: rgb(155, 155, 155);
     font-weight: 200;
-    /* font-size: clamp(11px, 0.9vw, 66px); */
 
     font-size: clamp(14px, 1vw, 15px);
 
@@ -552,7 +511,6 @@
 .skill-box h6{
     color: rgb(186, 186, 186);
     font-weight: 400;
-    /* font-size: clamp(14px, 1vw, 90px); */
     font-size: clamp(14px, 1vw, 15px);
 
 
@@ -576,14 +534,13 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    /* background: linear-gradient( 180deg , rgb(2, 2, 2) , transparent ); */
-    /* background: rgb(2, 2, 2); */
+
     width: 90%;
     justify-self: center;
     min-height: auto;
     margin-bottom: 40px;
 
-    background: transparent;
+    background: rgb(29, 29, 29);
 
 
 }
@@ -594,25 +551,6 @@
 
 
 
-/* MAKING SCROLL EFFECTS */
-
-
-/* @keyframes appear{
-    from{
-        opacity: 0;
-        transform: translateX(-800px);
-        scale: 0.1;
-    }
-
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-
-        scale: 1;
-
-    }
-}
- */
 
 
 @keyframes appear2{
