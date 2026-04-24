@@ -10,13 +10,53 @@
     background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
 
 
-      background : linear-gradient( 90deg, rgb(4, 23, 9) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.91),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(4, 23, 9)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+#page5-container h3{
+    
+    color:rgb(206, 206, 206);
+    font-size: clamp(24px, 1vw, 25px);
+    text-align: center;
+
+
+}
+
+#model-box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#model-img{
+  width: 400px;
+}
+
+#model-details h2{
+    font-size: clamp(24px, 1vw, 25px);
+    color:rgb(206, 206, 206);
+
+}
+
+#model-details h3{
+    font-size: clamp(24px, 1vw, 25px);
+    color:rgb(206, 206, 206);
+
+}
+
+
+#model-details button{
+      font-size: clamp(24px, 1vw, 25px);
+    color:rgb(206, 206, 206);
+}
+
+
 
 
 

@@ -1,6 +1,30 @@
 import './page5.css';
 
 
+function ModelBox(Render){
+    return(
+        <>
+            <div id='model-box'>
+                <div id='model-pic'>
+                    <img src={Render.image_src} id='model-img' alt="" />
+                </div>
+
+                <div id='model-details'>
+                    <h2 >{Render.name}</h2>
+                    <h3>{Render.creation_date}</h3>
+
+                    <button>View fullscreen</button>
+                    <button>View creation video</button>
+
+
+                </div>
+
+            </div>
+
+        </>
+    )
+}
+
 function Page5(){
 
     return(
@@ -8,7 +32,43 @@ function Page5(){
             <div id='page5'>
 
                 <div id='page5-container'>
+                    <h3>3D Modelling</h3>
 
+
+                    <div id='model-content-box'>
+                        
+                        <ModelBox
+                            image_src = "Untitledwww.png"
+                            name = "Silence of solitude"
+                            creation_date = "12 April 2026"
+
+                        ></ModelBox>
+
+
+                        <ModelBox
+                            image_src = "skull1.png"
+                            name = "Silence of solitude"
+                            creation_date = "12 April 2026"
+
+                        ></ModelBox>
+                        
+
+                        <ModelBox
+                            image_src = "Untitle23d.png"
+                            name = "Silence of solitude"
+                            creation_date = "12 April 2026"
+
+                        ></ModelBox>
+                        
+
+                        <ModelBox
+                            image_src = "house2.png"
+                            name = "Silence of solitude"
+                            creation_date = "12 April 2026"
+
+                        ></ModelBox>
+                        
+                    </div>
                 </div>
             </div>
         </>
