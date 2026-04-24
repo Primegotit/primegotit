@@ -1,5 +1,7 @@
 import './page5.css';
 
+import { IoEnter } from 'react-icons/io5';
+import { FaArrowDown } from 'react-icons/fa';
 
 function ModelBox(Render){
     return(
@@ -17,7 +19,8 @@ function ModelBox(Render){
                     </span>
                     <br />
                     <section>
-                        <button>View creation video</button>
+                        <a  href={Render.site_url} target='_blank' id='visit-button'>Visit creation video <IoEnter id='visit-button-image'></IoEnter> </a>
+                        
                     </section>
 
                 </div>
