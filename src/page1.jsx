@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './page1.css'
 import { TiArrowRightThick } from "react-icons/ti";
+import { FaBars } from "react-icons/fa";   
 
 
 function Page1() {
@@ -20,7 +21,7 @@ function Page1() {
 
                     </ul>
 
-                    <section><img  id='more-icon' src="/menu burger-icon.png" alt="" /></section>
+                    <section><FaBars id='more-icon'/></section>
                 </nav>
 
                 <div id='main'>
