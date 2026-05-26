@@ -25,7 +25,7 @@ function Page4() {
                 <div id='about-me-container'>
                     <div id='about-me-box'>
                         <div id='about-logo-container'>
-                            <img src="/primegotit grey scale logo.png" id='text-arrow' />
+                            <img src="/primegotit-high-resolution-logo-grayscale-transparent.png" id='text-arrow' />
                             <div id='logo-line'></div>
                         </div>
 
@@ -71,7 +71,7 @@ function Page4() {
                         <div id='about2-logo-container'>
                             <div id='logo2-line'></div>
 
-                            <img src="/primegotit grey scale logo.png" id='text2-arrow' alt="" />
+                            <img src="/primegotit-high-resolution-logo-grayscale-transparent.png" id='text2-arrow' alt="" />
                         </div>
                         <h3>Experience levels   
                             {/* <TiArrowRightThick style={{color: 'rgb(116, 116, 116)', marginLeft: '10px', width: '35px', height: '35px'}} ></TiArrowRightThick>  */}
