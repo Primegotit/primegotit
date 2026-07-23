@@ -44,7 +44,7 @@ function Page5(){
                     <div id='model-content-box'>
                         
                         <ModelBox
-                            image_src = "Untitledwww.png"
+                            image_src = "Untitled.png"
                             name = "Silence of solitude"
                             creation_date = "14 April 2026"
                             site_url = "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
@@ -53,7 +53,7 @@ function Page5(){
 
 
                         <ModelBox
-                            image_src = "skull1.png"
+                            image_src = "HALLWAY_IMAGE.png"
                             name = "Thoughts unveiled"
                             creation_date = "23 April 2026"
                             site_url = "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
@@ -62,7 +62,7 @@ function Page5(){
                         
 
                         <ModelBox
-                            image_src = "Untitle23d.png"
+                            image_src = "HALLWAY_IMAGE4.png"
                             name = "Design space leak"
                             creation_date = "5 April 2026"
                             site_url = "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
