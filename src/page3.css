@@ -459,7 +459,7 @@
     justify-content: center;
     padding: 20px 10px;
     align-items: center;
-  background: linear-gradient( rgb(29, 29, 29), rgb(29, 29, 29), black);
+  background: linear-gradient( rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29));
     
     /* border-radius: 18px; */
     /* background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)); */
@@ -483,7 +483,7 @@
 }
 
 #view-portfolio-container a{
-    background: rgb(76, 76, 76);
+    background: rgb(7, 7, 7);
     border-radius: 18px;
 
     color: white;

@@ -1,5 +1,5 @@
 import './page5.css';
-import { FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
 import { IoEnter } from 'react-icons/io5';
 import { FaArrowDown } from 'react-icons/fa';
 
@@ -19,7 +19,8 @@ function ModelBox(Render){
                     </span>
                     <br />
                     <section>
-                        <a  href={Render.site_url} target='_blank' id='visit-button'>Visit creation video <FaYoutube style={{ color: 'red', fontSize: '1.7rem' }} /> </a>
+                        <a  href={Render.site_url} target='_blank' id='visit-button'>View video <FaYoutube style={{ color: 'white', fontSize: '1.7rem' }} /> </a>
+                        <a  href={Render.site_url} target='_blank' id='visit-button'>View image <FaInstagram style={{ color: 'white', fontSize: '1.7rem' }} /> </a>
                         
                     </section>
 
