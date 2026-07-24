@@ -1,0 +1,63 @@
+#resume_page{
+    min-height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
+    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgba(0, 0, 0, 0.741) , rgba(0, 0, 0, 0.884) ,rgba(0, 0, 0, 0.873) , rgba(0, 0, 0, 0.889),rgba(0, 0, 0, 0.873) ,rgba(0, 0, 0, 0.867) ,   rgb(13, 13, 13)) , url(/public/pexels-eva-bronzini-6914875.jpg);
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+#resume_page h3{
+    text-align: center;
+}
+
+
+#resume-page-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    max-height: 100%;
+}
+
+#resume-page-content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+}
+
+#achievement-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    padding: 10px;
+    height: 330px;
+}
+#achievement-box img{
+    width: 250px;
+    /* background: blue; */
+
+}
+
+#achievement-box h3{
+    font-weight: 700;
+    color: rgb(197, 197, 197);
+    margin-bottom: 10px;
+}
+
+#achievement-box h4{
+    font-weight: 300;
+    color: rgb(197, 197, 197);
+
+}

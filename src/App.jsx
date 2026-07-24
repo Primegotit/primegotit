@@ -5,7 +5,7 @@ import Page2 from './page2.jsx'
 import Page3 from './page3.jsx'
 import Page4 from './page4.jsx'
 import Page5 from './page5.jsx'
-import MusicProduction from './music_production.jsx'
+import Resume from './Resume.jsx'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <Page3/>
       <Page5/>
 
-      {/* <MusicProduction/> */}
+      <Resume/>
       
 
     </>
