@@ -32,6 +32,34 @@ function ModelBox(Render){
     )
 }
 
+function VisitPortfolio(){
+    return(
+        <>
+            <div id='view-portfolio-container'>
+                <div id='all-web-logos'>
+
+                    <img src="/primegotit logo green big 2.png" alt="" />
+
+                    <img src="/trackway.png" alt="" />
+                    <img src="/primegotit logo green big 2.png" alt="" />
+
+                    <img src="/POS system.png" alt="" />
+
+                    <img src="/Transparent official hoodie.png" alt="" />
+                    <img src="/logo7.png" alt="" />
+
+                    <img src="/offiCIAL website1_logo.png" alt="" />
+
+
+
+                </div>
+                <p><b>View 3D Modelling portfolio</b></p>
+                <a href="#">Ok</a>
+            </div>
+        </>
+    )
+}
+
 function Page5(){
 
     return(
@@ -40,7 +68,7 @@ function Page5(){
 
                 <div id='page5-container'>
                     <h3>3D Modelling</h3>
-
+<br />
 
                     <div id='model-content-box'>
                         
@@ -96,6 +124,8 @@ function Page5(){
                         ></ModelBox>
                         
                     </div>
+
+                    <VisitPortfolio></VisitPortfolio>
                 </div>
             </div>
         </>
