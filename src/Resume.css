@@ -40,14 +40,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: red; */
+
     padding: 10px;
-    height: 330px;
 }
 #achievement-box img{
     width: 250px;
-    /* background: blue; */
+  transition: all 0.5s;
+}
 
+#achievement-box img:hover{
+    transform: scale(1.09);
 }
 
 #achievement-box h3{
