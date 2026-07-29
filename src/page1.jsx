@@ -4,6 +4,7 @@ import { TiArrowRightThick } from "react-icons/ti";
 import { FaBars } from "react-icons/fa";   
 
 
+
 function Page1() {
 
     return(
