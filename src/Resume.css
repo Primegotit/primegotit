@@ -11,7 +11,19 @@
     background: black;
     display: flex;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.925); 
+
 }
+
+#bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit:cover;
+    z-index: -1;
+  }
 
 #resume_page h3{
     text-align: center;

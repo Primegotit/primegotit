@@ -14,6 +14,9 @@ function Page4() {
 
     return (
         <>
+            <video autoPlay muted loop id="bg-video" >
+                <source src="/backvideo.mp4" type="video/mp4"/>
+            </video>
             <div id='page4'>
                 <div id='about-heading'> 
                      <h3>About me 

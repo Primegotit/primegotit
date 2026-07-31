@@ -16,6 +16,9 @@ function Achieve_box(Details){
 function Resume(){
     return(
         <>
+            <video autoPlay muted loop id="bg-video" >
+                <source src="/backvideo.mp4" type="video/mp4"/>
+            </video>
             <div id='resume_page'>
                 <div id='resume-page-container'>
                     <h3>Achievements</h3>

@@ -9,7 +9,11 @@ function Page1() {
 
     return(
         <>
+            <video autoPlay muted loop id="bg-video" >
+                <source src="/backvideo.mp4" type="video/mp4"/>
+            </video>
             <div id='page1'>
+                
 
                 <nav>
                     <section id='logo-section'><img src="/primegotit-high-resolution-logo-grayscale-transparent.png" alt="" /><h3>Prime</h3></section>

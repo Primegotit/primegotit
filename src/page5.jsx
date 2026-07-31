@@ -64,6 +64,9 @@ function Page5(){
 
     return(
         <>
+                    <video autoPlay muted loop id="bg-video" >
+                <source src="/backvideo.mp4" type="video/mp4"/>
+            </video>
             <div id='page5'>
 
                 <div id='page5-container'>

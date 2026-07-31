@@ -114,7 +114,10 @@ function VisitPortfolio(){
 function Page3(){
 
     return (
-        <>
+        <>            
+        <video autoPlay muted loop id="bg-video" >
+            <source src="/backvideo.mp4" type="video/mp4"/>
+        </video>
             <div id='page3'>
    
                 <div id='page3-intro'>

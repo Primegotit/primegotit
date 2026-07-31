@@ -44,6 +44,9 @@ function Page2() {
 
     return(
         <>
+            <video autoPlay muted loop id="bg-video" >
+                <source src="/backvideo.mp4" type="video/mp4"/>
+            </video>
             <div id='page2'>
                 <h1 id='intro-heading'>Technical Skills  </h1>
                 <div id='page2-container'>
