@@ -22,7 +22,6 @@ function Resume(){
             <div id='resume_page'>
                 <div id='resume-page-container'>
                     <h3>Achievements</h3>
-                    {/* <img src="/courses/aws1.png" alt="" /> */}
                     <div id='resume-page-content-box' >
 
                         <Achieve_box path="/courses/aws1.png" image="/courses/aws1.png" ></Achieve_box>

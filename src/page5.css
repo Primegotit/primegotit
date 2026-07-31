@@ -43,13 +43,13 @@
   max-width: 390px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(29, 29, 29);
   padding: 0px 20px 20px 20px;
 
   border: 2px solid transparent;
   border-image: linear-gradient(to top ,rgb(186, 186, 186) , transparent , transparent);
   border-image-slice: 1;
   box-shadow: -2px 29px 19px -19px  rgba(251, 251, 251, 0.207);
+  background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
 
 }
 #model-pic{
@@ -60,14 +60,6 @@
 #model-img{
   width: 390px;
   cursor: pointer;
-  transition: all 0.5s;
-  /* border-bottom-left-radius:10px ;
-  border-bottom-right-radius:10px ; */
-
-}
-
-#model-img:hover{
-  scale: 1.03;
 
 }
 

@@ -1,5 +1,5 @@
 #resume_page{
-    min-height: 90vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -27,6 +27,8 @@
 
 #resume_page h3{
     text-align: center;
+    font-size: clamp(24px, 1vw, 25px);
+
 }
 
 

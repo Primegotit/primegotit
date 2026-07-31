@@ -2,6 +2,7 @@ import './page5.css';
 import { FaInstagram, FaYoutube } from 'react-icons/fa';
 import { IoEnter } from 'react-icons/io5';
 import { FaArrowDown } from 'react-icons/fa';
+import { FaEye } from 'react-icons/fa';
 
 function ModelBox(Render){
     return(
@@ -19,8 +20,8 @@ function ModelBox(Render){
                     </span>
                     <br />
                     <section>
-                        <a  href={Render.site_url} target='_blank' id='visit-button'>View video <FaYoutube style={{ color: 'white', fontSize: '1.7rem' }} /> </a>
-                        <a  href={Render.site_url} target='_blank' id='visit-button'>View image <FaInstagram style={{ color: 'white', fontSize: '1.7rem' }} /> </a>
+                        <a  href={Render.site_url} target='_blank' id='visit-button'>View video <FaYoutube style={{ color: 'rgb(247, 99, 0)', fontSize: '1.7rem' }} /> </a>
+                        <a  href={Render.site_url} target='_blank' id='visit-button'>View image <FaEye style={{ color: 'rgb(247, 99, 0)', fontSize: '1.7rem' }} /> </a>
                         
                     </section>
 
