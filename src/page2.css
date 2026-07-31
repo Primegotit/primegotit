@@ -65,7 +65,7 @@
     border: 1px solid transparent;
     border-image: linear-gradient(to top ,rgb(213, 213, 213) , transparent , transparent);
     border-image-slice: 1;
-    background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
+    background:linear-gradient(black,black,black, rgb(15, 15, 15),rgb(15, 15, 15));
 
 }
 
