@@ -153,10 +153,8 @@
 
 
 #web-box{
-    background: transparent;
     max-width: 730px;
     margin: auto;
-
 /*  border: 6px solid rgb(12, 12, 12); */
     border: 2px solid transparent;
     border-image: linear-gradient(to top ,rgb(186, 186, 186) , transparent , transparent);
@@ -167,13 +165,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  background-color: rgb(29, 29, 29);
-
-
-
+    background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
     /* animation-name: appear2; */
     animation-name:box-anime;
-
     animation-timeline: view();
     animation-timing-function: linear;
     animation-range: entry exit;
@@ -424,15 +418,7 @@
   width: 8px;
   height: 200vh; 
   border-radius: 20px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0),
-    rgb(191, 191, 191),
-    rgb(200, 200, 200),
-    rgb(223, 223, 223)
-  );
-
+  background:linear-gradient(180deg,  rgba(0, 0, 0, 0),  rgba(207, 86, 4, 0.075), rgb(247, 99, 0), rgb(255, 0, 0));
   animation: page-line linear;
   animation-timeline: view();      /* link animation to scroll */
   animation-range: entry  exit ;
@@ -468,8 +454,8 @@
     justify-content: center;
     padding: 20px 10px;
     align-items: center;
-  background: linear-gradient( rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29));
-    
+  background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
+
     /* border-radius: 18px; */
     /* background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)); */
 }

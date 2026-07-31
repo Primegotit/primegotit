@@ -365,7 +365,6 @@
     width: 8px;
 
     border-radius: 20px;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0) , rgb(184, 184, 184));
     background:linear-gradient(180deg,  rgba(0, 0, 0, 0),  rgba(207, 86, 4, 0.075), rgb(247, 99, 0), rgb(255, 0, 0));
 
     animation-name: me-line;
