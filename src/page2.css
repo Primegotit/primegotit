@@ -444,6 +444,7 @@ a{
         
         transition: all 0.5s ;
         background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
+        background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.594), rgb(15, 15, 15),rgb(15, 15, 15));
 
 }
 

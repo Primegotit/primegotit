@@ -35,11 +35,11 @@ function Page4() {
 
                         <div id='me-text-container'>
                             <div id='me-text'>
-    <p>
-        <b>Hie</b>, my name is <b>Promise Siafwiyo</b>, also known as <b>Prime</b> / <i><b>PrimeGotit</b></i>".  
-        I am a multidisciplinary digital creator , a <b>3D artist</b>, <b>Web developer</b>, <b>Computer science tutor</b>  and a <b>Technology enthusiast</b> with a wide range of skills across the digital space.
-        I enjoy building, designing, and experimenting with creative and technical projects, making me a true <b>Digital polymath</b>.
-    </p>
+                        <p>
+                            <b>Hie</b>, my name is <b>Promise Siafwiyo</b>, also known as <b>Prime</b> / <i><b>PrimeGotit</b></i>".  
+                            I am a multidisciplinary digital creator , a <b>3D artist</b>, <b>Web developer</b>, <b>Computer science tutor</b>  and a <b>Technology enthusiast</b> with a wide range of skills across the digital space.
+                            I enjoy building, designing, and experimenting with creative and technical projects, making me a true <b>Digital polymath</b>.
+                        </p>
                         <p>
                             I am currently pursuing a <b>Bachelor's Degree in Computer Science</b> at the <b>National University of Science and Technology in Zimbabwe.</b>
                             I have always had a passion for computers and technology and that interest has continued to grow over the years.

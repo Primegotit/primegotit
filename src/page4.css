@@ -377,7 +377,15 @@
 
 @media (max-width: 992px) {
 
-
+#bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit:cover;
+    z-index: -1;
+}
 
 
 #about-me-container{
@@ -403,7 +411,6 @@
     background: transparent;
 
     height: min-content;
-    background: rgb(29, 29, 29);
 
 }
 
@@ -462,6 +469,16 @@
 @media (max-width: 600px)
 {
 
+    #bg-video{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit:cover;
+        z-index: -1;
+    }
+    
     #page4{
     min-height:100vh;
     width: 100%;
@@ -474,7 +491,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background: black;
+    background: rgba(0, 0, 0, 0.925); 
+
 
 }
 
@@ -506,7 +524,7 @@
     border-image: linear-gradient(to bottom ,rgb(232, 232, 232) , transparent);
     border-image-slice: 1;
     border-radius: 20px;
-    background: rgb(29, 29, 29);
+    background-color: rgba(0, 0, 0, 0);
 
 
 }
@@ -553,7 +571,7 @@
     min-height: auto;
     margin-bottom: 40px;
 
-    background: rgb(29, 29, 29);
+    background-color: rgba(0, 0, 0, 0);
 
 
 }
