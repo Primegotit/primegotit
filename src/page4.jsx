@@ -60,8 +60,6 @@ function Page4() {
                          <p>
 
                             <a href=""><img src="/courses/coursera1.png" alt="" width="200px" /></a>
-                            <a href="#">View resume</a>
-                            <a href="#">Download resume</a>
 
                          </p>
 

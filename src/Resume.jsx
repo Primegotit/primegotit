@@ -30,8 +30,13 @@ function Resume(){
                         <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
 
                     </div>
+                    <div id='horizontal-line'>
+                    </div>
+
                 </div>
+
             </div>
+
         </>
     )
 }

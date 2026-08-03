@@ -50,6 +50,7 @@
   border-image-slice: 1;
   box-shadow: -2px 29px 19px -19px  rgba(251, 251, 251, 0.207);
   background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
+  box-shadow: -2px 19px 19px -19px rgba(255, 94, 0, 0.557);
 
 }
 #model-pic{

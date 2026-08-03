@@ -1,14 +1,11 @@
 #resume_page{
-    height: 90vh;
+    height:80vh;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 10px 0px;
-    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgb(0, 0, 0) , rgb(0, 0, 0) ,rgba(0, 0, 0, 0.953) , rgba(0, 0, 0, 0.978),rgb(0, 0, 0) ,rgb(0, 0, 0) ,   rgb(13, 13, 13)) , url(/public/pexels-enginakyurt-6348909.jpg);
-    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgba(0, 0, 0, 0.741) , rgba(0, 0, 0, 0.884) ,rgba(0, 0, 0, 0.873) , rgba(0, 0, 0, 0.889),rgba(0, 0, 0, 0.873) ,rgba(0, 0, 0, 0.867) ,   rgb(13, 13, 13)) , url(/public/pexels-eva-bronzini-6914875.jpg);
-    background: black;
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.925); 
@@ -36,7 +33,6 @@
     display: flex;
     flex-direction: column;
     padding: 30px ;
-    max-height: 100%;
 }
 
 #resume-page-content-box{
@@ -46,7 +42,7 @@
     gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 100%;
+    min-height: 70%;
 }
 
 #achievement-box{
@@ -59,7 +55,7 @@
 }
 #achievement-box img{
     width: 250px;
-  transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 #achievement-box img:hover{
@@ -76,4 +72,13 @@
     font-weight: 300;
     color: rgb(197, 197, 197);
 
+}   
+
+#horizontal-line{
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, rgb(247, 99, 0), rgb(255, 0, 0));
+    box-shadow: 0 0 2px rgb(247, 99, 0),
+    0 0 20px rgb(255, 0, 0),
+    0 0 2px rgb(223, 53, 2);
 }
