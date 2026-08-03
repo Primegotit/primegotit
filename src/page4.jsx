@@ -51,16 +51,18 @@ function Page4() {
 
                         </p>    
 
-                        <p>My journey into the digital field began with music production, where I first explored creativity
-                            through sound design and composition. Over time, that creative curiosity expanded into programming during high school while I was 
-                            studying Computer Science. As I advanced, I realized that building meaningful digital experiences requires more than writing code, it demands 
-                            an understanding of design, structure, user experience and visual communication. Exploring these interconnected disciplines has shaped my approach to technology, combining 
-                            logic, creativity and precision to produce well rounded digital work.<br/>I enjoy creating content across all the disciplines I work, so this website will serve as a complete showcase of my projects, 
-                            carefully organized for easier navigation and viewing.
-                        </p>
+
 
                         <p>One of my long term goals is to become an <b>Ethical Hacker</b>. I am committed to conitnously developing the technical knowledge, discipline and expertise required to achieve that ambition.Tnank you 
                         for taking the time to explore my work and I hope you enjoy the experience.
+                         </p>
+
+                         <p>
+
+                            <a href=""><img src="/courses/coursera1.png" alt="" width="200px" /></a>
+                            <a href="#">View resume</a>
+                            <a href="#">Download resume</a>
+
                          </p>
 
                         </div>
