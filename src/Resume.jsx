@@ -22,17 +22,23 @@ function Resume(){
             <div id='resume_page'>
                 <div id='resume-page-container'>
                     <h3>Achievements</h3>
-                    <div id='resume-page-content-box' >
+                    <div id="resume-marquee">
+                        <div id='resume-page-content-box' >
 
-                        <Achieve_box path="/courses/aws1.png" image="/courses/aws1.png" ></Achieve_box>
-                        <Achieve_box path="/courses/coursera1.png" image="/courses/coursera1.png" ></Achieve_box>
-                        <Achieve_box path="/courses/aws2.png" image="/courses/aws2.png"></Achieve_box>
-                        <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
+                            <Achieve_box path="/courses/aws1.png" image="/courses/aws1.png" ></Achieve_box>
+                            <Achieve_box path="/courses/coursera1.png" image="/courses/coursera1.png" ></Achieve_box>
+                            <Achieve_box path="/courses/aws2.png" image="/courses/aws2.png"></Achieve_box>
+                            <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
 
+                            <Achieve_box path="/courses/aws1.png" image="/courses/aws1.png" ></Achieve_box>
+                            <Achieve_box path="/courses/coursera1.png" image="/courses/coursera1.png" ></Achieve_box>
+                            <Achieve_box path="/courses/aws2.png" image="/courses/aws2.png"></Achieve_box>
+                            <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
+
+                        </div>
+                        <div id='horizontal-line'>
+                        </div>
                     </div>
-                    <div id='horizontal-line'>
-                    </div>
-
                 </div>
 
             </div>
