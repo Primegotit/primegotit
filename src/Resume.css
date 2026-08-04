@@ -126,12 +126,12 @@
 #achievement-box img{
     width: 250px;
     border-radius: 12px;
-
     transition: transform .4s ease;
 }
 
 #achievement-box img:hover{
     transform: scale(1.08);
+    
 }
 
 

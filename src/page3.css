@@ -628,7 +628,6 @@
 #all-web-logos img{
     height: 39px;
     width: 39px;
-    box-shadow: -2px 19px 19px -10px  rgba(25, 243, 69, 0.956);
     background: transparent;
     border-radius: 50%;
 }
@@ -644,7 +643,6 @@
     border-radius: 5px;
     padding: 3px 30px;
     gap: 10px;
-    background: rgb(17, 192, 17);
     font-weight: bold;
     transition: all 0.4s ;
 
@@ -679,7 +677,6 @@
 #all-web-logos img{
     height: 35px;
     width: 35px;
-    box-shadow: -2px 19px 19px -10px  rgba(25, 243, 69, 0.956);
     background: transparent;
     border-radius: 50%;
 }
@@ -712,7 +709,6 @@
 #all-web-logos img{
     height: 30px;
     width: 30px;
-    box-shadow: -2px 19px 19px -10px  rgba(25, 243, 69, 0.956);
     background: transparent;
     border-radius: 50%;
 }
