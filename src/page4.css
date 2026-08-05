@@ -134,7 +134,46 @@
     border-radius: 50%;
 }
 
+#resume-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 
+}
+#resume-btn-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-btn-con p{
+    padding: 0px;
+    width: max-content;
+    display: flex;
+}
+
+#resume-btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+#resume-btns a{
+    background: black;
+    padding: 5px 25px;
+    border-radius: 10px;
+    min-width: 110px;
+    display: flex;
+    justify-content: center;
+    color: rgb(216, 216, 216);
+    border-bottom:4px solid rgb(247, 74, 0);
+
+}
 
 
 #about2-logo-container{
