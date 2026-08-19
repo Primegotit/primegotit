@@ -6,6 +6,7 @@ import Page3 from './page3.jsx'
 import Page4 from './page4.jsx'
 import Page5 from './page5.jsx'
 import Resume from './Resume.jsx'
+import Contact from './Contact.jsx'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
       <Page5/>
 
       <Resume/>
-      
+      <Contact/>
 
     </>
   )
