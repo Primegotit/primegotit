@@ -43,7 +43,7 @@ function Page4() {
                         <p>
                             I am currently pursuing a <b>Bachelor's Degree in Computer Science</b> at the <b>National University of Science and Technology in Zimbabwe.</b>
                             I have always had a passion for computers and technology and that interest has continued to grow over the years.
-                            I'm also a junior developer and animator at <b><a href="www.rodneytech.co.zw">Pixel Pyre Technologies</a></b> formerly known as Rodneytech,inc, a technology company where i contribute 
+                            I'm also a junior developer and animator at <b><a href="https://www.pixelpyre-tech.co.zw/">Pixel Pyre Technologies</a></b> formerly known as Rodneytech,inc, a technology company where i contribute 
                             to both development and creative projects like web development, animation and etc.
                             Since 2024, I have also been a private <b>computer science tutor</b>, mentoring students in programming fundamentals, networking, algorithms and 
                             data structures, operating system fundamentals and other related modules. Through tutoring
