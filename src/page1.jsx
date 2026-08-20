@@ -16,7 +16,9 @@ function Page1() {
                 
 
                 <nav>
-                    <section id='logo-section'><img src="/primegotit-high-resolution-logo-grayscale-transparent.png" alt="" /><h3>Prime</h3></section>
+                    {/* <section id='logo-section'><img src="/primegotit-high-resolution-logo-grayscale-transparent.png" alt="" /><h3>Prime</h3></section> */}
+                    <section id='logo-section'><img src="/primegotit logo green big 3.png" alt="" /><h3>Prime</h3></section>
+
 
                     <ul>
                         <li><a href="#" className='hover-link'>Home</a></li>
