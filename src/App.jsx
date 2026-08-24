@@ -7,6 +7,7 @@ import Page4 from './page4.jsx'
 import Page5 from './page5.jsx'
 import Resume from './Resume.jsx'
 import Contact from './Contact.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
 
       <Resume/>
       <Contact/>
+      <Footer/>
 
     </>
   )
