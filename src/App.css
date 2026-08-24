@@ -8,3 +8,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+#page1, #page4, #page2, #page3, #page5, #resume_page, #contact {
+  scroll-margin-top: 40px;
+}

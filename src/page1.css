@@ -112,19 +112,15 @@ nav ul li a:hover{
 
 }
 
-nav section{
+nav section, #logo-section{
     display: flex;
     align-items: center;
     gap: 13px;
-
+    text-decoration: none;
 }
 
-nav section h3{
-    /* color: rgb(0, 153, 255); */
-    color: rgb(25, 222, 107);
+nav section h3, #logo-section h3{
     color: rgb(201, 201, 201);
-
-
 }
 
 nav img{
@@ -143,6 +139,24 @@ nav img:hover{
 
 h1{
     color: black;
+}
+
+#more-icon-btn {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: rgb(201, 201, 201);
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#more-icon-btn:hover {
+    color: rgb(247, 99, 0);
+    transform: scale(1.1);
 }
 
 #more-icon{
@@ -362,21 +376,63 @@ div p{
 
     }
 
+    #more-icon-btn{
+        display: flex;
+    }
+
     #more-icon{
         visibility:visible;
     }
 
-
-    
-nav{
-    height: 60px;
-}
-
+    nav{
+        height: 60px;
+        position: relative;
+    }
 
     nav ul {
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        left: auto;
+        width: min(240px, 80vw);
+        background: rgba(14, 14, 14, 0.96);
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(76, 76, 76, 0.65);
+        border-radius: 14px;
+        box-shadow: 
+            0 15px 35px rgba(0, 0, 0, 0.85),
+            0 0 20px rgba(247, 99, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 18px 20px;
+        transform-origin: top right;
+        transform: scale(0.85) translateY(-10px);
+        opacity: 0;
         visibility: hidden;
-        display: none;
+        pointer-events: none;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease, visibility 0.3s;
+        z-index: 999;
+    }
 
+    nav ul.nav-active {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 2px 0;
     }
 
     
@@ -547,22 +603,16 @@ div h2{
 
     }
 
+    #more-icon-btn{
+        display: flex;
+    }
+
     #more-icon{
         visibility:visible;
     }
 
-
-    
-nav{
-    height: 60px;
-
-}
-
-
-    nav ul {
-        visibility: hidden;
-        display: none;
-
+    nav{
+        height: 60px;
     }
 
     

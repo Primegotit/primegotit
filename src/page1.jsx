@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './page1.css'
 import { TiArrowRightThick } from "react-icons/ti";
-import { FaBars } from "react-icons/fa";   
+import { FaBars, FaTimes } from "react-icons/fa";   
 
 
 
 function Page1() {
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return(
         <>
@@ -16,19 +17,27 @@ function Page1() {
                 
 
                 <nav>
-                    {/* <section id='logo-section'><img src="/primegotit-high-resolution-logo-grayscale-transparent.png" alt="" /><h3>Prime</h3></section> */}
-                    <section id='logo-section'><img src="/primegotit logo green big 3.png" alt="" /><h3>Prime</h3></section>
+                    <a href="#page1" id='logo-section'><img src="/primegotit logo green big 3.png" alt="Prime Logo" /><h3>Prime</h3></a>
 
-
-                    <ul>
-                        <li><a href="#" className='hover-link'>Home</a></li>
-                        <li><a href="#" className='hover-link'>Services</a></li>
-                        <li><a href="#" className='hover-link'>About me</a></li>
-                        <li><a href="#" className='hover-link'>Contact me</a></li>
-
+                    <ul className={menuOpen ? 'nav-active' : ''}>
+                        <li><a href="#page1" className='hover-link' onClick={() => setMenuOpen(false)}>Home</a></li>
+                        <li><a href="#page4" className='hover-link' onClick={() => setMenuOpen(false)}>About me</a></li>
+                        <li><a href="#page2" className='hover-link' onClick={() => setMenuOpen(false)}>Services</a></li>
+                        <li><a href="#page3" className='hover-link' onClick={() => setMenuOpen(false)}>Projects</a></li>
+                        <li><a href="#page5" className='hover-link' onClick={() => setMenuOpen(false)}>3D Art</a></li>
+                        <li><a href="#resume_page" className='hover-link' onClick={() => setMenuOpen(false)}>Achievements</a></li>
+                        <li><a href="#contact" className='hover-link' onClick={() => setMenuOpen(false)}>Contact me</a></li>
                     </ul>
 
-                    <section><FaBars id='more-icon'/></section>
+                    <section>
+                        <button 
+                            id="more-icon-btn" 
+                            onClick={() => setMenuOpen(!menuOpen)} 
+                            aria-label="Toggle navigation menu"
+                        >
+                            {menuOpen ? <FaTimes id='more-icon'/> : <FaBars id='more-icon'/>}
+                        </button>
+                    </section>
                 </nav>
 
                 <div id='main'>
