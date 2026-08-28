@@ -153,6 +153,7 @@
     padding: 0px;
     width: max-content;
     display: flex;
+    background: transparent;
 }
 
 #resume-btns{

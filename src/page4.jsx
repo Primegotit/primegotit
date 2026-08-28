@@ -57,20 +57,20 @@ function Page4() {
                         for taking the time to explore my work and I hope you enjoy the experience.
                          </p>
 
-                         <p id='resume-container'>
+                         <div id='resume-container'>
                             <div>
                                 <img src="/courses/coursera1.png" alt="" width="200px" />
 
                             </div>
                             <div id='resume-btn-con'>
-                                <p>Check out my portfolio below</p>
+                                <p>Check out my resume</p>
                                 <div id='resume-btns'>
-                                    <a href="">Download</a>
-                                    <a href="">View</a>
+                                    <a href="/cv/Promise%20Siafwiyo%202026CV.pdf" download="Promise Siafwiyo 2026CV.pdf">Download</a>
+                                    <a href="/cv/Promise%20Siafwiyo%202026CV.pdf" target="_blank" rel="noopener noreferrer">View</a>
 
                                 </div>
                             </div>
-                         </p>
+                         </div>
 
                         </div>
                             <div id='me-text-line'>
