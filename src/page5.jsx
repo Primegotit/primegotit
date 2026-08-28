@@ -104,7 +104,7 @@ function Page5(){
                         
 
                         <ModelBox
-                            image_src = "house2.png"
+                            image_src = "female3.png"
                             name = "Practice makes perfect"
                             creation_date = "19 March 2026"
                             site_url = "https://youtube.com/shorts/H6c_pa8Y_k8?si=EWGHjKKobxeWuPRC"
@@ -112,7 +112,7 @@ function Page5(){
                         ></ModelBox>
 
                         <ModelBox
-                            image_src = "keyboard.png"
+                            image_src = "female4.png"
                             name = "Press"
                             creation_date = "27 March 2026"
                             site_url = "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
@@ -120,7 +120,7 @@ function Page5(){
                         ></ModelBox>
 
                         <ModelBox
-                            image_src = "skull1.png"
+                            image_src = "mycity.png"
                             name = "Thoughts unveiled"
                             creation_date = "23 April 2026"
                             site_url = "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
