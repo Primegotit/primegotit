@@ -59,7 +59,7 @@ function Page4() {
 
                          <div id='resume-container'>
                             <div>
-                                <img src="/courses/coursera1.png" alt="" width="200px" />
+                                <img src="/cv_image.png" alt="" width="200px" />
 
                             </div>
                             <div id='resume-btn-con'>

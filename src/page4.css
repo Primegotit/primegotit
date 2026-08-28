@@ -142,6 +142,10 @@
     justify-content: center;
 
 }
+
+#resume-container img{
+    border-radius: 15px;
+}
 #resume-btn-con{
     display: flex;
     flex-direction: column;
