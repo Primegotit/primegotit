@@ -106,20 +106,20 @@
     font-weight: bolder;
     background: linear-gradient(
         0deg,
-        #b80500 0%,
+        #b86800 0%,
         #ff2a00 18%,
         #ff5500 38%,
-        #ff9900 62%,
-        #ffcc00 82%,
-        #ffffff 100%
+        #fda014 62%,
+        #fc5b16 82%,
+        #ff9100 100%
     );
     background-size: 100% 250%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fireWave 3.5s ease-in-out infinite alternate;
-    filter: drop-shadow(0 -2px 5px rgba(255, 200, 50, 0.75))
-            drop-shadow(0 -6px 14px rgba(247, 99, 0, 0.6))
-            drop-shadow(0 -12px 25px rgba(255, 40, 0, 0.4))
+    filter: drop-shadow(0 -1px 5px rgba(255, 200, 50, 0.297))
+            drop-shadow(0 -2px 14px rgba(247, 99, 0, 0.6))
+            drop-shadow(0 -9px 19px rgba(255, 38, 0, 0.212))
             drop-shadow(0 0 35px rgba(247, 99, 0, 0.3));
 }
 
