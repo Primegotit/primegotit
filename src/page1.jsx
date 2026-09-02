@@ -11,63 +11,78 @@ const RUSSIAN_SYMBOLS = [
     "Ѡ", "Ѫ", "Ѭ", "Ҩ", "Ҧ", "Ҏ", "҂", "҈"
 ];
 
-const RUSSIAN_NAME_CHARS = [
-    "Ж","Щ","Ю","Я","Ф","Ц","Ч","Ш",
-    "Ы","Э","Б","Г","Д","З","И","Й",
-    "Ӝ","Ӟ","Ӣ","Ӧ","Ѫ","Ҩ"
+const RUSSIAN_UPPER_CHARS = [
+    "Ж", "Щ", "Ю", "Я", "Ф", "Ц", "Ч", "Ш",
+    "Ы", "Э", "Б", "Г", "Д", "З", "И", "Й"
+];
+
+const RUSSIAN_LOWER_CHARS = [
+    "ж", "щ", "ю", "я", "ф", "ц", "ч", "ш",
+    "ы", "э", "б", "г", "д", "з", "и", "й"
 ];
 
 function GlitchName({ text = "Promise Siafwiyo" }) {
     const letters = useMemo(() => text.split(""), [text]);
     const [displayLetters, setDisplayLetters] = useState(letters);
-    const [charStates, setCharStates] = useState({}); // { [index]: 'morphing' | 'russian' | '' }
+    const [charStates, setCharStates] = useState({}); // { [index]: 'glitch-in' | 'russian-active' | 'glitch-out' | '' }
 
     useEffect(() => {
         let isMounted = true;
         let mainTimer;
+        let activeTimeouts = [];
 
-        const runGlitchCycle = () => {
+        const clearAllTimeouts = () => {
+            activeTimeouts.forEach(t => clearTimeout(t));
+            activeTimeouts = [];
+        };
+
+        const glitchCycle = () => {
             if (!isMounted) return;
+            clearAllTimeouts();
 
+            // Right-to-Left wave: [...spans].reverse()
             const indices = letters.map((_, i) => i);
-            const order = [...indices].reverse(); // Right to Left wave
+            const order = [...indices].reverse(); // RIGHT → LEFT
 
-            order.forEach((index, step) => {
-                if (letters[index] === " ") return; // Skip whitespace
+            order.forEach((index, i) => {
+                if (letters[index] === " ") return; // Keep space intact
 
-                const delay = step * 300; // Slower, elegant propagation
-
-                setTimeout(() => {
+                const tStart = setTimeout(() => {
                     if (!isMounted) return;
 
-                    // Phase 1: Smooth dissolve out (280ms)
-                    setCharStates(prev => ({ ...prev, [index]: 'morphing' }));
+                    const original = letters[index];
+                    const isUpper = original === original.toUpperCase() && original !== original.toLowerCase();
+                    const charPool = isUpper ? RUSSIAN_UPPER_CHARS : RUSSIAN_LOWER_CHARS;
 
-                    setTimeout(() => {
+                    // STEP 1: glitch in (translateY(10px), blur(6px), opacity 0)
+                    setCharStates(prev => ({ ...prev, [index]: 'glitch-in' }));
+
+                    const t1 = setTimeout(() => {
                         if (!isMounted) return;
 
-                        // Phase 2: Morph to Russian character with fiery plasma glow (hold for ~600ms)
-                        const randomRussian = RUSSIAN_NAME_CHARS[Math.floor(Math.random() * RUSSIAN_NAME_CHARS.length)];
+                        // Case-matched Russian character visible (same height & proportions)
+                        const randomRussian = charPool[Math.floor(Math.random() * charPool.length)];
                         setDisplayLetters(prev => {
                             const updated = [...prev];
                             updated[index] = randomRussian;
                             return updated;
                         });
-                        setCharStates(prev => ({ ...prev, [index]: 'russian' }));
+                        setCharStates(prev => ({ ...prev, [index]: 'russian-active' }));
 
-                        setTimeout(() => {
+                        // STEP 2: return to original after short delay (300ms hold)
+                        const t2 = setTimeout(() => {
                             if (!isMounted) return;
 
-                            // Phase 3: Smooth dissolve out from Russian (280ms)
-                            setCharStates(prev => ({ ...prev, [index]: 'morphing' }));
+                            // glitch out (translateY(-5px), blur(6px), opacity 0)
+                            setCharStates(prev => ({ ...prev, [index]: 'glitch-out' }));
 
-                            setTimeout(() => {
+                            const t3 = setTimeout(() => {
                                 if (!isMounted) return;
 
-                                // Phase 4: Restore original fiery English letter
+                                // restore original text (translateY(0), blur(0px), opacity 1)
                                 setDisplayLetters(prev => {
                                     const updated = [...prev];
-                                    updated[index] = letters[index];
+                                    updated[index] = original;
                                     return updated;
                                 });
                                 setCharStates(prev => {
@@ -75,52 +90,66 @@ function GlitchName({ text = "Promise Siafwiyo" }) {
                                     delete updated[index];
                                     return updated;
                                 });
-                            }, 280);
+                            }, 200);
+                            activeTimeouts.push(t3);
 
-                        }, 600);
+                        }, 300);
+                        activeTimeouts.push(t2);
 
-                    }, 280);
+                    }, 200);
+                    activeTimeouts.push(t1);
 
-                }, delay);
+                }, i * 300); // speed of right → left (300ms)
+                activeTimeouts.push(tStart);
             });
 
-            const totalCycleDuration = order.length * 300 + 1800;
+            // after full cycle → pause on clean text
+            const fullCycleTime = order.length * 300 + 1200;
             mainTimer = setTimeout(() => {
                 if (!isMounted) return;
+                // resetPause
                 setDisplayLetters(letters);
                 setCharStates({});
-                mainTimer = setTimeout(runGlitchCycle, 3500); // 3.5s pause on clean fiery name
-            }, totalCycleDuration);
+                mainTimer = setTimeout(glitchCycle, 2500); // 2.5s pause before next cycle
+            }, fullCycleTime);
         };
 
-        mainTimer = setTimeout(runGlitchCycle, 1500);
+        mainTimer = setTimeout(glitchCycle, 1500);
 
         return () => {
             isMounted = false;
             clearTimeout(mainTimer);
+            clearAllTimeouts();
         };
     }, [letters]);
 
     const handleHover = () => {
-        letters.forEach((l, index) => {
-            if (l === " ") return;
+        const indices = letters.map((_, i) => i);
+        const order = [...indices].reverse();
+
+        order.forEach((index, i) => {
+            if (letters[index] === " ") return;
+            const original = letters[index];
+            const isUpper = original === original.toUpperCase() && original !== original.toLowerCase();
+            const charPool = isUpper ? RUSSIAN_UPPER_CHARS : RUSSIAN_LOWER_CHARS;
+
             setTimeout(() => {
-                setCharStates(prev => ({ ...prev, [index]: 'morphing' }));
+                setCharStates(prev => ({ ...prev, [index]: 'glitch-in' }));
                 setTimeout(() => {
-                    const randomRussian = RUSSIAN_NAME_CHARS[Math.floor(Math.random() * RUSSIAN_NAME_CHARS.length)];
+                    const randomRussian = charPool[Math.floor(Math.random() * charPool.length)];
                     setDisplayLetters(prev => {
                         const updated = [...prev];
                         updated[index] = randomRussian;
                         return updated;
                     });
-                    setCharStates(prev => ({ ...prev, [index]: 'russian' }));
+                    setCharStates(prev => ({ ...prev, [index]: 'russian-active' }));
 
                     setTimeout(() => {
-                        setCharStates(prev => ({ ...prev, [index]: 'morphing' }));
+                        setCharStates(prev => ({ ...prev, [index]: 'glitch-out' }));
                         setTimeout(() => {
                             setDisplayLetters(prev => {
                                 const updated = [...prev];
-                                updated[index] = letters[index];
+                                updated[index] = original;
                                 return updated;
                             });
                             setCharStates(prev => {
@@ -128,22 +157,21 @@ function GlitchName({ text = "Promise Siafwiyo" }) {
                                 delete updated[index];
                                 return updated;
                             });
-                        }, 280);
-                    }, 500);
-                }, 250);
-            }, index * 70);
+                        }, 200);
+                    }, 300);
+                }, 200);
+            }, i * 70);
         });
     };
 
     return (
-        <h2 className="gradient-text fiery-text glitch-name-heading" onMouseEnter={handleHover}>
+        <h2 className="glitch-name-heading" onMouseEnter={handleHover}>
             {displayLetters.map((char, i) => {
                 const state = charStates[i] || '';
-                const stateClass = state ? (state === 'morphing' ? 'morphing' : 'russian-active') : '';
                 return (
                     <span 
                         key={i} 
-                        className={`glitch-name-char ${stateClass} ${char === ' ' ? 'space-char' : ''}`}
+                        className={`glitch-name-char ${state} ${char === ' ' ? 'space-char' : ''}`}
                     >
                         {char === ' ' ? '\u00A0' : char}
                     </span>
