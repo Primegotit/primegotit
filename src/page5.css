@@ -1,157 +1,576 @@
-#page5{
+/* ==========================================================================
+   PAGE 5 - 3D MODELLING (AUTHENTIC 2-CARD GRID WITH MODERN ANIMATIONS)
+   ========================================================================== */
+
+#page5 {
     min-height: 100vh;
     width: 100%;
-
-
-
-
-
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background: black;
-    background: rgba(0, 0, 0, 0.925); 
-
+    background: rgba(0, 0, 0, 0.925);
+    padding: 60px 20px 80px 20px;
+    position: relative;
+    box-sizing: border-box;
 }
 
-#bg-video{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit:cover;
-  z-index: -1;
+#page5 #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
-
-#page5-container{
-  padding: 30px ;
-}
-
-#page5-container h3{
-    
-    color:rgb(206, 206, 206);
-    font-size: clamp(24px, 1vw, 25px);
-    text-align: center;
-
-
-}
-
-#model-box{
-  max-width: 390px;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 20px 20px 20px;
-
-  border: 2px solid transparent;
-  border-image: linear-gradient(to top ,rgb(186, 186, 186) , transparent , transparent);
-  border-image-slice: 1;
-  box-shadow: -2px 29px 19px -19px  rgba(251, 251, 251, 0.207);
-  background: linear-gradient(rgb(15, 15, 15),rgb(15, 15, 15));
-  box-shadow: -2px 19px 19px -19px rgba(255, 94, 0, 0.557);
-
-}
-#model-pic{
-  display: flex;
-  justify-content: center;
-}
-
-#model-img{
-  width: 390px;
-  cursor: pointer;
-
-}
-
-#model-details span{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items:end;
-}
-
-#model-details span h1{
-  font-size: clamp(18px, 1vw, 25px);
-  color:rgb(206, 206, 206);
-  font-weight: 400;
-
-}
-
-#model-details span h3{
-  font-size: clamp(17px, 1vw, 25px);
-  color:rgb(206, 206, 206);
-  font-weight: 200;
-
-}
-
-
-#visit-button{
-  font-size: clamp(16px, 1vw, 25px);
-  color:rgb(206, 206, 206);
-  border-radius: 5px;
-  font-weight: 400;
-  background: rgb(3, 3, 3);
-
-  padding: 6px 20px;
-  cursor: pointer;
-  transition: all 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-
-}
-
-#visit-button:hover{
-  scale: 1.08;
-}
-
-
-#model-details section{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items:center;
-  
-}
-#model-details section a{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items:center;
-}
-
-#model-content-box{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#page5 #view-portfolio-container{
-  display: flex;
-  width: 60%;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-
-}
-
-
-
-@media (max-width: 600px) {
-
-  #page5 #view-portfolio-container{
+/* --------------------------------------------------------------------------
+   SECTION HEADER
+   -------------------------------------------------------------------------- */
+#page5-intro {
     display: flex;
-    width: 100%;
-   
-  
-  }
+    justify-content: center;
+    font-size: clamp(20px, 1vw, 25px);
+    color: rgb(206, 206, 206);
+    margin-bottom: 35px;
 }
 
+#all-page5-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+#all-models-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    width: 100%;
+}
 
+/* --------------------------------------------------------------------------
+   2-CARDS-PER-ROW GRID
+   -------------------------------------------------------------------------- */
+.models-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+}
 
+/* --------------------------------------------------------------------------
+   SOLID SQUARE 3D MODEL CARD WITH TOP-TO-BOTTOM WHITE FADING BORDER
+   -------------------------------------------------------------------------- */
+.custom-model-box {
+    width: 100%;
+    margin: 0;
+    border-radius: 0px; /* Solid square */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, rgb(212, 212, 212), rgba(180, 180, 180, 0.3), transparent, transparent) 1;
+    box-shadow: -2px 19px 19px -19px rgba(255, 94, 0, 0.557);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-model-box:hover {
+    transform: translateY(-5px);
+    box-shadow: -2px 25px 25px -15px rgba(255, 94, 0, 0.7);
+}
+
+/* --------------------------------------------------------------------------
+   3D RENDER IMAGE BANNER WITH ZOOM EFFECT
+   -------------------------------------------------------------------------- */
+.custom-model-image-container {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+
+.custom-model-banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 1;
+}
+
+.custom-model-box:hover .custom-model-banner-img {
+    transform: scale(1.06);
+}
+
+.custom-model-overlay-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.05) 40%, rgba(15, 15, 15, 0.95) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.custom-model-image-top {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-model-category-tag {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(247, 99, 0, 0.5);
+    color: rgb(247, 99, 0);
+    border-radius: 12px;
+    padding: 3px 12px;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.custom-model-expand-hint {
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(220, 220, 220);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.custom-model-box:hover .custom-model-expand-hint {
+    background: rgb(247, 99, 0);
+    color: black;
+    border-color: rgb(247, 99, 0);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Software / Tools Pills List */
+.custom-model-tech-stack {
+    position: relative;
+    z-index: 3;
+}
+
+.custom-model-tech-stack ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-model-tech-stack ul li {
+    color: rgb(237, 237, 237);
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 18px;
+    padding: 2px 14px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   TEXT CONTENT AREA
+   -------------------------------------------------------------------------- */
+.custom-model-image-text {
+    padding: 0px 30px 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    z-index: 4;
+}
+
+.custom-model-heading-con1 {
+    display: flex;
+    align-items: center;
+    color: rgb(201, 201, 201);
+}
+
+.custom-model-heading-con1 h1 {
+    color: rgb(201, 201, 201);
+    font-size: 1.7rem;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.custom-model-heading-line {
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0), rgb(202, 202, 202), rgba(0, 0, 0, 0));
+    filter: contrast(1.6);
+    width: 100%;
+    height: 2px;
+    margin: 0 10px;
+}
+
+.custom-my-logo-small {
+    width: 35px;
+    height: 35px;
+    filter: brightness(110%) contrast(1.6);
+}
+
+.custom-model-image-text h4 {
+    color: rgb(201, 201, 201);
+    margin: 0 0 10px 0;
+    font-size: 0.95rem;
+}
+
+.custom-model-image-text p {
+    color: rgb(170, 170, 170);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 0.92rem;
+    flex-grow: 1;
+}
+
+/* --------------------------------------------------------------------------
+   ACTION BAR & BUTTONS
+   -------------------------------------------------------------------------- */
+.custom-model-visit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.custom-model-visit-container .custom-logo-with-line-con h5 {
+    color: rgb(177, 177, 177);
+    font-size: 17px;
+    margin: 0;
+}
+
+.custom-model-button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-model-video-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    background: rgb(35, 35, 35);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    padding: 4px 16px;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 0.88rem;
+    transition: all 0.4s ease;
+}
+
+.custom-model-video-btn:hover {
+    scale: 1.08;
+    background: rgb(55, 55, 55);
+    color: white;
+    border-color: rgb(247, 99, 0);
+}
+
+.model-btn-icon-yt {
+    color: rgb(247, 99, 0);
+    font-size: 1.1rem;
+}
+
+.custom-model-view-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgb(76, 76, 76);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 22px;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 0.92rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.custom-model-view-btn:hover {
+    scale: 1.08;
+    background: rgb(247, 99, 0);
+    color: black;
+}
+
+.model-btn-icon-eye {
+    font-size: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   VERTICAL TIMELINE LINE
+   -------------------------------------------------------------------------- */
+#page5-line {
+    width: 8px;
+    min-height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(207, 86, 4, 0.075), rgb(247, 99, 0), rgb(255, 0, 0));
+    flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   PORTFOLIO CTA BOX
+   -------------------------------------------------------------------------- */
+.model-portfolio-cta {
+    border-radius: 0px !important;
+    border: 2px solid transparent !important;
+    border-image: linear-gradient(to bottom, rgb(212, 212, 212), transparent, transparent) 1 !important;
+    padding: 25px 20px !important;
+    margin-top: 15px;
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
+}
+
+.model-portfolio-cta p {
+    color: rgb(200, 200, 200);
+    margin: 0;
+    font-size: 1rem;
+}
+
+.model-portfolio-cta a {
+    background: rgb(24, 24, 24);
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-portfolio-cta a:hover {
+    scale: 1.08;
+    background: rgb(247, 99, 0);
+    color: black;
+    border-color: rgb(247, 99, 0);
+}
+
+/* --------------------------------------------------------------------------
+   MODERN LIGHTBOX MODAL WITH ZOOM/FADE ANIMATION
+   -------------------------------------------------------------------------- */
+.model-lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(12px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    animation: lightboxFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.model-lightbox-content {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    max-height: 90vh;
+    background: rgb(16, 16, 16);
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, rgb(212, 212, 212), rgba(180, 180, 180, 0.4), transparent) 1;
+    box-shadow: 0 0 35px rgba(247, 99, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: lightboxZoomIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes lightboxFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes lightboxZoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.92) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.model-lightbox-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.model-lightbox-close-btn:hover {
+    background: rgb(247, 99, 0);
+    color: black;
+    border-color: rgb(247, 99, 0);
+    transform: rotate(90deg) scale(1.1);
+}
+
+.model-lightbox-img-wrapper {
+    width: 100%;
+    max-height: 65vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.model-lightbox-img {
+    max-width: 100%;
+    max-height: 65vh;
+    object-fit: contain;
+}
+
+.model-lightbox-caption {
+    padding: 20px 25px;
+    background: rgb(14, 14, 14);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lightbox-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lightbox-title-row h2 {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.lightbox-date {
+    color: rgb(247, 99, 0);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.model-lightbox-caption p {
+    color: rgb(175, 175, 175);
+    font-size: 0.92rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.lightbox-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.lightbox-tool-pill {
+    background: rgba(30, 30, 30, 0.9);
+    border: 1px solid rgb(106, 106, 106);
+    color: rgb(220, 220, 220);
+    border-radius: 14px;
+    padding: 2px 12px;
+    font-size: 11px;
+}
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE MEDIA QUERIES
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+    .models-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    #page5 {
+        padding: 40px 10px 60px 10px;
+    }
+
+    #all-page5-container {
+        gap: 12px;
+    }
+
+    .custom-model-box {
+        background-color: rgb(29, 29, 29);
+    }
+
+    .custom-model-image-container {
+        height: 250px;
+        padding: 14px 16px;
+    }
+
+    .custom-model-image-text {
+        padding: 0px 16px 16px 16px;
+    }
+
+    .custom-model-heading-con1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .custom-model-view-btn {
+        padding: 4px 16px;
+    }
+}

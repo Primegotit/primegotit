@@ -99,7 +99,7 @@ function VisitPortfolio({ onOpenWebsites }){
                     <img src="/primegotit logo green big 2.png" alt="" />
 
                     <img src="/trackway.png" alt="" />
-                    <img src="/primegotit logo green big 2.png" alt="" />
+                    <img src="/primegotit logo green big 3.png" alt="" />
 
                     <img src="/POS system.png" alt="" />
 

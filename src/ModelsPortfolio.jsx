@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import './page5.css';
+import { useState, useEffect } from 'react';
+import './ModelsPortfolio.css';
 import { MODELS_DATA } from './data/modelsData.js';
-import { FaYoutube, FaEye, FaTimes, FaExpand, FaCube } from 'react-icons/fa';
+import { FaYoutube, FaEye, FaTimes, FaExpand, FaCube, FaArrowLeft } from 'react-icons/fa';
 
 function ModelBox({ model, onOpenLightbox }) {
     return (
@@ -82,56 +82,55 @@ function ModelBox({ model, onOpenLightbox }) {
     );
 }
 
-function VisitPortfolio({ onOpenModels }) {
-    const handleClick = (e) => {
-        if (onOpenModels) {
-            e.preventDefault();
-            onOpenModels();
+function ModelsPortfolio({ onBack }) {
+    const [lightboxModel, setLightboxModel] = useState(null);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const handleBack = () => {
+        if (onBack) {
+            onBack();
+        } else {
+            window.location.hash = '#page5';
         }
     };
 
     return (
-        <div id="view-portfolio-container" className="model-portfolio-cta">
-            <div id="all-web-logos">
-                <img src="/primegotit logo green big 2.png" alt="" />
-                <img src="/trackway.png" alt="" />
-                <img src="/primegotit logo green big 3.png" alt="" />
-                <img src="/POS system.png" alt="" />
-                <img src="/Transparent official hoodie.png" alt="" />
-                <img src="/logo7.png" alt="" />
-                <img src="/offiCIAL website1_logo.png" alt="" />
-            </div>
-            <p><b>View 3D Modelling portfolio</b></p>
-            <a href="#/3d-models" onClick={handleClick}>
-                View
-            </a>
-        </div>
-    );
-}
-
-function Page5({ onOpenModels }) {
-    const [lightboxModel, setLightboxModel] = useState(null);
-    const featuredModels = MODELS_DATA.slice(0, 4);
-
-    return (
-        <>
+        <div id="models-portfolio-page">
+            {/* Background Video */}
             <video autoPlay muted loop id="bg-video">
                 <source src="/backvideo.mp4" type="video/mp4" />
             </video>
 
-            <div id="page5">
+            {/* Custom Top Navigation Bar */}
+            <nav id="portfolio-custom-nav">
+                <a href="#page1" onClick={handleBack} id="logo-section">
+                    <img src="/primegotit logo green big 3.png" alt="Prime Logo" />
+                    <h3>Prime</h3>
+                </a>
+
+                <div className="portfolio-nav-actions">
+                    <button onClick={handleBack} className="portfolio-back-btn">
+                        <FaArrowLeft /> Back to Portfolio
+                    </button>
+                </div>
+            </nav>
+
+            <div id="page5-portfolio-wrapper">
                 <div id="page5-intro">
-                    <h3>3D Modelling</h3>
+                    <h3>All 3D Modelling & CGI Artworks</h3>
                 </div>
 
                 <div id="all-page5-container">
-                    {/* Glowing orange gradient timeline line */}
+                    {/* Glowing vertical line */}
                     <div id="page5-line"></div>
 
-                    {/* 2-Cards-Per-Row Grid Container (4 Featured Models) */}
+                    {/* 2-Cards-Per-Row Grid of all 3D Models */}
                     <div id="all-models-box-container">
                         <div className="models-cards-grid">
-                            {featuredModels.map((model) => (
+                            {MODELS_DATA.map((model) => (
                                 <ModelBox 
                                     key={model.id} 
                                     model={model} 
@@ -140,12 +139,18 @@ function Page5({ onOpenModels }) {
                             ))}
                         </div>
 
-                        <VisitPortfolio onOpenModels={onOpenModels} />
+                        {/* Bottom Return CTA */}
+                        <div id="view-portfolio-container" className="model-portfolio-return-box">
+                            <p><b>Explore other creative disciplines</b></p>
+                            <button onClick={handleBack} className="portfolio-bottom-return-btn">
+                                <FaArrowLeft /> Return to Main Page
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {/* Modern High-Res Lightbox Modal with Smooth Scale-In Animation */}
+            {/* Modern High-Res Lightbox Modal with Zoom/Fade Animations */}
             {lightboxModel && (
                 <div className="model-lightbox-overlay" onClick={() => setLightboxModel(null)}>
                     <div 
@@ -183,8 +188,8 @@ function Page5({ onOpenModels }) {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     );
 }
 
-export default Page5;
+export default ModelsPortfolio;

@@ -9,20 +9,26 @@ import Resume from './Resume.jsx'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
 import WebsitesPortfolio from './WebsitesPortfolio.jsx'
+import ModelsPortfolio from './ModelsPortfolio.jsx'
 
 function App() {
-  const isWebsitesHash = () => {
-    return window.location.hash === '#/websites' || window.location.hash === '#/all-websites';
+  const getInitialRoute = () => {
+    const hash = window.location.hash;
+    if (hash === '#/websites' || hash === '#/all-websites') return 'websites';
+    if (hash === '#/3d-models' || hash === '#/models' || hash === '#/3d-art') return 'models';
+    return 'home';
   };
 
-  const [currentRoute, setCurrentRoute] = useState(() => {
-    return isWebsitesHash() ? 'websites' : 'home';
-  });
+  const [currentRoute, setCurrentRoute] = useState(getInitialRoute);
 
   useEffect(() => {
     const handleHashChange = () => {
-      if (isWebsitesHash()) {
+      const hash = window.location.hash;
+      if (hash === '#/websites' || hash === '#/all-websites') {
         setCurrentRoute('websites');
+        window.scrollTo(0, 0);
+      } else if (hash === '#/3d-models' || hash === '#/models' || hash === '#/3d-art') {
+        setCurrentRoute('models');
         window.scrollTo(0, 0);
       } else {
         setCurrentRoute('home');
@@ -39,7 +45,13 @@ function App() {
     window.scrollTo(0, 0);
   };
 
-  const backToMainPortfolio = () => {
+  const openModelsPage = () => {
+    window.location.hash = '#/3d-models';
+    setCurrentRoute('models');
+    window.scrollTo(0, 0);
+  };
+
+  const backToMainPortfolioFromWebsites = () => {
     window.location.hash = '#page3';
     setCurrentRoute('home');
     setTimeout(() => {
@@ -50,8 +62,23 @@ function App() {
     }, 50);
   };
 
+  const backToMainPortfolioFromModels = () => {
+    window.location.hash = '#page5';
+    setCurrentRoute('home');
+    setTimeout(() => {
+      const page5Element = document.getElementById('page5');
+      if (page5Element) {
+        page5Element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 50);
+  };
+
   if (currentRoute === 'websites') {
-    return <WebsitesPortfolio onBack={backToMainPortfolio} />;
+    return <WebsitesPortfolio onBack={backToMainPortfolioFromWebsites} />;
+  }
+
+  if (currentRoute === 'models') {
+    return <ModelsPortfolio onBack={backToMainPortfolioFromModels} />;
   }
 
   return (
@@ -60,7 +87,7 @@ function App() {
       <Page4/>
       <Page2/>
       <Page3 onOpenWebsites={openWebsitesPage}/>
-      <Page5/>
+      <Page5 onOpenModels={openModelsPage}/>
 
       <Resume/>
       <Contact/>
