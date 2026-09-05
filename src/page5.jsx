@@ -101,7 +101,7 @@ function VisitPortfolio({ onOpenModels }) {
                 <img src="/logo7.png" alt="" />
                 <img src="/offiCIAL website1_logo.png" alt="" />
             </div>
-            <p><b>View 3D Modelling portfolio</b></p>
+            <p>View 3D Modelling portfolio</p>
             <a href="#/3d-models" onClick={handleClick}>
                 View
             </a>

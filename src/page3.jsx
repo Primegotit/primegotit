@@ -9,25 +9,12 @@ function MyBox(Creation){
         
 
             <div id='web-box'>
-                <div id='web-image-container' style={{
-                
-                        background : Creation.site_image,
-                        backgrounPosition: "center",
-                        backgroundSize: "contain",
-                        backgroundAttachment: "scroll",
-                        backgroundRepeat: "no-repeat",
-                        width: "100%",
-                        height: "350px",
-                        color: "white",
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "spaceBetween",
-                        justifySelf :"center",
-                        padding: "20px 30px",
-                        margin:"0px auto",
-                        
-                        
-                            }}>
+                <div 
+                    id='web-image-container' 
+                    style={{
+                        backgroundImage: Creation.site_image,
+                    }}
+                >
                         <div id='web-image-src-text'>
 
                         </div>
@@ -142,7 +129,8 @@ function Page3({ onOpenWebsites }){
                     <div id='page3-line'></div>
        
                     <div id='all-web-box-container'>
-                        <MyBox 
+                        <div id='page3-cards-grid'>
+                            <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(kosticpic.png)"
                                 name="Kostic" 
                                 date="2025" 
@@ -157,14 +145,8 @@ function Page3({ onOpenWebsites }){
                                 tech5 = {<li>PHP</li>}
                                 image_src = "/logo7.png"                        
                                 site_url = "https://kostic.vercel.app/"
-                                >
-                                    
-                                    
-                        </MyBox>   
-                        <div id='box-down-arrow'>
-                            <FaArrowDown id='d-arrow'/>
-                        </div>
-                        <MyBox 
+                            />
+                            <MyBox 
                                 site_image = "linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black), url(trackwaypic.png)"
                                 name="Trackway" 
                                 date="2026" 
@@ -179,9 +161,8 @@ function Page3({ onOpenWebsites }){
                                 tech5 = {<li>React</li>}
                                 image_src = "/trackway.png"                        
                                 site_url = "https://trackwayapp.vercel.app/"
-                            >         
-                                    
-                        </MyBox>
+                            />
+                        </div>
 
                         <br />
                         <VisitPortfolio onOpenWebsites={onOpenWebsites}/>

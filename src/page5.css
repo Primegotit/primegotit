@@ -224,7 +224,7 @@
 
 .custom-model-heading-con1 h1 {
     color: rgb(201, 201, 201);
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 0;
     white-space: nowrap;
 }
@@ -246,19 +246,19 @@
 .custom-model-image-text h4 {
     color: rgb(201, 201, 201);
     margin: 0 0 10px 0;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 .custom-model-image-text p {
     color: rgb(170, 170, 170);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     flex-grow: 1;
 }
 
 /* --------------------------------------------------------------------------
-   ACTION BAR & BUTTONS
+   ACTION BAR & BUTTONS (Matching page3 #visit-button)
    -------------------------------------------------------------------------- */
 .custom-model-visit-container {
     display: flex;
@@ -269,7 +269,7 @@
 
 .custom-model-visit-container .custom-logo-with-line-con h5 {
     color: rgb(177, 177, 177);
-    font-size: 17px;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -283,28 +283,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(220, 220, 220);
+    color: white;
     text-decoration: none;
-    background: rgb(35, 35, 35);
-    border: 1px solid rgb(80, 80, 80);
+    background: rgb(76, 76, 76);
     border-radius: 5px;
-    padding: 4px 16px;
-    gap: 8px;
+    padding: 3px 30px;
+    gap: 10px;
     font-weight: bold;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     transition: all 0.4s ease;
+    height: 40px;
 }
 
 .custom-model-video-btn:hover {
-    scale: 1.08;
-    background: rgb(55, 55, 55);
-    color: white;
-    border-color: rgb(247, 99, 0);
+    scale: 1.1;
 }
 
 .model-btn-icon-yt {
-    color: rgb(247, 99, 0);
-    font-size: 1.1rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.4s ease;
+}
+
+.custom-model-video-btn:hover .model-btn-icon-yt {
 }
 
 .custom-model-view-btn {
@@ -315,22 +316,22 @@
     background: rgb(76, 76, 76);
     border: none;
     border-radius: 5px;
-    padding: 4px 22px;
-    gap: 8px;
+    padding: 3px 30px;
+    gap: 10px;
     font-weight: bold;
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     cursor: pointer;
     transition: all 0.4s ease;
+    height: 40px;
+
 }
 
 .custom-model-view-btn:hover {
-    scale: 1.08;
-    background: rgb(247, 99, 0);
-    color: black;
+    scale: 1.1;
 }
 
 .model-btn-icon-eye {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* --------------------------------------------------------------------------
@@ -345,13 +346,13 @@
 }
 
 /* --------------------------------------------------------------------------
-   PORTFOLIO CTA BOX
+   PORTFOLIO CTA BOX (Matching page3 #view-portfolio-container)
    -------------------------------------------------------------------------- */
 .model-portfolio-cta {
     border-radius: 0px !important;
     border: 2px solid transparent !important;
     border-image: linear-gradient(to bottom, rgb(212, 212, 212), transparent, transparent) 1 !important;
-    padding: 25px 20px !important;
+    padding: 20px 10px !important;
     margin-top: 15px;
     gap: 15px;
     width: 100%;
@@ -370,24 +371,22 @@
 }
 
 .model-portfolio-cta a {
-    background: rgb(24, 24, 24);
-    border: 1px solid rgb(106, 106, 106);
-    border-radius: 9px;
+    background: rgb(7, 7, 7);
+    border-radius: 18px;
     color: white;
-    font-weight: bold;
-    padding: 8px 30px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .model-portfolio-cta a:hover {
-    scale: 1.08;
+    scale: 1.1;
     background: rgb(247, 99, 0);
     color: black;
-    border-color: rgb(247, 99, 0);
 }
 
 /* --------------------------------------------------------------------------
