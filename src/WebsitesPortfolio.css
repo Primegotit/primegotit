@@ -1,0 +1,430 @@
+/* ==========================================================================
+   WEBSITES PORTFOLIO STYLING - 2 CARDS PER ROW SOLID SQUARE SYSTEM
+   ========================================================================== */
+
+#websites-portfolio-page {
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    background: rgba(0, 0, 0, 0.925);
+    padding: 0px 0px 60px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Background Video */
+#websites-portfolio-page #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* --------------------------------------------------------------------------
+   NAVBAR (Matching Page1)
+   -------------------------------------------------------------------------- */
+#portfolio-custom-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#portfolio-custom-nav #logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#portfolio-custom-nav #logo-section img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#portfolio-custom-nav #logo-section h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.portfolio-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgb(24, 24, 24);
+    color: rgb(220, 220, 220);
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 9px;
+    padding: 6px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.portfolio-back-btn:hover {
+    background: rgb(247, 99, 0);
+    color: black;
+    border-color: rgb(247, 99, 0);
+    scale: 1.05;
+}
+
+/* --------------------------------------------------------------------------
+   PAGE WRAPPER & HEADER
+   -------------------------------------------------------------------------- */
+#page3-portfolio-wrapper {
+    width: 100%;
+    padding: 30px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+#page3-portfolio-wrapper #page3-intro {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(20px, 1vw, 25px);
+    color: white;
+    margin-bottom: 30px;
+}
+
+#page3-portfolio-wrapper #all-page3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#page3-portfolio-wrapper #all-web-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   2 CARDS PER ROW GRID SYSTEM
+   -------------------------------------------------------------------------- */
+.portfolio-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   SOLID SQUARE CARDS WITH TOP-TO-BOTTOM WHITE FADING BORDER
+   -------------------------------------------------------------------------- */
+.custom-web-box {
+    width: 100%;
+    margin: 0;
+    border-radius: 0px; /* Solid Square Edges */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, rgb(212, 212, 212), rgba(180, 180, 180, 0.3), transparent, transparent);
+    border-image-slice: 1;
+    box-shadow: -2px 19px 19px -19px rgba(255, 94, 0, 0.557);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
+    transition: transform 0.3s ease;
+}
+
+.custom-web-box:hover {
+    transform: translateY(-4px);
+}
+
+/* Image Banner Inside Card */
+.custom-web-image-container {
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
+    padding: 20px 24px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.custom-category-tag {
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(247, 99, 0, 0.5);
+    color: rgb(247, 99, 0);
+    border-radius: 12px;
+    padding: 2px 12px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Tech Stack Pills List */
+.custom-web-image-tech-stack ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-web-image-tech-stack ul li {
+    color: rgb(237, 237, 237);
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 18px;
+    padding: 2px 14px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* Text Content Area */
+.custom-web-image-text {
+    padding: 0px 30px 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.custom-heading-con1 {
+    display: flex;
+    align-items: center;
+    color: rgb(201, 201, 201);
+}
+
+.custom-heading-con1 h1 {
+    color: rgb(201, 201, 201);
+    font-size: 1.8rem;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.custom-heading-line {
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0), rgb(202, 202, 202), rgba(0, 0, 0, 0));
+    filter: contrast(1.6);
+    width: 100%;
+    height: 2px;
+    margin: 0 10px;
+}
+
+.custom-my-logo-small {
+    width: 35px;
+    height: 35px;
+    filter: brightness(110%) contrast(1.6);
+}
+
+.custom-web-image-text h4 {
+    color: rgb(201, 201, 201);
+    margin: 0 0 10px 0;
+    font-size: 0.95rem;
+}
+
+.custom-web-image-text p {
+    color: rgb(170, 170, 170);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 0.92rem;
+    flex-grow: 1;
+}
+
+/* Visit and Action Bar */
+.custom-visit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.custom-logo-with-line-con {
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo-with-line-con h5 {
+    color: rgb(177, 177, 177);
+    font-size: 17px;
+    margin: 0;
+}
+
+.custom-visit-button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-visit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    background: rgb(76, 76, 76);
+    border-radius: 5px;
+    padding: 4px 26px;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 0.92rem;
+    transition: all 0.4s ease;
+}
+
+.custom-visit-button:hover {
+    scale: 1.08;
+    background: rgb(247, 99, 0);
+    color: black;
+}
+
+.custom-visit-button-image {
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+
+.custom-visit-button:hover .custom-visit-button-image {
+    color: black;
+}
+
+.custom-code-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    background: rgb(35, 35, 35);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    padding: 4px 16px;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 0.86rem;
+    transition: all 0.4s ease;
+}
+
+.custom-code-button:hover {
+    scale: 1.08;
+    background: rgb(55, 55, 55);
+    color: white;
+    border-color: rgb(200, 200, 200);
+}
+
+/* --------------------------------------------------------------------------
+   VERTICAL TIMELINE LINE
+   -------------------------------------------------------------------------- */
+#page3-portfolio-wrapper #page3-line {
+    width: 8px;
+    min-height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(207, 86, 4, 0.075), rgb(247, 99, 0), rgb(255, 0, 0));
+    flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   BOTTOM RETURN BOX
+   -------------------------------------------------------------------------- */
+.portfolio-return-box {
+    border-radius: 0px !important;
+    border: 2px solid transparent !important;
+    border-image: linear-gradient(to bottom, rgb(212, 212, 212), transparent, transparent) 1 !important;
+    padding: 25px 20px !important;
+    margin-top: 10px;
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.portfolio-return-box p {
+    color: rgb(200, 200, 200);
+    margin: 0;
+    font-size: 1rem;
+}
+
+.portfolio-bottom-return-btn {
+    background: rgb(24, 24, 24);
+    border: 1px solid rgb(106, 106, 106);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.portfolio-bottom-return-btn:hover {
+    scale: 1.1;
+    background: rgb(247, 99, 0);
+    color: black;
+    border-color: rgb(247, 99, 0);
+}
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE MEDIA QUERIES
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+    .portfolio-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    #portfolio-custom-nav {
+        padding: 0px 20px;
+    }
+
+    #page3-portfolio-wrapper {
+        padding: 20px 10px 0px 10px;
+    }
+
+    #page3-portfolio-wrapper #all-page3-container {
+        gap: 12px;
+    }
+
+    .custom-web-box {
+        background-color: rgb(29, 29, 29);
+    }
+
+    .custom-web-image-container {
+        height: 250px;
+        padding: 15px 16px;
+    }
+
+    .custom-web-image-text {
+        padding: 0px 16px 16px 16px;
+    }
+
+    .custom-heading-con1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .custom-visit-button {
+        padding: 4px 18px;
+    }
+}

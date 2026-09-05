@@ -83,7 +83,14 @@ function MyBox(Creation){
     )
 }
 
-function VisitPortfolio(){
+function VisitPortfolio({ onOpenWebsites }){
+    const handleClick = (e) => {
+        if (onOpenWebsites) {
+            e.preventDefault();
+            onOpenWebsites();
+        }
+    };
+
     return(
         <>
             <div id='view-portfolio-container'>
@@ -105,13 +112,13 @@ function VisitPortfolio(){
 
                 </div>
                 <p><b>View full web development portfolio</b></p>
-                <a href="#">Ok</a>
+                <a href="#/websites" onClick={handleClick}>View</a>
             </div>
         </>
     )
 }
 
-function Page3(){
+function Page3({ onOpenWebsites }){
 
     return (
         <>            
@@ -177,7 +184,7 @@ function Page3(){
                         </MyBox>
 
                         <br />
-                        <VisitPortfolio/>
+                        <VisitPortfolio onOpenWebsites={onOpenWebsites}/>
                         
                         <br />
                     </div>
