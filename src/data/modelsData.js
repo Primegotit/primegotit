@@ -13,7 +13,7 @@ export const MODELS_DATA = [
     {
         id: "silence-of-solitude",
         name: "Silence of Solitude",
-        creation_date: "14 April 2026",
+        creation_date: "2026",
         image_src: "/Untitled.png",
         category: "Environment Art",
         slogan: "A calm, desolate interior capturing atmospheric lighting.",
@@ -24,7 +24,7 @@ export const MODELS_DATA = [
     {
         id: "thoughts-unveiled",
         name: "Thoughts Unveiled",
-        creation_date: "23 April 2026",
+        creation_date: "2026",
         image_src: "/HALLWAY_IMAGE.png",
         category: "Sci-Fi Hallway",
         slogan: "Deep perspective corridor with industrial neon reflections.",
@@ -35,7 +35,7 @@ export const MODELS_DATA = [
     {
         id: "design-space-leak",
         name: "Design Space Leak",
-        creation_date: "5 April 2026",
+        creation_date: "2026",
         image_src: "/HALLWAY_IMAGE4.png",
         category: "Architectural Sci-Fi",
         slogan: "Atmospheric neon corridor exploring depth and contrast.",
@@ -46,7 +46,7 @@ export const MODELS_DATA = [
     {
         id: "practice-makes-perfect",
         name: "Practice Makes Perfect",
-        creation_date: "19 March 2026",
+        creation_date: "2026",
         image_src: "/female3.png",
         category: "Character Sculpt",
         slogan: "High-poly character portrait study with natural hair styling.",
@@ -57,7 +57,7 @@ export const MODELS_DATA = [
     {
         id: "press",
         name: "Press",
-        creation_date: "27 March 2026",
+        creation_date: "2026",
         image_src: "/female4.png",
         category: "Character Art",
         slogan: "Stylized aesthetic portrait with precision lighting.",
@@ -68,7 +68,7 @@ export const MODELS_DATA = [
     {
         id: "my-city",
         name: "Neon Metropolis",
-        creation_date: "23 April 2026",
+        creation_date: "2026",
         image_src: "/mycity.png",
         category: "Cityscape",
         slogan: "Sprawling cyberpunk metropolis bathed in neon hues.",
