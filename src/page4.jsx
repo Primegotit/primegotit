@@ -65,9 +65,10 @@ function Page4() {
                             <div id='resume-btn-con'>
                                 <p>Check out my resume</p>
                                 <div id='resume-btns'>
-                                    <a href="/cv/Promise%20Siafwiyo%202026CV.pdf" download="Promise Siafwiyo 2026CV.pdf">Download</a>
-                                    <a href="/cv/Promise%20Siafwiyo%202026CV.pdf" target="_blank" rel="noopener noreferrer">View</a>
 
+                                    <a href="https://raw.githubusercontent.com/primegotit/cv/main/Promise Siafwiyo 2026CV.pdf" download="Promise Siafwiyo 2026CV.pdf">Download</a>
+
+                                    <a href="https://github.com/Primegotit/cv/blob/8a2cf24de429b1f043198c121a9c2fad04b4a62b/Promise%20Siafwiyo%202026CV.pdf" target="_blank" rel="noopener noreferrer">View</a>
                                 </div>
                             </div>
                          </div>
