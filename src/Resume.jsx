@@ -30,8 +30,8 @@ function Resume(){
                             <Achieve_box path="/courses/aws2.png" image="/courses/aws2.png"></Achieve_box>
                             <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
                             <Achieve_box path="/courses/cisco1.png" image="/courses/cisco1.png"></Achieve_box>
-                            <Achieve_box path="/courses/cisco1.png" image="/courses/google_ai.png"></Achieve_box>
-                            <Achieve_box path="/courses/cisco1.png" image="/courses/Cybersecurity.png"></Achieve_box>
+                            <Achieve_box path="/courses/google_ai.png" image="/courses/google_ai.png"></Achieve_box>
+                            <Achieve_box path="/courses/Cybersecurity.png" image="/courses/Cybersecurity.png"></Achieve_box>
 
 
                             <Achieve_box path="/courses/aws1.png" image="/courses/aws1.png" ></Achieve_box>
@@ -39,8 +39,8 @@ function Resume(){
                             <Achieve_box path="/courses/aws2.png" image="/courses/aws2.png"></Achieve_box>
                             <Achieve_box path="/courses/coursera2.png" image="/courses/coursera2.png"></Achieve_box>
                             <Achieve_box path="/courses/cisco1.png" image="/courses/cisco1.png"></Achieve_box>
-                            <Achieve_box path="/courses/cisco1.png" image="/courses/google_ai.png"></Achieve_box>
-                            <Achieve_box path="/courses/cisco1.png" image="/courses/Cybersecurity.png"></Achieve_box>
+                            <Achieve_box path="/courses/google_ai.png" image="/courses/google_ai.png"></Achieve_box>
+                            <Achieve_box path="/courses/Cybersecurity.png" image="/courses/Cybersecurity.png"></Achieve_box>
 
                         </div>
                         <div id='horizontal-line'>
