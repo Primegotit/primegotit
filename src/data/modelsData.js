@@ -22,14 +22,15 @@ export const MODELS_DATA = [
         video_url: "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
     },
     {
-        id: "thoughts-unveiled",
-        name: "Thoughts Unveiled",
+        id: "echoes-in-the-void",
+        name: "Echoes in the Void",
         creation_date: "2026",
-        image_src: "/HALLWAY_IMAGE.png",
-        category: "Sci-Fi Hallway",
-        slogan: "Deep perspective corridor with industrial neon reflections.",
-        description: "Hard-surface modelling and metallic shader design with ray-traced reflections and futuristic modular assets.",
-        software: ["Blender", "Eevee", "Hard Surface", "Materials"],
+        image_src: "/headphones2.png",
+        category: "3D Artwork",
+        slogan: "Some sounds are meant to remain in the dark.",
+        description:
+            "A cinematic 3D composition exploring silence, isolation, and hidden thoughts. Built with atmospheric lighting, metallic materials, and subtle reflections to create a scene that feels suspended between reality and memory.",
+        software: ["Blender", "Eevee", "Hard Surface Modelling", "Materials", "Lighting"],
         video_url: "https://youtube.com/shorts/bLof_CE92hw?si=8EluIHKXcBj4dTrL"
     },
     {
