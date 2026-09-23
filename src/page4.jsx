@@ -59,16 +59,16 @@ function Page4() {
 
                          <div id='resume-container'>
                             <div>
-                                <img src="/cv_image.png" alt="" width="200px" />
+                                <img src="/cv_image.png" alt="promise siafwiyo's cv" width="200px" />
 
                             </div>
                             <div id='resume-btn-con'>
                                 <p>Check out my resume</p>
                                 <div id='resume-btns'>
 
-                                    <a href="https://raw.githubusercontent.com/primegotit/cv/main/Promise Siafwiyo 2026CV.pdf" download="Promise Siafwiyo 2026CV.pdf">Download</a>
+                                    <a href="https://raw.githubusercontent.com/primegotit/cv/main/Promise Siafwiyo 2026CV.pdf" download="Promise Siafwiyo 2026CV.pdf" style={{textDecoration:"none"}}>Download</a>
 
-                                    <a href="https://github.com/Primegotit/cv/blob/8a2cf24de429b1f043198c121a9c2fad04b4a62b/Promise%20Siafwiyo%202026CV.pdf" target="_blank" rel="noopener noreferrer">View</a>
+                                    <a href="https://github.com/Primegotit/cv/blob/8a2cf24de429b1f043198c121a9c2fad04b4a62b/Promise%20Siafwiyo%202026CV.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}>View</a>
                                 </div>
                             </div>
                          </div>

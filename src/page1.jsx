@@ -297,7 +297,7 @@ function Page1() {
                                     {/* <a href="#" id='view-work-btn' >View my work <TiArrowRightThick style={{color: 'white', marginLeft: '10px', width: '35px', height: '35px'}}/></a> */}
                                     <a href="#" id='view-work-btn' >  
                                         <div id='about-logos-container'>
-                                            <img src="/primegotit logo green big 2.png" id='text-arrows' alt="" />
+                                            <img src="/primegotit logo green big 2.png" id='text-arrows' alt="primegotit logo" />
                                             <div id='logos-line'></div>
 
                                             <img src="/primegotit logo green big 2.png" id='text-arrows' alt="" />
@@ -313,7 +313,7 @@ function Page1() {
 
                         <div id='my-picture'>
 
-                            <img id='me' src="promise big image 2.png"   alt="" />
+                            <img id='me' src="promise big image 2.png"   alt="promise siafwiyo's image" />
                             {/* <video muted loop autoPlay playsInline></video> */}
 
                         </div>
