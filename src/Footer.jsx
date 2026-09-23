@@ -132,26 +132,15 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div className="footer-sub-section">
-                            <h5 className="footer-subheading">Expertise</h5>
-                            <div className="footer-spec-tags">
-                                {specializations.map(({ icon: Icon, name }, i) => (
-                                    <span key={i} className="footer-spec-tag">
-                                        <Icon className="spec-tag-icon" />
-                                        {name}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
+                       
                     </div>
+                    
 
                     {/* Column 4: Connect & Action */}
                     <div className="footer-col" id="footer-connect-col">
                         <h4 className="footer-heading">Connect</h4>
                         <div className="footer-heading-line"></div>
-                        <p className="footer-connect-intro">
-                            Let's talk code, 3D art, or innovative ideas. Reach out directly on any platform:
-                        </p>
+   
 
                         <div id="footer-social-icons">
                             {socialLinks.map(({ icon: Icon, label, href }) => (
@@ -197,12 +186,10 @@ function Footer() {
                         © {new Date().getFullYear()} <span className="highlight-text">Promise Siafwiyo</span> (PrimeGotit). All rights reserved.
                     </div>
 
-                    <div id="footer-motto">
-                        <span className="gradient-text">Code. Create. Evolve.</span>
-                    </div>
+
 
                     <div id="footer-credits">
-                        Designed & Built with <FaHeart className="heart-icon" /> using React & Vite
+                        Designed & Built with using React & Vite
                     </div>
                 </div>
 
