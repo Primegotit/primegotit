@@ -99,7 +99,7 @@ function VisitPortfolio({ onOpenWebsites }){
 
                 </div>
                 <p><b>View full web development portfolio</b></p>
-                <a href="#/websites" onClick={handleClick}>View</a>
+                <a href="#/websites" style={{textDecoration:"none"}} onClick={handleClick}>View</a>
             </div>
         </>
     )

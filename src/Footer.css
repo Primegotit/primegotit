@@ -1,6 +1,7 @@
 /* ==========================================================================
    FOOTER STYLES - PrimeGotit Portfolio
-   Consistent with dark neon/fiery aesthetic, glassmorphism, and responsive design
+   Consistent with dark neon/fiery aesthetic, glassmorphism, and responsive design.
+   All font sizes normalised with clamp() for visual consistency across viewports.
    ========================================================================== */
 
 #footer {
@@ -61,21 +62,21 @@
 }
 
 #footer-brand-name {
-    font-size: clamp(18px, 1.4vw, 22px);
+    font-size: clamp(17px, 1.6vw, 22px);
     font-weight: 700;
     margin: 0;
     line-height: 1.2;
 }
 
 #footer-brand-tagline {
-    font-size: 13px;
+    font-size: clamp(12px, 1vw, 14px);
     color: rgb(150, 150, 150);
     letter-spacing: 0.5px;
 }
 
 #footer-bio {
     color: rgb(180, 180, 180);
-    font-size: clamp(13px, 0.95vw, 14.5px);
+    font-size: clamp(13px, 1.1vw, 15px);
     line-height: 1.65;
     font-weight: 300;
     margin: 0 0 20px 0;
@@ -89,7 +90,7 @@
     background: rgba(15, 15, 15, 0.85);
     border: 1px solid rgba(76, 76, 76, 0.6);
     border-radius: 20px;
-    font-size: 12.5px;
+    font-size: clamp(12px, 1vw, 13.5px);
     color: rgb(215, 215, 215);
     width: fit-content;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -127,7 +128,7 @@
    =========================== */
 .footer-heading {
     color: rgb(235, 235, 235);
-    font-size: clamp(15px, 1.1vw, 17px);
+    font-size: clamp(14px, 1.3vw, 17px);
     font-weight: 600;
     margin: 0 0 8px 0;
     letter-spacing: 0.5px;
@@ -157,7 +158,7 @@
 .footer-nav-link {
     color: rgb(185, 185, 185);
     text-decoration: none;
-    font-size: clamp(13.5px, 0.95vw, 15px);
+    font-size: clamp(13px, 1.1vw, 15px);
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -168,7 +169,7 @@
 
 .link-arrow {
     color: rgb(247, 99, 0);
-    font-size: 16px;
+    font-size: clamp(15px, 1.3vw, 18px);
     line-height: 1;
     transition: transform 0.3s ease;
 }
@@ -194,7 +195,7 @@
 
 .footer-subheading {
     color: rgb(160, 160, 160);
-    font-size: 12px;
+    font-size: clamp(11px, 0.9vw, 13px);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 0 0 10px 0;
@@ -214,7 +215,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px 12px;
+    padding: 8px 12px;
     background: rgba(18, 18, 18, 0.8);
     border: 1px solid rgba(76, 76, 76, 0.5);
     border-radius: 6px;
@@ -224,20 +225,20 @@
 
 .proj-name {
     color: rgb(225, 225, 225);
-    font-size: 13px;
+    font-size: clamp(12px, 1vw, 14px);
     font-weight: 500;
 }
 
 .proj-desc {
     color: rgb(130, 130, 130);
-    font-size: 11.5px;
+    font-size: clamp(11px, 0.85vw, 13px);
     margin-left: auto;
     margin-right: 8px;
 }
 
 .proj-icon {
     color: rgb(247, 99, 0);
-    font-size: 11px;
+    font-size: clamp(10px, 0.9vw, 12px);
     opacity: 0.8;
     transition: transform 0.3s ease;
 }
@@ -268,14 +269,14 @@
     background: rgba(15, 15, 15, 0.8);
     border: 1px solid rgba(76, 76, 76, 0.45);
     border-radius: 12px;
-    font-size: 11.5px;
+    font-size: clamp(11px, 0.9vw, 13px);
     color: rgb(190, 190, 190);
     transition: all 0.3s ease;
 }
 
 .spec-tag-icon {
     color: rgb(247, 99, 0);
-    font-size: 11px;
+    font-size: clamp(10px, 0.9vw, 12px);
 }
 
 .footer-spec-tag:hover {
@@ -290,8 +291,8 @@
    =========================== */
 .footer-connect-intro {
     color: rgb(180, 180, 180);
-    font-size: clamp(13px, 0.95vw, 14px);
-    line-height: 1.5;
+    font-size: clamp(13px, 1.1vw, 15px);
+    line-height: 1.55;
     font-weight: 300;
     margin: 0 0 16px 0;
 }
@@ -341,7 +342,7 @@
     border: 1px solid rgba(76, 76, 76, 0.5);
     border-radius: 6px;
     color: rgb(200, 200, 200);
-    font-size: 12.5px;
+    font-size: clamp(11px, 0.9vw, 13px);
     text-decoration: none;
     transition: all 0.3s ease;
     word-break: break-all;
@@ -349,7 +350,7 @@
 
 .email-badge-icon {
     color: rgb(247, 99, 0);
-    font-size: 14px;
+    font-size: clamp(13px, 1vw, 15px);
     flex-shrink: 0;
 }
 
@@ -370,7 +371,7 @@
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: clamp(13px, 1.1vw, 15px);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.35s ease;
@@ -385,7 +386,7 @@
 }
 
 #back-to-top-arrow {
-    font-size: 13px;
+    font-size: clamp(12px, 1vw, 14px);
     transition: transform 0.3s ease;
 }
 
@@ -416,7 +417,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
-    font-size: 13px;
+    font-size: clamp(12px, 1vw, 14px);
     color: rgb(150, 150, 150);
 }
 
@@ -430,7 +431,7 @@
 }
 
 #footer-motto {
-    font-size: 14px;
+    font-size: clamp(13px, 1.1vw, 15px);
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -444,26 +445,16 @@
 
 .heart-icon {
     color: rgb(255, 0, 0);
-    font-size: 12px;
+    font-size: clamp(11px, 0.9vw, 13px);
     animation: heartBeat 1.8s infinite ease-in-out;
 }
 
 @keyframes heartBeat {
-    0%, 100% {
-        transform: scale(1);
-    }
-    14% {
-        transform: scale(1.3);
-    }
-    28% {
-        transform: scale(1);
-    }
-    42% {
-        transform: scale(1.3);
-    }
-    70% {
-        transform: scale(1);
-    }
+    0%, 100% { transform: scale(1); }
+    14%       { transform: scale(1.3); }
+    28%       { transform: scale(1); }
+    42%       { transform: scale(1.3); }
+    70%       { transform: scale(1); }
 }
 
 /* ===========================

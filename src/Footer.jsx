@@ -33,6 +33,7 @@ function Footer() {
         { label: 'Technical Skills', href: '#page2' },
         { label: 'Web Projects', href: '#page3' },
         { label: '3D Modelling', href: '#page5' },
+        { label: 'Music Production', href: '#page6' },
         { label: 'Achievements', href: '#resume_page' },
         { label: 'Contact Me', href: '#contact' },
     ];

@@ -1,736 +1,282 @@
-#page2{
+/* ==========================================================================
+   PAGE 2 — TECHNICAL SKILLS
+   Modernised to match the 3D modelling / web-dev card aesthetic.
+   Fully responsive with clamp() scaling at all breakpoints.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   PAGE WRAPPER
+   -------------------------------------------------------------------------- */
+#page2 {
     min-height: 100vh;
     width: 100%;
-    background-color: black;
-
-
-    background-position: center;
-    background-size:cover;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background : linear-gradient( 90deg, rgb(4, 23, 9) , black , rgb(0, 0, 0) ,rgb(0, 0, 0) , rgb(0, 0, 0),rgb(0, 0, 0) ,black ,   rgb(4, 23, 9)) ;
-    background : linear-gradient( 90deg, rgb(19, 19, 19) , rgba(0, 0, 0, 0.121) , rgba(0, 0, 0, 0.884) ,rgba(0, 0, 0, 0.873) , rgba(0, 0, 0, 0.889),rgba(0, 0, 0, 0.873) ,rgba(0, 0, 0, 0.867) ,   rgb(13, 13, 13)) , url(/public/pexels-eva-bronzini-6914875.jpg);
-    background: black;
-    background: rgba(0, 0, 0, 0.925); 
-
+    background: rgba(0, 0, 0, 0.925);
+    padding: 0 0 60px 0;
+    box-sizing: border-box;
+    position: relative;
 }
-#bg-video{
+
+#bg-video {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     z-index: -1;
 }
 
-
-#intro-heading{
-    font-size: clamp(22px, 1vw, 25px);
+/* --------------------------------------------------------------------------
+   SECTION HEADING — matches page5, page3, contact headings
+   -------------------------------------------------------------------------- */
+#intro-heading {
+    font-size: clamp(22px, 2.5vw, 30px);
     font-weight: 700;
     text-align: center;
     color: rgb(201, 201, 201);
-    padding: 20px;
+    padding: 40px 20px 10px 20px;
+    margin: 0;
 }
 
-#page2-container{
+/* --------------------------------------------------------------------------
+   OUTER CENTERING CONTAINER
+   -------------------------------------------------------------------------- */
+#page2-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-
-}
-
-#box-container{
-    max-width: 90%;
+    min-height: calc(100vh - 100px);
     padding: 20px;
-    display: flex;
-    justify-self: center;
-    gap: 60px;
-    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------------
+   CARD GRID — wraps into 3→2→1 columns responsively
+   -------------------------------------------------------------------------- */
+#box-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 320px));
+    gap: 28px;
     justify-content: center;
+    max-width: 1100px;
+    width: 100%;
 }
 
-.box{
-    max-width: 350px;
-    border-radius: 18px;
-    padding: 0px 20px 20px 20px;
-    padding-bottom: 20px;
+/* --------------------------------------------------------------------------
+   INDIVIDUAL SKILL CARD — matches .custom-model-box aesthetic
+   -------------------------------------------------------------------------- */
+.box {
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, rgb(212, 212, 212), rgba(180, 180, 180, 0.3), transparent, transparent) 1;
+    box-shadow: -2px 19px 19px -19px rgba(255, 94, 0, 0.5);
+    background: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
     cursor: pointer;
-
-    /* box-shadow: -2px 29px 19px -19px  rgba(245, 245, 245, 0.207); */
-    box-shadow: -2px 19px 19px -19px rgba(255, 51, 0, 0.693);
-    transition: all 0.5s ;
-    
-    border: 1px solid transparent;
-    border-image: linear-gradient(to top ,rgb(213, 213, 213) , transparent , transparent);
-    border-image-slice: 1;
-    background:linear-gradient(black,black,black, rgb(15, 15, 15),rgb(15, 15, 15));
-    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.594), rgb(15, 15, 15),rgb(15, 15, 15));
-
-}
-
-.box:hover{
-    transform: scale(1.06);
-    
-}
-
-
-
-
-
-#box-container p{
-    line-height: normal;
-    margin: 5px 0px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: clamp(15px, 4vw, 15px);
-    font-weight: 200;
-    
-}
-
-.box-image{
-    width: 300px;
-    height: 300px;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
     display: flex;
-    justify-self: center;
-    background-position: center;
-    background-size: cover;
-
-
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 0 20px 0;
 }
 
-.box:nth-of-type(1) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0) ,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/graphicdesign1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+.box:hover {
+    transform: translateY(-6px);
+    box-shadow: -2px 25px 25px -15px rgba(255, 94, 0, 0.7);
 }
 
-.box:nth-of-type(2) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0) ,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/webdev4.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
-.box:nth-of-type(3) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/music.jpg);
+/* --------------------------------------------------------------------------
+   CARD IMAGE BANNER — scales with the card, fixed aspect ratio
+   -------------------------------------------------------------------------- */
+.box-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.box:nth-of-type(3):hover .box-image div{
-    visibility: hidden;
+.box:hover .box-image {
+    transform: scale(1.04);
 }
 
-#role-container{
-    display: flex  ;
-    background : linear-gradient( 90deg,  rgb(54, 54, 54) , rgb(0, 0, 0)) ;
-    width : 43% ;
-    height : 8% ;
+/* Per-box background images */
+.box:nth-of-type(1) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/graphicdesign1.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.box:nth-of-type(2) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/webdev4.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.box:nth-of-type(3) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/music.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.box:nth-of-type(4) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/animation1.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.box:nth-of-type(5) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/programming2.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.box:nth-of-type(6) .box-image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.97)), url(/3dartist1.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+
+/* --------------------------------------------------------------------------
+   FAVOURITE ROLE BADGE (inside .box-image)
+   -------------------------------------------------------------------------- */
+#role-container {
+    display: flex;
+    background: linear-gradient(90deg, rgb(54, 54, 54), rgb(0, 0, 0));
+    width: fit-content;
+    padding: 4px 14px;
     color: rgb(171, 171, 171);
     justify-content: center;
     align-items: center;
-    align-self: end;
+    align-self: flex-end;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all 0.03s ;
+    margin: auto auto 10px auto;
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
-#role-container h5{
+
+#role-container h5 {
     font-weight: 500;
-
+    font-size: clamp(11px, 1vw, 13px);
+    white-space: nowrap;
 }
 
-.skills-logos2{
+/* --------------------------------------------------------------------------
+   SKILL ICON — centred below the image banner
+   -------------------------------------------------------------------------- */
+.skills-logos2 {
     color: rgb(247, 99, 0);
-    width: 35px;
-    height: 35px;
+    width: clamp(28px, 4vw, 38px);
+    height: clamp(28px, 4vw, 38px);
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 16px auto 8px auto;
     border-radius: 50%;
-
 }
 
-
-.box:nth-of-type(4) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/animation1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
-.box:nth-of-type(5) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/programming2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-
-.box:nth-of-type(6) .box-image{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/3dartist1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-
-}
-
-#box-container h3{
+/* --------------------------------------------------------------------------
+   SKILL NAME H3
+   -------------------------------------------------------------------------- */
+#box-container h3 {
     text-align: center;
-    margin-bottom: 20px ;
-    margin-top: 20px;
-    font-size: clamp(16px, 4vw, 25px);
+    margin: 0 auto 14px auto;
+    font-size: clamp(16px, 2vw, 22px);
     color: rgb(207, 207, 207);
-    font-weight: 400;
-    transition: all 0.5s;
-    padding: 2px 10px;
-
-    display: flex;
-    justify-self: center;
-    justify-content: center;
+    font-weight: 600;
+    padding: 0 10px 10px 10px;
     width: 85%;
-    border-bottom: 1px solid rgb(183, 183, 183);
-
-
-    background: transparent;
-
-    
+    border-bottom: 1px solid rgba(183, 183, 183, 0.4);
+    transition: transform 0.4s ease;
 }
 
-#box-container h3:hover{
-
-    transform: scale(1.05);
+#box-container h3:hover {
+    transform: scale(1.04);
 }
-.technologies{
+
+/* --------------------------------------------------------------------------
+   DESCRIPTION PARAGRAPH
+   -------------------------------------------------------------------------- */
+#box-container p {
+    text-align: center;
+    margin: 0 auto 16px auto;
+    width: 88%;
+    font-size: clamp(13px, 1.2vw, 15px);
+    font-weight: 300;
+    color: rgb(170, 170, 170);
+    line-height: 1.55;
+}
+
+/* --------------------------------------------------------------------------
+   TECH PILL ROW
+   -------------------------------------------------------------------------- */
+.technologies {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    justify-self: center;
     width: 90%;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 4px;
 }
-.technologies h5{
-    border: 1px solid rgb(187, 187, 187);
 
-    padding: 2px 10px;
-    border-radius: 10px;
-    font-size: 12px;
-
-    transition: all 0.5s ;
-
+.technologies h5 {
+    padding: 3px 12px;
+    border-radius: 12px;
+    font-size: clamp(11px, 1vw, 13px);
     color: rgb(194, 194, 194);
-
     border: 1px solid rgb(106, 106, 106);
     font-weight: 400;
-
+    transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
-.technologies h5:hover{
-    color: rgb(203, 203, 203);
-    border: 1px solid rgb(247, 99, 0);
-
+.technologies h5:hover {
+    color: rgb(247, 99, 0);
+    border-color: rgb(247, 99, 0);
 }
 
-a{
-    text-decoration: none;
-}
-
-#box-container a{
-    color: rgb(216, 216, 216);
-    background-color: rgb(49, 49, 49);
-    padding: 5px 25px;
-    border-radius: 10px;
-    display: flex;
-    justify-self: center;
-    margin-bottom: 35px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 2px;
-
-}
-
-@media (max-width: 992px) {
-
-
-    
-    #box-container{
-    max-width: 100%;
-    padding: 5px;
-    display: flex;
-    justify-self: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-    .box-image{
-
-
-    width: 180px;
-    height: 180px;
-    display: flex;
-    justify-self: center;
-    background-position: center;
-    background-size: cover;
-    filter: saturate(1);
-    filter: brightness(1.4);
-    transition: all 0.5s ;
-
-
-    }
-
-
-    .box{
-        max-width: 250px;
-        border-radius: 19px;
-        padding: 10px;
-
-        padding-bottom: 20px;
-        cursor: pointer;
-
-        border-bottom: 3px solid rgb(224, 224, 224);
-        
-        transition: all 0.5s ;
-
-        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
-
-
-}
-
-
-#box-container p{
-    line-height: normal;
-    margin: 5px 0px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 5px;
-    font-size: clamp(11px, 1vw, 15px);
-
-
-    
-}
-
-#box-container h3{
-    text-align: center;
-    margin-bottom: 15px ;
-    margin-top: 20px;
-    font-size: clamp(16px, 1vw, 25px);
-    color: rgb(207, 207, 207);
-    font-weight: 600;
-    transition: all 0.5s;
-    padding: 2px 3px;
-
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    width: 95%;
-    border-bottom: 1px solid rgb(177, 177, 177);
-
-    box-shadow: 0 10px 17px -10px  rgba(248, 250, 249, 0.533);
-    background: transparent;
-
-    
-}
-
-.technologies{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    justify-self: center;
-    width: 100%;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-
-.technologies h5{
-
-    padding: 2px 6px;
-    border-radius: 10px;
-    font-size: clamp(7px, 1vw, 15px);
-
- 
- 
-    transition: all 0.5s ;
-
-    color: rgb(193, 193, 193);
-
-
-    border: 1px solid rgb(122, 122, 122);
-    font-weight: 400;
-
-}
-
-
-#role-container{
-    display: flex  ;
-    width : 43% ;
-    height : 8% ;
-    justify-content: center;
-    align-items: center;
-    align-self: end;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all 0.03s ;
-}
-#role-container h5{
-    font-size: clamp(7px, 1vw, 15px);
-
-    font-weight: 500;
-
-}
-
-}
-
-
-@media (max-width: 600px) {
-
-    #box-container{
-    max-width: 100%;
-    padding: 5px;
-    display: flex;
-    justify-self: center;
-    gap: 100px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-    .box-image{
-
-
-    width: 240px;
-    height: 240px;
-    display: flex;
-    justify-self: center;
-    background-position: center;
-    background-size: cover;
-    filter: saturate(1);
-    filter: brightness(1.4);
-    transition: all 0.5s ;
-
-
-    }
-
-
-    .box{
-        max-width: 290px;
-        border-radius: 19px;
-        padding: 10px;
-
-        padding-bottom: 20px;
-        cursor: pointer;
-
-        border-bottom: 3px solid rgb(232, 232, 232);
-        box-shadow: -2px 29px 19px -19px  rgba(249, 249, 249, 0.207);
-        
-        transition: all 0.5s ;
-        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
-        background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.594), rgb(15, 15, 15),rgb(15, 15, 15));
-
-}
-
-
-#box-container p{
-    line-height: normal;
-    margin: 5px 0px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 5px;
-    font-size: clamp(14px, 1vw, 15px);
-    font-weight: 400;
-
-
-    
-}
-
-#box-container h3{
-    text-align: center;
-    margin-bottom: 15px ;
-    margin-top: 20px;
-    font-size: clamp(20px, 2vw, 25px);
-    color: rgb(207, 207, 207);
-    font-weight: 600;
-    transition: all 0.5s;
-    padding: 2px 3px;
-
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    width: 95%;
-    border-bottom: 1px solid rgb(176, 176, 176);
-
-    box-shadow: 0 10px 17px -10px  rgba(241, 247, 243, 0.533);
-    background: transparent;
-
-    
-}
-
-.technologies{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    justify-self: center;
-    width: 100%;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-
-.technologies h5{
-    border: 1px solid rgb(113, 113, 113);
-
-    padding: 2px 6px;
-    border-radius: 10px;
-    font-size: clamp(11px, 1vw, 15px);
-
- 
- 
-    transition: all 0.5s ;
-
-    color: rgb(165, 165, 165);
-
-    border: 1px solid rgb(131, 131, 131);
-    font-weight: 500;
-
-}
-
-
-#role-container{
-    display: flex  ;
-    width : 43% ;
-    height : 8% ;
-    justify-content: center;
-    align-items: center;
-    align-self: end;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all 0.03s ;
-}
-#role-container h5{
-    font-size: clamp(10px, 1vw, 15px);
-    font-weight: 500;
-
-}
-}
-
-
-
-
-
-@media (max-width: 380px) {
-
-    #box-container{
-    max-width: 100%;
-    padding: 5px;
-    display: flex;
-    justify-self: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-    .box-image{
-
-    width: 220px;
-    height: 220px;
-    display: flex;
-    justify-self: center;
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.988)) , url(/public/Tree\ official\ 4\ with\ \ filter.jpg);
-    background-position: center;
-    background-size: cover;
-    filter: saturate(1);
-    filter: brightness(1.4);
-    transition: all 0.5s ;
-
-
-    }
-
-
-    .box{
-        max-width: 260px;
-        border-radius: 19px;
-        padding: 10px;
-
-        padding-bottom: 20px;
-        cursor: pointer;
-
-        border-bottom: 3px solid rgb(226, 226, 226);
-        box-shadow: -2px 29px 19px -19px  rgba(240, 246, 241, 0.207);
-        
-        transition: all 0.5s ;
-        background:linear-gradient(black,black,black, rgb(29, 29, 29), rgb(29, 29, 29));
-
-
-}
-
-
-#box-container p{
-    line-height: normal;
-    margin: 5px 0px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 5px;
-    font-size: clamp(11px, 1vw, 15px);
-
-
-    
-}
-
-#box-container h3{
-    text-align: center;
-    margin-bottom: 15px ;
-    margin-top: 20px;
-    font-size: clamp(17px, 1vw, 25px);
-    color: rgb(207, 207, 207);
-    font-weight: 600;
-    transition: all 0.5s;
-    padding: 2px 3px;
-
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    width: 95%;
-    border-bottom: 1px solid rgb(178, 178, 178);
-
-    box-shadow: 0 10px 17px -10px  rgba(248, 248, 248, 0.533);
-    background: transparent;
-
-    
-}
-
-.technologies{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    justify-self: center;
-    width: 100%;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-
-.technologies h5{
-
-    padding: 2px 6px;
-    border-radius: 10px;
-    font-size: clamp(8px, 1vw, 15px);
-
- 
- 
-    transition: all 0.5s ;
-
-    color: rgb(199, 199, 199);
-
-    border: 1px solid rgb(140, 140, 140);
-    font-weight: 400;
-
-}
-
-
-#role-container{
-    display: flex  ;
-    width : 43% ;
-    height : 8% ;
-    justify-content: center;
-    align-items: center;
-    align-self: end;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all 0.03s ;
-}
-#role-container h5{
-    font-size: clamp(10px, 1vw, 15px);
-
-    font-weight: 500;
-
-}
-}
-
-
+/* --------------------------------------------------------------------------
+   SCROLL ANIMATION — same style as original but cleaned up
+   -------------------------------------------------------------------------- */
 @keyframes box-anime {
-
-    0%{
-        opacity: 0;
-        transform: translateY(500px);
-
-            border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
-    border-image-slice: 1;
-    }
-
-    20%{
-        opacity: 0.4;
-        transform: translateY(0);
-        
-            border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.501) , transparent , transparent);
-    border-image-slice: 1;
-    }
-
-    40%{
-        opacity: 1;
-        transform: translateY(0);
-        
-            border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
-    border-image-slice: 1;
-    }
-
-    60%{
-        opacity: 1;
-        transform: translateY(0);
-
-            border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgb(17, 192, 17) , transparent , transparent);
-    border-image-slice: 1;
-    }
-    80%{
-        opacity: 0.4;
-        transform: translateY(0);
-
-            border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0.284) , transparent , transparent);
-    border-image-slice: 1;
-    }
-
-    100%{
-    opacity: 0;
-    transform: translateY(-500px);
-
-    border: 4px solid transparent;
-    border-image: linear-gradient(to top ,rgba(25, 222, 64, 0) , transparent , transparent);
-    border-image-slice: 1;
-    }
-    
+    0%   { opacity: 0; transform: translateY(60px); }
+    20%  { opacity: 0.5; transform: translateY(0); }
+    40%  { opacity: 1; transform: translateY(0); }
+    60%  { opacity: 1; transform: translateY(0); }
+    80%  { opacity: 0.5; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-60px); }
 }
 
-
-.box{
+.box {
     animation-name: box-anime;
     animation-timing-function: linear;
     animation-timeline: view();
     animation-range: entry exit;
 }
 
+/* --------------------------------------------------------------------------
+   RESPONSIVE — 2 columns at ≤900px
+   -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+    #box-container {
+        grid-template-columns: repeat(2, minmax(0, 340px));
+        gap: 22px;
+    }
+}
 
+/* --------------------------------------------------------------------------
+   RESPONSIVE — 1 column at ≤560px
+   -------------------------------------------------------------------------- */
+@media (max-width: 560px) {
+    #page2 {
+        padding-bottom: 40px;
+    }
+
+    #page2-container {
+        padding: 10px 12px;
+    }
+
+    #box-container {
+        grid-template-columns: minmax(0, 400px);
+        gap: 20px;
+    }
+
+    .box {
+        border-radius: 0px;
+    }
+}
