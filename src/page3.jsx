@@ -98,7 +98,7 @@ function VisitPortfolio({ onOpenWebsites }){
 
 
                 </div>
-                <p><b>View full web development portfolio</b></p>
+                <p><b>View full web dev & programming portfolio</b></p>
                 <a href="#/websites" style={{textDecoration:"none"}} onClick={handleClick}>View</a>
             </div>
         </>
@@ -115,7 +115,7 @@ function Page3({ onOpenWebsites }){
             <div id='page3'>
    
                 <div id='page3-intro'>
-                    <h3>Web Development</h3>
+                    <h3>Web Development & Programming</h3>
 
                 </div>
 

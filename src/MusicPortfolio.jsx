@@ -35,8 +35,8 @@ function BeatCard({ beat, onOpenLightbox }) {
 
                 <div className="mp-beat-pills">
                     <ul>
-                        <li>🎵 {beat.bpm} BPM</li>
-                        <li>📅 {beat.year}</li>
+                        <li> {beat.bpm} BPM</li>
+                        <li> {beat.year}</li>
                     </ul>
                 </div>
             </div>

@@ -47,7 +47,7 @@ export const MUSIC_DATA = [
         description: "Dark sliding 808s, haunting piano melodies, and crisp hi-hat patterns define this UK-influenced drill instrumental built for sharp, hard-hitting bars.",
         cover_src: "/music3.png",
         video_url: "https://youtube.com/@blaunx",
-        audio_url: null,
+        audio_url: "https://open.spotify.com/album/0ccJ5oUcNluLq413b1zOnd",
     },
     {
         id: "rnb-vibes-004",
