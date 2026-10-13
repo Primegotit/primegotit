@@ -12,7 +12,7 @@ function ModelBox({ model, onOpenLightbox }) {
                 onClick={() => onOpenLightbox(model)}
                 title="Click to view full render"
             >
-                <img 
+                <img loading="lazy" 
                     src={model.image_src} 
                     alt={model.name} 
                     className="custom-model-banner-img" 
@@ -46,7 +46,7 @@ function ModelBox({ model, onOpenLightbox }) {
                 <div className="custom-model-heading-con1">
                     <h1>{model.name}</h1>
                     <div className="custom-model-heading-line"></div>
-                    <img src="/primegotit logo green big 3.png" className="custom-my-logo-small" alt="" />
+                    <img loading="lazy" src="/primegotit logo green big 3.png" className="custom-my-logo-small" alt="" />
                 </div>
                 <br />
 
@@ -93,13 +93,13 @@ function VisitPortfolio({ onOpenModels }) {
     return (
         <div id="view-portfolio-container" className="model-portfolio-cta">
             <div id="all-web-logos">
-                <img src="/primegotit logo green big 2.png" alt="" />
+                <img loading="lazy" src="/primegotit logo green big 2.png" alt="" />
                 <img src="/trackway.png" alt="" />
-                <img src="/primegotit logo green big 3.png" alt="" />
+                <img loading="lazy" src="/primegotit logo green big 3.png" alt="" />
                 <img src="/POS system.png" alt="" />
-                <img src="/Transparent official hoodie.png" alt="" />
+                <img loading="lazy" src="/Transparent official hoodie.png" alt="" />
                 <img src="/logo7.png" alt="" />
-                <img src="/offiCIAL website1_logo.png" alt="" />
+                <img loading="lazy" src="/offiCIAL website1_logo.png" alt="" />
             </div>
             <p>View 3D Modelling portfolio</p>
             <a href="#/3d-models" onClick={handleClick}>

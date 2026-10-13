@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './page6.css';
 import { MUSIC_DATA } from './data/musicData.js';
 import { FaYoutube, FaEye, FaTimes, FaExpand, FaMusic } from 'react-icons/fa';

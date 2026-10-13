@@ -1,17 +1,17 @@
-import { useState, useEffect } from 'react'
-import './App.css'
-import Page1 from './page1.jsx'
-import Page2 from './page2.jsx'
-import Page3 from './page3.jsx'
-import Page4 from './page4.jsx'
-import Page5 from './page5.jsx'
-import Page6 from './page6.jsx'
-import Resume from './Resume.jsx'
-import Contact from './Contact.jsx'
-import Footer from './Footer.jsx'
-import WebsitesPortfolio from './WebsitesPortfolio.jsx'
-import ModelsPortfolio from './ModelsPortfolio.jsx'
-import MusicPortfolio from './MusicPortfolio.jsx'
+import React, { useState, useEffect, lazy, Suspense } from 'react';
+import './App.css';
+const Page1 = lazy(() => import('./page1.jsx'));
+const Page2 = lazy(() => import('./page2.jsx'));
+const Page3 = lazy(() => import('./page3.jsx'));
+const Page4 = lazy(() => import('./page4.jsx'));
+const Page5 = lazy(() => import('./page5.jsx'));
+const Page6 = lazy(() => import('./page6.jsx'));
+import Resume from './Resume.jsx';
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
+import WebsitesPortfolio from './WebsitesPortfolio.jsx';
+import ModelsPortfolio from './ModelsPortfolio.jsx';
+import MusicPortfolio from './MusicPortfolio.jsx';
 
 function App() {
   const getInitialRoute = () => {
@@ -109,19 +109,18 @@ function App() {
   }
 
   return (
-    <>
-      <Page1/>  
-      <Page4/>
-      <Page2/>
-      <Page3 onOpenWebsites={openWebsitesPage}/>
-      <Page5 onOpenModels={openModelsPage}/>
-      <Page6 onOpenMusic={openMusicPage}/>
-
-      <Resume/>
-      <Contact/>
-      <Footer/>
-    </>
-  );
+  <Suspense fallback={<div>Loading...</div>}>
+    <Page1/>
+    <Page4/>
+    <Page2/>
+    <Page3 onOpenWebsites={openWebsitesPage}/>
+    <Page5 onOpenModels={openModelsPage}/>
+    <Page6 onOpenMusic={openMusicPage}/>
+    <Resume/>
+    <Contact/>
+    <Footer/>
+  </Suspense>
+);
 }
 
 export default App

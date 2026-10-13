@@ -1,5 +1,6 @@
 import './page3.css'
 import { IoEnter } from 'react-icons/io5';
+import React, { useRef, useEffect } from 'react';
 import { FaArrowDown } from 'react-icons/fa';
 
 function MyBox(Creation){
@@ -41,7 +42,7 @@ function MyBox(Creation){
                     <div id='heading-con1'>
                         <h1>{Creation.name}</h1>
                         <div id='heading-line'></div>
-                            <img src={Creation.image_src} id='my-logo-small' />
+                            <img loading="lazy" src={Creation.image_src} id='my-logo-small' />
 
                     </div>
                     <br />
@@ -105,11 +106,31 @@ function VisitPortfolio({ onOpenWebsites }){
     )
 }
 
-function Page3({ onOpenWebsites }){
+function Page3({ onOpenWebsites }){ 
+  const videoRef = useRef(null);
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      },
+      { threshold: 0.5 }
+    );
+    observer.observe(video);
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
 
     return (
         <>            
-        <video autoPlay muted loop id="bg-video" >
+        <video ref={videoRef} muted loop id="bg-video" preload="metadata" >
             <source src="/backvideo.mp4" type="video/mp4"/>
         </video>
             <div id='page3'>
