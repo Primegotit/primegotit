@@ -8,7 +8,7 @@
 
 ⚡ PHP Projects
 
-⚡ React Applications
+⚡ Laravel Applications
 
 ⚡ AI & Machine Learning
 
@@ -33,6 +33,7 @@ Git • GitHub • VS Code • XAMPP • Blender
 - Backend Development
 - AI
 - Machine Learning
+- WordPress
 
 🚀 Every project teaches me something new.
 
