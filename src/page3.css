@@ -407,9 +407,7 @@
 
     
     animation-name: appear-arrow;
-    animation-timeline: view();
-    animation-timing-function: linear;
-    animation-range: entry exit;
+    /* scroll-linked animation removed */
 }
 
 #d-arrow{
@@ -432,8 +430,7 @@
   border-radius: 20px;
   background:linear-gradient(180deg,  rgba(0, 0, 0, 0),  rgba(207, 86, 4, 0.075), rgb(247, 99, 0), rgb(255, 0, 0));
   animation: page-line linear;
-  animation-timeline: view();      /* link animation to scroll */
-  animation-range: entry  exit ;
+  /* scroll-linked animation removed */
 }
 
 @keyframes page-line {
