@@ -6,9 +6,9 @@
 
 ## 🔥 What I'm Working On
 
-⚡ PHP Projects
+⚡ Python Projects
 
-⚡ Laravel Applications
+⚡ C++ and Game Development
 
 ⚡ AI & Machine Learning
 
