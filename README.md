@@ -12,6 +12,8 @@
 
 ⚡ AI & Machine Learning
 
+⚡ Virtual Reality
+
 ⚡ Blender 3D
 
 ⚡ Learning Cybersecurity
